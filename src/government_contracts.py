@@ -1,9 +1,14 @@
-from openbb_terminal.sdk import openbb
+from openbb import obb
+import logging
 
 def run():
-    latest_contracts = openbb.stocks.gov.lastcontracts()
-    print('here it is')
-    print(latest_contracts.head())
+    TICKER = 'DIS'
+    obb.account.login(email='mmistroni@gmail.com', password='M15tr0n1;')
+    obb.user.preferences.output_type = "dataframe"
+
+    df = obb.equity.fundamental.overview(symbol=TICKER)
+    print(df)
+
 
 if __name__ == '__main__':
     run()
