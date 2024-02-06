@@ -10,7 +10,7 @@ provider = Provider(
     description="Data provider for MM_OBB_Extensions.",
     # Only add 'credentials' if they are needed.
     # For multiple login details, list them all here.
-    # credentials=["api_key"],
+    credentials=["api_key"],
     website="https://mm_obb_extensions.com",
     # Here, we list out the fetchers showing what our provider can get.
     # The dictionary key is the fetcher's name, used in the `router.py`.

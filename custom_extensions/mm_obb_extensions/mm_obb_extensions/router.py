@@ -21,20 +21,6 @@ async def get_example(symbol: str = "AAPL") -> OBBject[dict]:
     return OBBject(results=response["details"])
 
 
-@router.command(methods=["POST"])
-async def post_example(
-    data: dict,
-    bid_col: str = "bid",
-    ask_col: str = "ask",
-) -> OBBject[dict]:
-    """Calculate mid and spread."""
-    bid = data[bid_col]
-    ask = data[ask_col]
-    mid = (bid + ask) / 2
-    spread = ask - bid
-
-    return OBBject(results={"mid": mid, "spread": spread})
-
 
 # pylint: disable=unused-argument
 @router.command(model="Example")

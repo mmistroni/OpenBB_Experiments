@@ -17,11 +17,13 @@ This file shows an example of how to integrate data from a provider.
 """
 # pylint: disable=unused-argument
 from typing import Any, Dict, List, Optional
-
+from datetime import date
 from openbb_core.provider.abstract.data import Data
 from openbb_core.provider.abstract.fetcher import Fetcher
 from openbb_core.provider.abstract.query_params import QueryParams
 from pydantic import Field
+
+import requests
 
 
 class ExampleQueryParams(QueryParams):
@@ -33,6 +35,7 @@ class ExampleQueryParams(QueryParams):
     """
 
     symbol: str = Field(description="Symbol to query.")
+    limit: Optional[int] = Field(description="Optional limit on observations.By default is set to 100")
 
 
 class ExampleData(Data):
@@ -42,12 +45,9 @@ class ExampleData(Data):
     Open, High, Low, Close and Volume data.
     """
 
-    o: float = Field(description="Open price.")
-    h: float = Field(description="High price.")
-    l: float = Field(description="Low price.")
-    c: float = Field(description="Close price.")
-    v: float = Field(description="Volume.")
-    d: str = Field(description="Date")
+    symbol: str = Field(description="Ticker.")
+    cob: date = Field(description="As Of Date.")
+    marketCap: float = Field(description="Market Cap.")
 
 
 class ExampleFetcher(
@@ -82,30 +82,18 @@ class ExampleFetcher(
         If you said your Provider class needs credentials you can get them here.
         """
         api_key = (
-            credentials.get("mm_obb_extensions_api_key")
+            credentials.get("fmp_key")
             if credentials
             else ""
         )
 
+        symbol = query.symbol
+        limit = query.limit or 100
+
+        base_url = f'https://financialmodelingprep.com/api/v3/historical-market-capitalization/{symbol}?limit={limit}&apikey={api_key}'
+
         # Here we mock an example_response for brevity.
-        example_response = [
-            {
-                "o": 2,
-                "h": 5,
-                "l": 1,
-                "c": 4,
-                "v": 5,
-                "d": "August 23, 2023",
-            },
-            {
-                "o": 4,
-                "h": 7,
-                "l": 3,
-                "c": 6,
-                "v": 10,
-                "d": "August 24, 2023",
-            },
-        ]
+        example_response = requests.get(base_url).json()
 
         return example_response
 
