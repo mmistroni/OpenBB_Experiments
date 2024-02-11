@@ -12,7 +12,7 @@ from pydantic import BaseModel
 router = Router(prefix="")
 
 
-@router.command(methods=["GET"])
+@router.command(methods=["POST"])
 async def get_example(symbol: str = "AAPL") -> OBBject[dict]:
     """Get options data."""
     base_url = "https://www.cboe.com/education/tools/trade-optimizer/symbol-info"
