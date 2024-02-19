@@ -1,7 +1,7 @@
 """Pyth Provider Module."""
 
 from openbb_core.provider.abstract.provider import Provider
-
+from openbb_pyth2.models.fetchers import ExampleFetcher
 pyth2_provider = Provider(
     name="pyth",
     website="https://pyth.network/",
@@ -10,5 +10,6 @@ pyth2_provider = Provider(
         +" No subscription necessary: read the docs and connect instantly!"
     ),
     fetcher_dict={
+        "Example" : ExampleFetcher
     },
 )

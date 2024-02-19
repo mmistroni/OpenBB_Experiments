@@ -4,7 +4,7 @@ version = "1.0.0"
 description = "Pyth Provider Extension for the OpenBB Platform"
 authors = ["OpenBB <hello@openbb.co>"]
 readme = "README.md"
-packages = [{ include = "openbb_pyth" }]
+packages = [{ include = "openbb_pyth2" }]
 
 [tool.poetry.dependencies]
 python = "^3.8"
