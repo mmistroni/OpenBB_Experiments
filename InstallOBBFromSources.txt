@@ -1,0 +1,11 @@
+1. git clone https://github.com/OpenBB-finance/OpenBBTerminal.git
+2. cd OpenBBTerminal
+3. git checkout develop
+4. cd openbb_platform
+5. pip install poetry toml
+6. python dev_install.py
+7. python
+   from openbb import obb
+   exit()
+
+8. from openbb import obb
