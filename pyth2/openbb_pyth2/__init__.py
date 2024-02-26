@@ -2,6 +2,7 @@
 
 from openbb_core.provider.abstract.provider import Provider
 from openbb_pyth2.models.fetchers import ExampleFetcher
+
 pyth2_provider = Provider(
     name="pyth2",
     website="https://pyth.network/",
