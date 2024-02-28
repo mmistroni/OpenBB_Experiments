@@ -25,4 +25,20 @@ This provider is then defined in  openbb_pyth2\__init__.py
 
 The provider would refer to a fetcher which is defined in openbb_pyth2.models.__init__.py
 
+#### Steps to get there
+
+1. Create an anaconda env
+2. Use this env to get openbb from git  
+3. Build openbb following instructions here https://docs.openbb.co/platform/installation#source
+4. Test the build 
+        from openbb import obb
+        obb.account.login(email='mmistroni@gmail.com', password='**')
+        obb.user.preferences.output_type = "dataframe"
+        obb.equity.price.historical(symbol = 'XOM', provider='fmp')
+5. Build your extension
+6. Install it
+
+
+
+
 
