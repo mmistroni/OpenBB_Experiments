@@ -24,11 +24,11 @@ class ExampleData(Data):
     """Sample provider data.
 
     The fields are displayed as-is in the output of the command. In this case, its the
-    Open, High, Low, Close and Volume data.
+    symbol, date and marketCap.
     """
 
     symbol: str = Field(description="Ticker.")
-    cob: date = Field(description="As Of Date.")
+    date: str = Field(description="As Of Date.")
     marketCap: float = Field(description="Market Cap.")
 
 
@@ -64,7 +64,7 @@ class ExampleFetcher(
         If you said your Provider class needs credentials you can get them here.
         """
         api_key = (
-            credentials.get("fmp_key")
+            credentials.get("fmp_api_key")
             if credentials
             else ""
         )

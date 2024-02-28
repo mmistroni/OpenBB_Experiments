@@ -28,7 +28,7 @@ The provider would refer to a fetcher which is defined in openbb_pyth2.models.__
 #### Steps to get there
 
 1. Create an anaconda env
-2. Use this env to get openbb from git  
+2. Use this env to get openbb from git    git clone https://github.com/OpenBB-finance/OpenBBTerminal.git
 3. Build openbb following instructions here https://docs.openbb.co/platform/installation#source
 4. Test the build 
         from openbb import obb
@@ -36,7 +36,7 @@ The provider would refer to a fetcher which is defined in openbb_pyth2.models.__
         obb.user.preferences.output_type = "dataframe"
         obb.equity.price.historical(symbol = 'XOM', provider='fmp')
 5. Build your extension
-6. Install it
+6. Run a simple unit test to verify you can import libraries from OBB
 
 
 
