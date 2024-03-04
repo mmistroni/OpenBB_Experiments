@@ -17,7 +17,7 @@ class ExampleQueryParams(QueryParams):
     """
 
     symbol: str = Field(description="Symbol to query.")
-    limit: Optional[int] = Field(description="Optional limit on observations.By default is set to 100")
+    limit: Optional[int] = Field(description="Optional limit on observations.By default is set to 100", default=100)
 
 
 class ExampleData(Data):
