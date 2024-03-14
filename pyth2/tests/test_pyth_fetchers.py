@@ -30,19 +30,13 @@ def vcr_config():
     }
 
 #
-@pytest.mark.skip(reason='temp')
-def test_ExampleFetcher(credentials=test_credentials):
+@pytest.mark.integration
+def test_example_fetcher_integration(credentials=test_credentials):
     params = {"symbol": "AAPL", "limit": 5, "use_cache": False}
     fetcher = ExampleFetcher()
     result = fetcher.test(params, credentials)
     assert result is None
-@pytest.mark.skip(reason='temp')
-def test_ExampleFetcherNoLimit(credentials=test_credentials):
-    params = {"symbol": "AAPL",  "use_cache": False}
-    fetcher = ExampleFetcher()
-    result = fetcher.test(params, credentials)
-    assert result is None
-@pytest.mark.skip(reason='temp')
+
 def test_ExampleData():
 
     test_dict = {'symbol': 'AAPL', 'date': '2024-02-27', 'marketCap': 2844761945830}
@@ -57,5 +51,14 @@ def test_fetch_http_data_vcr(credentials=test_credentials):
     fetcher = ExampleFetcher()
     result = fetcher.test(params, credentials)
     assert result is None
+
+@pytest.mark.record_http
+def test_fetch_http_data_no_limit(credentials=test_credentials):
+    params = {"symbol": "AAPL",  "use_cache": False}
+    fetcher = ExampleFetcher()
+    result = fetcher.test(params, credentials)
+    assert result is None
+
+
 
 
