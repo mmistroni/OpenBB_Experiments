@@ -38,9 +38,29 @@ The provider would refer to a fetcher which is defined in openbb_pyth2.models.__
 5. Build your extension
 6. Run a simple unit test to verify you can import libraries from OBB
 
-cd 
+Cloned GitHub repo
+How did you "install" OpenBB after this?
+It works.
+cd.. into your extension directory, and install pip install -e .
+Then, from openbb import obb fails?
 
 
 
+(openbb_latest) C:\Users\Marco And Sofia\OpenBB\OpenBB_Experiments\pyth2>python
+Python 3.11.8 | packaged by Anaconda, Inc. | (main, Feb 26 2024, 21:34:05) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from openbb import obb
+Extensions to add: pyth2@1.0.0
 
+Building...
+
+
+
+(openbb_latest) C:\Users\Marco And Sofia\OpenBB\OpenBB_Experiments\pyth2>python
+Python 3.11.8 | packaged by Anaconda, Inc. | (main, Feb 26 2024, 21:34:05) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from openbb import obb
+Extensions to add: pyth2@1.0.0
+
+Building...
 
