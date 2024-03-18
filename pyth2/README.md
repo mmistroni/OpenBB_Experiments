@@ -38,6 +38,8 @@ The provider would refer to a fetcher which is defined in openbb_pyth2.models.__
 5. Build your extension
 6. Run a simple unit test to verify you can import libraries from OBB
 
+cd 
+
 
 
 
