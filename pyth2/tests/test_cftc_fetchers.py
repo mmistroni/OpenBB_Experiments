@@ -32,14 +32,14 @@ def vcr_config():
 #
 @pytest.mark.integration
 def test_cftc_fetcher(credentials=test_credentials):
-    params = {"symbol": "VI", "limit": 5, "use_cache": False}
+    params = {"symbol": "VX", "limit": 5, "use_cache": False}
     fetcher = CommitmentOfTradersFetcher()
     result = fetcher.test(params, credentials)
     assert result is None
 
 def test_cftc_data():
 
-    test_dict = {'symbol': 'VI', 'date': '2024-01-30 00:00:00', 'name': 'S&P 500 VIX (VI)',
+    test_dict = {'symbol': 'VX', 'date': '2024-01-30 00:00:00', 'name': 'S&P 500 VIX (VI)',
                  'sector': 'INDICES', 'exchange': 'MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE',
                  'currentLongMarketSituation': 58.47, 'currentShortMarketSituation': 41.53, 'marketSituation': 'Bullish',
                  'previousLongMarketSituation': 65.97, 'previousShortMarketSituation': 34.03,
@@ -48,7 +48,7 @@ def test_cftc_data():
 
     ed = CommitmentOfTradersData(**test_dict)
 
-    assert ed.symbol == 'VI'
+    assert ed.symbol == 'VX'
     assert ed.date == '2024-01-30 00:00:00'
     assert ed.name == 'S&P 500 VIX (VI)'
     assert ed.current_long_market_situation == 58.47
@@ -60,15 +60,15 @@ def test_cftc_data():
     assert ed.reversal_trend  == False
 
 @pytest.mark.record_http
-def test_fetch_http_data(credentials=test_credentials):
-    params = {"symbol": "VI", "limit": 5, "use_cache": False}
+def test_fetch_http_data_cftc(credentials=test_credentials):
+    params = {"symbol": "VX", "limit": 5, "use_cache": False}
     fetcher = CommitmentOfTradersFetcher()
     result = fetcher.test(params, credentials)
     assert result is None
 
 @pytest.mark.record_http
-def test_fetch_http_data_no_limit(credentials=test_credentials):
-    params = {"symbol": "VI",  "use_cache": False}
+def test_fetch_http_data_cftc_no_limits(credentials=test_credentials):
+    params = {"symbol": "VX",  "use_cache": False}
     fetcher = CommitmentOfTradersFetcher()
     result = fetcher.test(params, credentials)
     assert result is None
