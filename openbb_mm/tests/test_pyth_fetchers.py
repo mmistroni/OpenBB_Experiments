@@ -1,1 +1,0 @@
-"""CIRO Fetchers tests."""
