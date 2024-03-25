@@ -12,19 +12,10 @@ from pydantic import BaseModel
 router = Router(prefix="")
 
 
-@router.command(methods=["POST"])
-async def get_example(symbol: str = "AAPL") -> OBBject[dict]:
-    """Get options data."""
-    base_url = "https://www.cboe.com/education/tools/trade-optimizer/symbol-info"
-
-    response = requests.get(base_url + f"?symbol={symbol}", timeout=5).json()
-    return OBBject(results=response["details"])
-
-
 
 # pylint: disable=unused-argument
 @router.command(model="Example")
-async def model_example(
+async def marketcap(
     cc: CommandContext,
     provider_choices: ProviderChoices,
     standard_params: StandardParams,

@@ -11,6 +11,7 @@ pyth2_provider = Provider(
         "Pyth2's complete suite of APIs solves all your market data needs. From contracts to frontend, Pyth has it covered."
         +" No subscription necessary: read the docs and connect instantly!"
     ),
+    credentials=["api_key"],
     fetcher_dict={
         "Example" : ExampleFetcher
     },
