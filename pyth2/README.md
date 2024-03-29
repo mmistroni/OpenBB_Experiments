@@ -64,3 +64,5 @@ Extensions to add: pyth2@1.0.0
 
 Building...
 
+To launch the API you can run: uvicorn openbb_core.api.rest_api:app --host 0.0.0.0 --port 8000 --reload
+You can specify the host and port parameters on that command - this might also help:

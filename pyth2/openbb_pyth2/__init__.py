@@ -13,6 +13,8 @@ pyth2_provider = Provider(
     ),
     credentials=["api_key"],
     fetcher_dict={
-        "Example" : ExampleFetcher
+        "Example" : ExampleFetcher,
+        "CFTCContracts"  :  CFTCContractsFetcher,
+        'CommitmentOfTraders' : CommitmentOfTradersFetcher
     },
 )
