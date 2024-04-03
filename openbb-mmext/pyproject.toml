@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "openbb-mmext"
+version = "1.0.0"
+description = ""
+authors = ["Marco Mistroni <mmistroni@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "openbb_mmext" }]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+openbb-core = { version = "^1.1.2" }
+openbb-devtools = { version = "^1.0.0b1" }
+beautifulsoup4  = { version = "^4.12.3" }
+pandas = { version = "^2.2.1" }
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.plugins."openbb_core_extension"]
+mmext = "openbb_mmext.router:router"
+
