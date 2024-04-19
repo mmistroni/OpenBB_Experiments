@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "openbb-mmext"
-version = "1.0.0"
+version = "1.0.1"
 description = ""
 authors = ["Marco Mistroni <mmistroni@gmail.com>"]
 readme = "README.md"

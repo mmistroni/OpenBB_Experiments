@@ -14,13 +14,13 @@ router = Router(prefix="")
 
 
 @router.command(methods=["GET"])
-async def nymo() -> OBBject[dict]:
+def nymo() -> OBBject[dict]:
     """Get NYMO ."""
     data = get_nymo()
     return OBBject(results=data)
 
 @router.command(methods=["GET"])
-async def nysi() -> OBBject[dict]:
+def nysi() -> OBBject[dict]:
     """Get NYSI."""
     data = get_nysi()
     return OBBject(results=data)
