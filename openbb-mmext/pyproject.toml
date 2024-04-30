@@ -20,3 +20,6 @@ build-backend = "poetry.core.masonry.api"
 [tool.poetry.plugins."openbb_core_extension"]
 mmext = "openbb_mmext.router:router"
 
+[tool.poetry.plugins."openbb_provider_extension"]
+cftc_provider = "openbb_mmext:cftc_provider"
+

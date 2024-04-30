@@ -25,3 +25,15 @@ def nysi() -> OBBject[dict]:
     data = get_nysi()
     return OBBject(results=data)
 
+
+@router.command(model="CommitmentOfTraders")
+async def cftc(
+    cc: CommandContext,
+    provider_choices: ProviderChoices,
+    standard_params: StandardParams,
+    extra_params: ExtraParams,
+) -> OBBject[BaseModel]:
+    """Example Data."""
+    return await OBBject.from_query(Query(**locals()))
+
+
