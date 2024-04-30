@@ -86,6 +86,7 @@ class CommitmentOfTradersFetcher(
 
         return example_response
 
+
     @staticmethod
     def transform_data(
         query: CommitmentOfTradersQueryParams, data: List[dict], **kwargs: Any
