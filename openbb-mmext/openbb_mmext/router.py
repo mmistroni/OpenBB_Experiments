@@ -26,7 +26,7 @@ def nysi() -> OBBject[dict]:
     return OBBject(results=data)
 
 
-@router.command(model="CommitmentOfTraders")
+@router.command(model="CommitmentOfTradersc")
 async def cftc(
     cc: CommandContext,
     provider_choices: ProviderChoices,

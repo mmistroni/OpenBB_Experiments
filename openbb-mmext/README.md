@@ -1,6 +1,10 @@
 # OpenBB Platform v4 Cookiecutter Template
 
-## Sample extension for downloadig nymo and nysi
+## Sample extension for downloadig nymo, nysi and CFTC data via models.cftc.py
+
+
+
+
 
 Dont forget to install the following libraries before running tests
 
