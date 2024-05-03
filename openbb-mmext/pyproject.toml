@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "openbb-mmext"
-version = "1.0.2"
+version = "1.0.34"
 description = ""
 authors = ["Marco Mistroni <mmistroni@gmail.com>"]
 readme = "README.md"
@@ -19,6 +19,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.plugins."openbb_core_extension"]
 mmext = "openbb_mmext.router:router"
+#mmext =  "openbb_mmext.router_cftc:router"
 
 [tool.poetry.plugins."openbb_provider_extension"]
 cftc_provider = "openbb_mmext:cftc_provider"
