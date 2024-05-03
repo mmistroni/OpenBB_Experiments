@@ -8,7 +8,6 @@ cftc_provider = Provider(
         "Simple Provider for fetching Commitment of Traders data"
 
     ),
-    credentials=["api_key"],
     fetcher_dict={
         'CommitmentOfTraders' : CommitmentOfTradersFetcher
     },
