@@ -1,0 +1,1203 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+    method: GET
+    uri: https://financialmodelingprep.com/api/v4/commitment_of_traders_report_analysis/VX?apikey=MOCK_API_KEY
+  response:
+    body:
+      string: "[\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2024-03-12 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        80.53,\n    \"currentShortMarketSituation\": 19.47,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 63.37,\n    \"previousShortMarketSituation\":
+        36.63,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        119873,\n    \"previousNetPosition\": 54709,\n    \"changeInNetPosition\":
+        119.11,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2024-03-05 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        63.37,\n    \"currentShortMarketSituation\": 36.63,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 62.19,\n    \"previousShortMarketSituation\":
+        37.81,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        54709,\n    \"previousNetPosition\": 43507,\n    \"changeInNetPosition\":
+        25.75,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2024-02-27 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        62.19,\n    \"currentShortMarketSituation\": 37.81,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 59.41,\n    \"previousShortMarketSituation\":
+        40.59,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        43507,\n    \"previousNetPosition\": 28413,\n    \"changeInNetPosition\":
+        53.12,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2024-02-20 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        59.41,\n    \"currentShortMarketSituation\": 40.59,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 60.39,\n    \"previousShortMarketSituation\":
+        39.61,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        28413,\n    \"previousNetPosition\": 25670,\n    \"changeInNetPosition\":
+        10.69,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2024-02-13 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        60.39,\n    \"currentShortMarketSituation\": 39.61,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 54.23,\n    \"previousShortMarketSituation\":
+        45.77,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        25670,\n    \"previousNetPosition\": 10998,\n    \"changeInNetPosition\":
+        133.41,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2024-02-06 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        54.23,\n    \"currentShortMarketSituation\": 45.77,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 58.47,\n    \"previousShortMarketSituation\":
+        41.53,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        10998,\n    \"previousNetPosition\": 19315,\n    \"changeInNetPosition\":
+        -43.06,\n    \"marketSentiment\": \"Increasing Bearish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2024-01-30 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        58.47,\n    \"currentShortMarketSituation\": 41.53,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 65.97,\n    \"previousShortMarketSituation\":
+        34.03,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        19315,\n    \"previousNetPosition\": 35733,\n    \"changeInNetPosition\":
+        -45.95,\n    \"marketSentiment\": \"Increasing Bearish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2024-01-23 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        65.97,\n    \"currentShortMarketSituation\": 34.03,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 74.48,\n    \"previousShortMarketSituation\":
+        25.52,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        35733,\n    \"previousNetPosition\": 48248,\n    \"changeInNetPosition\":
+        -25.94,\n    \"marketSentiment\": \"Increasing Bearish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2024-01-16 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        74.48,\n    \"currentShortMarketSituation\": 25.52,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 79.03,\n    \"previousShortMarketSituation\":
+        20.97,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        48248,\n    \"previousNetPosition\": 47427,\n    \"changeInNetPosition\":
+        1.73,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2024-01-09 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        79.03,\n    \"currentShortMarketSituation\": 20.97,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 56.9,\n    \"previousShortMarketSituation\":
+        43.1,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        47427,\n    \"previousNetPosition\": 10325,\n    \"changeInNetPosition\":
+        359.34,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2024-01-02 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        56.9,\n    \"currentShortMarketSituation\": 43.1,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 38.82,\n    \"previousShortMarketSituation\":
+        61.18,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        10325,\n    \"previousNetPosition\": -12653,\n    \"changeInNetPosition\":
+        181.6,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        true\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2023-12-26 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        38.82,\n    \"currentShortMarketSituation\": 61.18,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 44.44,\n    \"previousShortMarketSituation\":
+        55.56,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -12653,\n    \"previousNetPosition\": -6057,\n    \"changeInNetPosition\":
+        -108.9,\n    \"marketSentiment\": \" Increasing Bearish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2023-12-19 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        44.44,\n    \"currentShortMarketSituation\": 55.56,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 68.59,\n    \"previousShortMarketSituation\":
+        31.41,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        -6057,\n    \"previousNetPosition\": 48629,\n    \"changeInNetPosition\":
+        -112.46,\n    \"marketSentiment\": \" Increasing Bearish\",\n    \"reversalTrend\":
+        true\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2023-12-12 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        68.59,\n    \"currentShortMarketSituation\": 31.41,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 43.32,\n    \"previousShortMarketSituation\":
+        56.68,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        48629,\n    \"previousNetPosition\": -20334,\n    \"changeInNetPosition\":
+        339.15,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        true\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2023-12-05 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        43.32,\n    \"currentShortMarketSituation\": 56.68,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 35.14,\n    \"previousShortMarketSituation\":
+        64.86,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -20334,\n    \"previousNetPosition\": -38811,\n    \"changeInNetPosition\":
+        47.61,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        true\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2023-11-28 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        35.14,\n    \"currentShortMarketSituation\": 64.86,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 35.28,\n    \"previousShortMarketSituation\":
+        64.72,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -38811,\n    \"previousNetPosition\": -38198,\n    \"changeInNetPosition\":
+        -1.6,\n    \"marketSentiment\": \" Increasing Bearish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2023-11-21 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        35.28,\n    \"currentShortMarketSituation\": 64.72,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 35.5,\n    \"previousShortMarketSituation\":
+        64.5,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -38198,\n    \"previousNetPosition\": -38322,\n    \"changeInNetPosition\":
+        0.32,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        true\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2023-11-14 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        35.5,\n    \"currentShortMarketSituation\": 64.5,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 33.45,\n    \"previousShortMarketSituation\":
+        66.55,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -38322,\n    \"previousNetPosition\": -47318,\n    \"changeInNetPosition\":
+        19.01,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        true\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2023-11-07 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        33.45,\n    \"currentShortMarketSituation\": 66.55,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 27.93,\n    \"previousShortMarketSituation\":
+        72.07,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -47318,\n    \"previousNetPosition\": -77864,\n    \"changeInNetPosition\":
+        39.23,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        true\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2023-10-31 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        27.93,\n    \"currentShortMarketSituation\": 72.07,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 24.46,\n    \"previousShortMarketSituation\":
+        75.54,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -77864,\n    \"previousNetPosition\": -87677,\n    \"changeInNetPosition\":
+        11.19,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        true\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2023-10-24 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        24.46,\n    \"currentShortMarketSituation\": 75.54,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 25.72,\n    \"previousShortMarketSituation\":
+        74.28,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -87677,\n    \"previousNetPosition\": -67176,\n    \"changeInNetPosition\":
+        -30.52,\n    \"marketSentiment\": \" Increasing Bearish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2023-10-17 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        25.72,\n    \"currentShortMarketSituation\": 74.28,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 35.82,\n    \"previousShortMarketSituation\":
+        64.18,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -67176,\n    \"previousNetPosition\": -35516,\n    \"changeInNetPosition\":
+        -89.14,\n    \"marketSentiment\": \" Increasing Bearish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2023-10-10 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        35.82,\n    \"currentShortMarketSituation\": 64.18,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 33.64,\n    \"previousShortMarketSituation\":
+        66.36,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -35516,\n    \"previousNetPosition\": -38532,\n    \"changeInNetPosition\":
+        7.83,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        true\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2023-10-03 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        33.64,\n    \"currentShortMarketSituation\": 66.36,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 38.88,\n    \"previousShortMarketSituation\":
+        61.12,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -38532,\n    \"previousNetPosition\": -18877,\n    \"changeInNetPosition\":
+        -104.12,\n    \"marketSentiment\": \" Increasing Bearish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2023-09-26 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        38.88,\n    \"currentShortMarketSituation\": 61.12,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 35.45,\n    \"previousShortMarketSituation\":
+        64.55,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -18877,\n    \"previousNetPosition\": -14190,\n    \"changeInNetPosition\":
+        -33.03,\n    \"marketSentiment\": \" Increasing Bearish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2023-09-19 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        35.45,\n    \"currentShortMarketSituation\": 64.55,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 90.51,\n    \"previousShortMarketSituation\":
+        9.49,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        -14190,\n    \"previousNetPosition\": 153093,\n    \"changeInNetPosition\":
+        -109.27,\n    \"marketSentiment\": \" Increasing Bearish\",\n    \"reversalTrend\":
+        true\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2023-09-12 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        90.51,\n    \"currentShortMarketSituation\": 9.49,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 70.76,\n    \"previousShortMarketSituation\":
+        29.24,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        153093,\n    \"previousNetPosition\": 96944,\n    \"changeInNetPosition\":
+        57.92,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2023-09-05 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        70.76,\n    \"currentShortMarketSituation\": 29.24,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 73.21,\n    \"previousShortMarketSituation\":
+        26.79,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        96944,\n    \"previousNetPosition\": 95127,\n    \"changeInNetPosition\":
+        1.91,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2023-08-29 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        73.21,\n    \"currentShortMarketSituation\": 26.79,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 71.93,\n    \"previousShortMarketSituation\":
+        28.07,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        95127,\n    \"previousNetPosition\": 71930,\n    \"changeInNetPosition\":
+        32.25,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2023-08-22 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        71.93,\n    \"currentShortMarketSituation\": 28.07,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 80.49,\n    \"previousShortMarketSituation\":
+        19.51,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        71930,\n    \"previousNetPosition\": 122248,\n    \"changeInNetPosition\":
+        -41.16,\n    \"marketSentiment\": \"Increasing Bearish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2023-08-15 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        80.49,\n    \"currentShortMarketSituation\": 19.51,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 76.89,\n    \"previousShortMarketSituation\":
+        23.11,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        122248,\n    \"previousNetPosition\": 104985,\n    \"changeInNetPosition\":
+        16.44,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2023-08-08 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        76.89,\n    \"currentShortMarketSituation\": 23.11,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 83.14,\n    \"previousShortMarketSituation\":
+        16.86,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        104985,\n    \"previousNetPosition\": 105636,\n    \"changeInNetPosition\":
+        -0.62,\n    \"marketSentiment\": \"Increasing Bearish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2023-08-01 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        83.14,\n    \"currentShortMarketSituation\": 16.86,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 76.71,\n    \"previousShortMarketSituation\":
+        23.29,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        105636,\n    \"previousNetPosition\": 83457,\n    \"changeInNetPosition\":
+        26.58,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2023-07-25 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        76.71,\n    \"currentShortMarketSituation\": 23.29,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 81.46,\n    \"previousShortMarketSituation\":
+        18.54,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        83457,\n    \"previousNetPosition\": 97295,\n    \"changeInNetPosition\":
+        -14.22,\n    \"marketSentiment\": \"Increasing Bearish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2023-07-18 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        81.46,\n    \"currentShortMarketSituation\": 18.54,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 86.5,\n    \"previousShortMarketSituation\":
+        13.5,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        97295,\n    \"previousNetPosition\": 82534,\n    \"changeInNetPosition\":
+        17.88,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2023-07-11 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        86.5,\n    \"currentShortMarketSituation\": 13.5,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 79.88,\n    \"previousShortMarketSituation\":
+        20.12,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        82534,\n    \"previousNetPosition\": 62963,\n    \"changeInNetPosition\":
+        31.08,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2023-07-03 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        79.88,\n    \"currentShortMarketSituation\": 20.12,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 78.71,\n    \"previousShortMarketSituation\":
+        21.29,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        62963,\n    \"previousNetPosition\": 32265,\n    \"changeInNetPosition\":
+        95.14,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2023-06-27 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        78.71,\n    \"currentShortMarketSituation\": 21.29,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 57.85,\n    \"previousShortMarketSituation\":
+        42.15,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        32265,\n    \"previousNetPosition\": 6835,\n    \"changeInNetPosition\": 372.06,\n
+        \   \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\": false\n
+        \ },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2023-06-20 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        57.85,\n    \"currentShortMarketSituation\": 42.15,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 74.3,\n    \"previousShortMarketSituation\":
+        25.7,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        6835,\n    \"previousNetPosition\": 257375,\n    \"changeInNetPosition\":
+        -97.34,\n    \"marketSentiment\": \"Increasing Bearish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2023-06-13 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        74.3,\n    \"currentShortMarketSituation\": 25.7,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 68.23,\n    \"previousShortMarketSituation\":
+        31.77,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        257375,\n    \"previousNetPosition\": 188851,\n    \"changeInNetPosition\":
+        36.28,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2023-06-06 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        68.23,\n    \"currentShortMarketSituation\": 31.77,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 67.85,\n    \"previousShortMarketSituation\":
+        32.15,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        188851,\n    \"previousNetPosition\": 163786,\n    \"changeInNetPosition\":
+        15.3,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2023-05-30 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        67.85,\n    \"currentShortMarketSituation\": 32.15,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 71.09,\n    \"previousShortMarketSituation\":
+        28.91,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        163786,\n    \"previousNetPosition\": 157613,\n    \"changeInNetPosition\":
+        3.92,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2023-05-23 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        71.09,\n    \"currentShortMarketSituation\": 28.91,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 69.97,\n    \"previousShortMarketSituation\":
+        30.03,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        157613,\n    \"previousNetPosition\": 140760,\n    \"changeInNetPosition\":
+        11.97,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2023-05-16 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        69.97,\n    \"currentShortMarketSituation\": 30.03,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 69.98,\n    \"previousShortMarketSituation\":
+        30.02,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        140760,\n    \"previousNetPosition\": 117468,\n    \"changeInNetPosition\":
+        19.83,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2023-05-09 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        69.98,\n    \"currentShortMarketSituation\": 30.02,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 73.29,\n    \"previousShortMarketSituation\":
+        26.71,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        117468,\n    \"previousNetPosition\": 125515,\n    \"changeInNetPosition\":
+        -6.41,\n    \"marketSentiment\": \"Increasing Bearish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2023-05-02 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        73.29,\n    \"currentShortMarketSituation\": 26.71,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 69.59,\n    \"previousShortMarketSituation\":
+        30.41,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        125515,\n    \"previousNetPosition\": 98208,\n    \"changeInNetPosition\":
+        27.81,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2023-04-25 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        69.59,\n    \"currentShortMarketSituation\": 30.41,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 73.72,\n    \"previousShortMarketSituation\":
+        26.28,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        98208,\n    \"previousNetPosition\": 87099,\n    \"changeInNetPosition\":
+        12.75,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2023-04-18 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        73.72,\n    \"currentShortMarketSituation\": 26.28,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 63.98,\n    \"previousShortMarketSituation\":
+        36.02,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        87099,\n    \"previousNetPosition\": 40270,\n    \"changeInNetPosition\":
+        116.29,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2023-04-11 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        63.98,\n    \"currentShortMarketSituation\": 36.02,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 61.57,\n    \"previousShortMarketSituation\":
+        38.43,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        40270,\n    \"previousNetPosition\": 26428,\n    \"changeInNetPosition\":
+        52.38,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2023-04-04 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        61.57,\n    \"currentShortMarketSituation\": 38.43,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 47.6,\n    \"previousShortMarketSituation\":
+        52.4,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        26428,\n    \"previousNetPosition\": -3146,\n    \"changeInNetPosition\":
+        940.05,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        true\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2023-03-28 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        47.6,\n    \"currentShortMarketSituation\": 52.4,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 48.91,\n    \"previousShortMarketSituation\":
+        51.09,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -3146,\n    \"previousNetPosition\": -1209,\n    \"changeInNetPosition\":
+        -160.22,\n    \"marketSentiment\": \" Increasing Bearish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2023-03-21 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        48.91,\n    \"currentShortMarketSituation\": 51.09,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 54.3,\n    \"previousShortMarketSituation\":
+        45.7,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        -1209,\n    \"previousNetPosition\": 15987,\n    \"changeInNetPosition\":
+        -107.56,\n    \"marketSentiment\": \" Increasing Bearish\",\n    \"reversalTrend\":
+        true\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2023-03-14 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        54.3,\n    \"currentShortMarketSituation\": 45.7,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 47.68,\n    \"previousShortMarketSituation\":
+        52.32,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        15987,\n    \"previousNetPosition\": -9177,\n    \"changeInNetPosition\":
+        274.21,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        true\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2023-03-07 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        47.68,\n    \"currentShortMarketSituation\": 52.32,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 47.83,\n    \"previousShortMarketSituation\":
+        52.17,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -9177,\n    \"previousNetPosition\": -8444,\n    \"changeInNetPosition\":
+        -8.68,\n    \"marketSentiment\": \" Increasing Bearish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2023-02-28 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        47.83,\n    \"currentShortMarketSituation\": 52.17,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 47.37,\n    \"previousShortMarketSituation\":
+        52.63,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -8444,\n    \"previousNetPosition\": -10278,\n    \"changeInNetPosition\":
+        17.84,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        true\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2023-02-21 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        47.37,\n    \"currentShortMarketSituation\": 52.63,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 55.85,\n    \"previousShortMarketSituation\":
+        44.15,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        -10278,\n    \"previousNetPosition\": 22464,\n    \"changeInNetPosition\":
+        -145.75,\n    \"marketSentiment\": \" Increasing Bearish\",\n    \"reversalTrend\":
+        true\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2023-02-14 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        55.85,\n    \"currentShortMarketSituation\": 44.15,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 57.03,\n    \"previousShortMarketSituation\":
+        42.97,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        22464,\n    \"previousNetPosition\": 27845,\n    \"changeInNetPosition\":
+        -19.32,\n    \"marketSentiment\": \"Increasing Bearish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2023-02-07 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        57.03,\n    \"currentShortMarketSituation\": 42.97,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 60.68,\n    \"previousShortMarketSituation\":
+        39.32,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        27845,\n    \"previousNetPosition\": 34646,\n    \"changeInNetPosition\":
+        -19.63,\n    \"marketSentiment\": \"Increasing Bearish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2023-01-31 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        60.68,\n    \"currentShortMarketSituation\": 39.32,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 59.71,\n    \"previousShortMarketSituation\":
+        40.29,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        34646,\n    \"previousNetPosition\": 26921,\n    \"changeInNetPosition\":
+        28.7,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2023-01-24 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        59.71,\n    \"currentShortMarketSituation\": 40.29,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 58.9,\n    \"previousShortMarketSituation\":
+        41.1,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        26921,\n    \"previousNetPosition\": 20542,\n    \"changeInNetPosition\":
+        31.05,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2023-01-17 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        58.9,\n    \"currentShortMarketSituation\": 41.1,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 52.25,\n    \"previousShortMarketSituation\":
+        47.75,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        20542,\n    \"previousNetPosition\": 4206,\n    \"changeInNetPosition\": 388.4,\n
+        \   \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\": false\n
+        \ },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2023-01-10 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        52.25,\n    \"currentShortMarketSituation\": 47.75,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 43.59,\n    \"previousShortMarketSituation\":
+        56.41,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        4206,\n    \"previousNetPosition\": -11514,\n    \"changeInNetPosition\":
+        136.53,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        true\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2023-01-03 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        43.59,\n    \"currentShortMarketSituation\": 56.41,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 43.09,\n    \"previousShortMarketSituation\":
+        56.91,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -11514,\n    \"previousNetPosition\": -10965,\n    \"changeInNetPosition\":
+        -5.01,\n    \"marketSentiment\": \" Increasing Bearish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2022-12-27 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        43.09,\n    \"currentShortMarketSituation\": 56.91,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 35.12,\n    \"previousShortMarketSituation\":
+        64.88,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -10965,\n    \"previousNetPosition\": -21182,\n    \"changeInNetPosition\":
+        48.23,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        true\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2022-12-20 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        35.12,\n    \"currentShortMarketSituation\": 64.88,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 64.09,\n    \"previousShortMarketSituation\":
+        35.91,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        -21182,\n    \"previousNetPosition\": 54073,\n    \"changeInNetPosition\":
+        -139.17,\n    \"marketSentiment\": \" Increasing Bearish\",\n    \"reversalTrend\":
+        true\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2022-12-13 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        64.09,\n    \"currentShortMarketSituation\": 35.91,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 52.07,\n    \"previousShortMarketSituation\":
+        47.93,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        54073,\n    \"previousNetPosition\": 8198,\n    \"changeInNetPosition\": 559.59,\n
+        \   \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\": false\n
+        \ },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2022-12-06 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        52.07,\n    \"currentShortMarketSituation\": 47.93,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 55.3,\n    \"previousShortMarketSituation\":
+        44.7,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        8198,\n    \"previousNetPosition\": 20186,\n    \"changeInNetPosition\": -59.39,\n
+        \   \"marketSentiment\": \"Increasing Bearish\",\n    \"reversalTrend\": false\n
+        \ },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2022-11-29 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        55.3,\n    \"currentShortMarketSituation\": 44.7,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 58.41,\n    \"previousShortMarketSituation\":
+        41.59,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        20186,\n    \"previousNetPosition\": 28601,\n    \"changeInNetPosition\":
+        -29.42,\n    \"marketSentiment\": \"Increasing Bearish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2022-11-22 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        58.41,\n    \"currentShortMarketSituation\": 41.59,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 59.41,\n    \"previousShortMarketSituation\":
+        40.59,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        28601,\n    \"previousNetPosition\": 30727,\n    \"changeInNetPosition\":
+        -6.92,\n    \"marketSentiment\": \"Increasing Bearish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2022-11-15 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        59.41,\n    \"currentShortMarketSituation\": 40.59,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 52.25,\n    \"previousShortMarketSituation\":
+        47.75,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        30727,\n    \"previousNetPosition\": 8262,\n    \"changeInNetPosition\": 271.91,\n
+        \   \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\": false\n
+        \ },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2022-11-08 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        52.25,\n    \"currentShortMarketSituation\": 47.75,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 52.49,\n    \"previousShortMarketSituation\":
+        47.51,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        8262,\n    \"previousNetPosition\": 8530,\n    \"changeInNetPosition\": -3.14,\n
+        \   \"marketSentiment\": \"Increasing Bearish\",\n    \"reversalTrend\": false\n
+        \ },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2022-11-01 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        52.49,\n    \"currentShortMarketSituation\": 47.51,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 41.99,\n    \"previousShortMarketSituation\":
+        58.01,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        8530,\n    \"previousNetPosition\": -23143,\n    \"changeInNetPosition\":
+        136.86,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        true\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2022-10-25 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        41.99,\n    \"currentShortMarketSituation\": 58.01,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 30.44,\n    \"previousShortMarketSituation\":
+        69.56,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -23143,\n    \"previousNetPosition\": -53959,\n    \"changeInNetPosition\":
+        57.11,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        true\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2022-10-18 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        30.44,\n    \"currentShortMarketSituation\": 69.56,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 29.09,\n    \"previousShortMarketSituation\":
+        70.91,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -53959,\n    \"previousNetPosition\": -52033,\n    \"changeInNetPosition\":
+        -3.7,\n    \"marketSentiment\": \" Increasing Bearish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2022-10-11 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        29.09,\n    \"currentShortMarketSituation\": 70.91,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 35.32,\n    \"previousShortMarketSituation\":
+        64.68,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -52033,\n    \"previousNetPosition\": -33896,\n    \"changeInNetPosition\":
+        -53.51,\n    \"marketSentiment\": \" Increasing Bearish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2022-10-04 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        35.32,\n    \"currentShortMarketSituation\": 64.68,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 23.6,\n    \"previousShortMarketSituation\":
+        76.4,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -33896,\n    \"previousNetPosition\": -58080,\n    \"changeInNetPosition\":
+        41.64,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        true\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2022-09-27 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        23.6,\n    \"currentShortMarketSituation\": 76.4,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 20.37,\n    \"previousShortMarketSituation\":
+        79.63,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -58080,\n    \"previousNetPosition\": -38587,\n    \"changeInNetPosition\":
+        -50.52,\n    \"marketSentiment\": \" Increasing Bearish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2022-09-20 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        20.37,\n    \"currentShortMarketSituation\": 79.63,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 12.58,\n    \"previousShortMarketSituation\":
+        87.42,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -38587,\n    \"previousNetPosition\": -156199,\n    \"changeInNetPosition\":
+        75.3,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        true\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2022-09-13 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        12.58,\n    \"currentShortMarketSituation\": 87.42,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 9.43,\n    \"previousShortMarketSituation\":
+        90.57,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -156199,\n    \"previousNetPosition\": -152268,\n    \"changeInNetPosition\":
+        -2.58,\n    \"marketSentiment\": \" Increasing Bearish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2022-09-06 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        9.43,\n    \"currentShortMarketSituation\": 90.57,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 13.24,\n    \"previousShortMarketSituation\":
+        86.76,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -152268,\n    \"previousNetPosition\": -131566,\n    \"changeInNetPosition\":
+        -15.74,\n    \"marketSentiment\": \" Increasing Bearish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2022-08-30 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        13.24,\n    \"currentShortMarketSituation\": 86.76,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 15.47,\n    \"previousShortMarketSituation\":
+        84.53,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -131566,\n    \"previousNetPosition\": -109044,\n    \"changeInNetPosition\":
+        -20.65,\n    \"marketSentiment\": \" Increasing Bearish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2022-08-23 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        15.47,\n    \"currentShortMarketSituation\": 84.53,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 22.3,\n    \"previousShortMarketSituation\":
+        77.7,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -109044,\n    \"previousNetPosition\": -77594,\n    \"changeInNetPosition\":
+        -40.53,\n    \"marketSentiment\": \" Increasing Bearish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2022-08-16 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        22.3,\n    \"currentShortMarketSituation\": 77.7,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 17.83,\n    \"previousShortMarketSituation\":
+        82.17,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -77594,\n    \"previousNetPosition\": -84471,\n    \"changeInNetPosition\":
+        8.14,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        true\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2022-08-09 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        17.83,\n    \"currentShortMarketSituation\": 82.17,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 17,\n    \"previousShortMarketSituation\":
+        83,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\": -84471,\n
+        \   \"previousNetPosition\": -78030,\n    \"changeInNetPosition\": -8.25,\n
+        \   \"marketSentiment\": \" Increasing Bearish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2022-08-02 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        17,\n    \"currentShortMarketSituation\": 83,\n    \"marketSituation\": \"Bearish\",\n
+        \   \"previousLongMarketSituation\": 21.3,\n    \"previousShortMarketSituation\":
+        78.7,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -78030,\n    \"previousNetPosition\": -65912,\n    \"changeInNetPosition\":
+        -18.39,\n    \"marketSentiment\": \" Increasing Bearish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2022-07-26 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        21.3,\n    \"currentShortMarketSituation\": 78.7,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 23.33,\n    \"previousShortMarketSituation\":
+        76.67,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -65912,\n    \"previousNetPosition\": -54969,\n    \"changeInNetPosition\":
+        -19.91,\n    \"marketSentiment\": \" Increasing Bearish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2022-07-19 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        23.33,\n    \"currentShortMarketSituation\": 76.67,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 29.46,\n    \"previousShortMarketSituation\":
+        70.54,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -54969,\n    \"previousNetPosition\": -40460,\n    \"changeInNetPosition\":
+        -35.86,\n    \"marketSentiment\": \" Increasing Bearish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2022-07-12 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        29.46,\n    \"currentShortMarketSituation\": 70.54,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 25.05,\n    \"previousShortMarketSituation\":
+        74.95,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -40460,\n    \"previousNetPosition\": -50314,\n    \"changeInNetPosition\":
+        19.59,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        true\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2022-07-05 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        25.05,\n    \"currentShortMarketSituation\": 74.95,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 28.76,\n    \"previousShortMarketSituation\":
+        71.24,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -50314,\n    \"previousNetPosition\": -35855,\n    \"changeInNetPosition\":
+        -40.33,\n    \"marketSentiment\": \" Increasing Bearish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2022-06-28 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        28.76,\n    \"currentShortMarketSituation\": 71.24,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 28.1,\n    \"previousShortMarketSituation\":
+        71.9,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -35855,\n    \"previousNetPosition\": -36086,\n    \"changeInNetPosition\":
+        0.64,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        true\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2022-06-21 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        28.1,\n    \"currentShortMarketSituation\": 71.9,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 20.56,\n    \"previousShortMarketSituation\":
+        79.44,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -36086,\n    \"previousNetPosition\": -213416,\n    \"changeInNetPosition\":
+        83.09,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        true\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2022-06-14 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        20.56,\n    \"currentShortMarketSituation\": 79.44,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 22.47,\n    \"previousShortMarketSituation\":
+        77.53,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -213416,\n    \"previousNetPosition\": -135325,\n    \"changeInNetPosition\":
+        -57.71,\n    \"marketSentiment\": \" Increasing Bearish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2022-06-07 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        22.47,\n    \"currentShortMarketSituation\": 77.53,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 23.13,\n    \"previousShortMarketSituation\":
+        76.87,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -135325,\n    \"previousNetPosition\": -115892,\n    \"changeInNetPosition\":
+        -16.77,\n    \"marketSentiment\": \" Increasing Bearish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2022-05-31 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        23.13,\n    \"currentShortMarketSituation\": 76.87,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 21.33,\n    \"previousShortMarketSituation\":
+        78.67,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -115892,\n    \"previousNetPosition\": -130140,\n    \"changeInNetPosition\":
+        10.95,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        true\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2022-05-24 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        21.33,\n    \"currentShortMarketSituation\": 78.67,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 17.63,\n    \"previousShortMarketSituation\":
+        82.37,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -130140,\n    \"previousNetPosition\": -119642,\n    \"changeInNetPosition\":
+        -8.77,\n    \"marketSentiment\": \" Increasing Bearish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2022-05-17 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        17.63,\n    \"currentShortMarketSituation\": 82.37,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 16.36,\n    \"previousShortMarketSituation\":
+        83.64,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -119642,\n    \"previousNetPosition\": -124678,\n    \"changeInNetPosition\":
+        4.04,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        true\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2022-05-10 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        16.36,\n    \"currentShortMarketSituation\": 83.64,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 17.89,\n    \"previousShortMarketSituation\":
+        82.11,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -124678,\n    \"previousNetPosition\": -115262,\n    \"changeInNetPosition\":
+        -8.17,\n    \"marketSentiment\": \" Increasing Bearish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2022-05-03 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        17.89,\n    \"currentShortMarketSituation\": 82.11,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 27.15,\n    \"previousShortMarketSituation\":
+        72.85,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -115262,\n    \"previousNetPosition\": -57806,\n    \"changeInNetPosition\":
+        -99.39,\n    \"marketSentiment\": \" Increasing Bearish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2022-04-26 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        27.15,\n    \"currentShortMarketSituation\": 72.85,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 27.61,\n    \"previousShortMarketSituation\":
+        72.39,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -57806,\n    \"previousNetPosition\": -41788,\n    \"changeInNetPosition\":
+        -38.33,\n    \"marketSentiment\": \" Increasing Bearish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2022-04-19 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        27.61,\n    \"currentShortMarketSituation\": 72.39,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 38.26,\n    \"previousShortMarketSituation\":
+        61.74,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -41788,\n    \"previousNetPosition\": -20771,\n    \"changeInNetPosition\":
+        -101.18,\n    \"marketSentiment\": \" Increasing Bearish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2022-04-12 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        38.26,\n    \"currentShortMarketSituation\": 61.74,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 35.78,\n    \"previousShortMarketSituation\":
+        64.22,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -20771,\n    \"previousNetPosition\": -20422,\n    \"changeInNetPosition\":
+        -1.71,\n    \"marketSentiment\": \" Increasing Bearish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2022-04-05 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        35.78,\n    \"currentShortMarketSituation\": 64.22,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 37.4,\n    \"previousShortMarketSituation\":
+        62.6,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -20422,\n    \"previousNetPosition\": -14019,\n    \"changeInNetPosition\":
+        -45.67,\n    \"marketSentiment\": \" Increasing Bearish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2022-03-29 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        37.4,\n    \"currentShortMarketSituation\": 62.6,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 37.4,\n    \"previousShortMarketSituation\":
+        62.6,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -14019,\n    \"previousNetPosition\": -14019,\n    \"changeInNetPosition\":
+        0,\n    \"marketSentiment\": \"Bearish\",\n    \"reversalTrend\": false\n
+        \ },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2022-03-15 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        51.02,\n    \"currentShortMarketSituation\": 48.98,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 48.31,\n    \"previousShortMarketSituation\":
+        51.69,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        4099,\n    \"previousNetPosition\": -7040,\n    \"changeInNetPosition\": 158.22,\n
+        \   \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\": true\n
+        \ },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2022-03-08 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        48.31,\n    \"currentShortMarketSituation\": 51.69,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 54.84,\n    \"previousShortMarketSituation\":
+        45.16,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        -7040,\n    \"previousNetPosition\": 17166,\n    \"changeInNetPosition\":
+        -141.01,\n    \"marketSentiment\": \" Increasing Bearish\",\n    \"reversalTrend\":
+        true\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2022-03-01 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        54.84,\n    \"currentShortMarketSituation\": 45.16,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 40.17,\n    \"previousShortMarketSituation\":
+        59.83,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        17166,\n    \"previousNetPosition\": -44055,\n    \"changeInNetPosition\":
+        138.96,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        true\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2022-02-22 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        40.17,\n    \"currentShortMarketSituation\": 59.83,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 40.82,\n    \"previousShortMarketSituation\":
+        59.18,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -44055,\n    \"previousNetPosition\": -37810,\n    \"changeInNetPosition\":
+        -16.52,\n    \"marketSentiment\": \" Increasing Bearish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2022-02-15 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        40.82,\n    \"currentShortMarketSituation\": 59.18,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 48.82,\n    \"previousShortMarketSituation\":
+        51.18,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -37810,\n    \"previousNetPosition\": -4027,\n    \"changeInNetPosition\":
+        -838.91,\n    \"marketSentiment\": \" Increasing Bearish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2022-02-08 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        48.82,\n    \"currentShortMarketSituation\": 51.18,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 66.11,\n    \"previousShortMarketSituation\":
+        33.89,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        -4027,\n    \"previousNetPosition\": 43945,\n    \"changeInNetPosition\":
+        -109.16,\n    \"marketSentiment\": \" Increasing Bearish\",\n    \"reversalTrend\":
+        true\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2022-02-01 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        66.11,\n    \"currentShortMarketSituation\": 33.89,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 71.57,\n    \"previousShortMarketSituation\":
+        28.43,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        43945,\n    \"previousNetPosition\": 61659,\n    \"changeInNetPosition\":
+        -28.73,\n    \"marketSentiment\": \"Increasing Bearish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2022-01-25 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        71.57,\n    \"currentShortMarketSituation\": 28.43,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 59.81,\n    \"previousShortMarketSituation\":
+        40.19,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        61659,\n    \"previousNetPosition\": 28804,\n    \"changeInNetPosition\":
+        114.06,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2022-01-18 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        59.81,\n    \"currentShortMarketSituation\": 40.19,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 59.18,\n    \"previousShortMarketSituation\":
+        40.82,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        28804,\n    \"previousNetPosition\": 19295,\n    \"changeInNetPosition\":
+        49.28,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2022-01-11 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        59.18,\n    \"currentShortMarketSituation\": 40.82,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 61.15,\n    \"previousShortMarketSituation\":
+        38.85,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        19295,\n    \"previousNetPosition\": 13306,\n    \"changeInNetPosition\":
+        45.01,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2022-01-04 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        61.15,\n    \"currentShortMarketSituation\": 38.85,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 61.15,\n    \"previousShortMarketSituation\":
+        38.85,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        13306,\n    \"previousNetPosition\": 13306,\n    \"changeInNetPosition\":
+        0,\n    \"marketSentiment\": \"Bearish\",\n    \"reversalTrend\": false\n
+        \ },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2021-12-14 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        38.32,\n    \"currentShortMarketSituation\": 61.68,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 35.88,\n    \"previousShortMarketSituation\":
+        64.12,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -53342,\n    \"previousNetPosition\": -62178,\n    \"changeInNetPosition\":
+        14.21,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        true\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2021-12-07 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        35.88,\n    \"currentShortMarketSituation\": 64.12,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 34.74,\n    \"previousShortMarketSituation\":
+        65.26,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -62178,\n    \"previousNetPosition\": -64670,\n    \"changeInNetPosition\":
+        3.85,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        true\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2021-11-30 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        34.74,\n    \"currentShortMarketSituation\": 65.26,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 40.04,\n    \"previousShortMarketSituation\":
+        59.96,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -64670,\n    \"previousNetPosition\": -33607,\n    \"changeInNetPosition\":
+        -92.43,\n    \"marketSentiment\": \" Increasing Bearish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2021-11-23 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        40.04,\n    \"currentShortMarketSituation\": 59.96,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 39.55,\n    \"previousShortMarketSituation\":
+        60.45,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -33607,\n    \"previousNetPosition\": -30856,\n    \"changeInNetPosition\":
+        -8.92,\n    \"marketSentiment\": \" Increasing Bearish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2021-11-16 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        39.55,\n    \"currentShortMarketSituation\": 60.45,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 39.55,\n    \"previousShortMarketSituation\":
+        60.45,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -30856,\n    \"previousNetPosition\": -30856,\n    \"changeInNetPosition\":
+        0,\n    \"marketSentiment\": \"Bearish\",\n    \"reversalTrend\": false\n
+        \ },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2021-11-02 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        35.01,\n    \"currentShortMarketSituation\": 64.99,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 35.01,\n    \"previousShortMarketSituation\":
+        64.99,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -35491,\n    \"previousNetPosition\": -35491,\n    \"changeInNetPosition\":
+        0,\n    \"marketSentiment\": \"Bearish\",\n    \"reversalTrend\": false\n
+        \ },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2021-09-14 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        18.24,\n    \"currentShortMarketSituation\": 81.76,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 10.33,\n    \"previousShortMarketSituation\":
+        89.67,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -81451,\n    \"previousNetPosition\": -70180,\n    \"changeInNetPosition\":
+        -16.06,\n    \"marketSentiment\": \" Increasing Bearish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2021-09-07 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        10.33,\n    \"currentShortMarketSituation\": 89.67,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 10.08,\n    \"previousShortMarketSituation\":
+        89.92,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -70180,\n    \"previousNetPosition\": -77988,\n    \"changeInNetPosition\":
+        10.01,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        true\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2021-08-31 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        10.08,\n    \"currentShortMarketSituation\": 89.92,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 9.83,\n    \"previousShortMarketSituation\":
+        90.17,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -77988,\n    \"previousNetPosition\": -81437,\n    \"changeInNetPosition\":
+        4.24,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        true\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2021-08-24 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        9.83,\n    \"currentShortMarketSituation\": 90.17,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 13.47,\n    \"previousShortMarketSituation\":
+        86.53,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -81437,\n    \"previousNetPosition\": -50657,\n    \"changeInNetPosition\":
+        -60.76,\n    \"marketSentiment\": \" Increasing Bearish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2021-08-17 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        13.47,\n    \"currentShortMarketSituation\": 86.53,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 13.47,\n    \"previousShortMarketSituation\":
+        86.53,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -50657,\n    \"previousNetPosition\": -50657,\n    \"changeInNetPosition\":
+        0,\n    \"marketSentiment\": \"Bearish\",\n    \"reversalTrend\": false\n
+        \ },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2021-06-15 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        52.87,\n    \"currentShortMarketSituation\": 47.13,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 51.05,\n    \"previousShortMarketSituation\":
+        48.95,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        15940,\n    \"previousNetPosition\": 5362,\n    \"changeInNetPosition\": 197.28,\n
+        \   \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\": false\n
+        \ },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2021-06-08 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        51.05,\n    \"currentShortMarketSituation\": 48.95,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 51.05,\n    \"previousShortMarketSituation\":
+        48.95,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        5362,\n    \"previousNetPosition\": 5362,\n    \"changeInNetPosition\": 0,\n
+        \   \"marketSentiment\": \"Bearish\",\n    \"reversalTrend\": false\n  },\n
+        \ {\n    \"symbol\": \"VX\",\n    \"date\": \"2021-04-13 00:00:00\",\n    \"name\":
+        \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        45.12,\n    \"currentShortMarketSituation\": 54.88,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 45.12,\n    \"previousShortMarketSituation\":
+        54.88,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -11563,\n    \"previousNetPosition\": -11563,\n    \"changeInNetPosition\":
+        0,\n    \"marketSentiment\": \"Bearish\",\n    \"reversalTrend\": false\n
+        \ },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2021-03-16 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        15.94,\n    \"currentShortMarketSituation\": 84.06,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 35.54,\n    \"previousShortMarketSituation\":
+        64.46,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -59738,\n    \"previousNetPosition\": -30201,\n    \"changeInNetPosition\":
+        -97.8,\n    \"marketSentiment\": \" Increasing Bearish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2021-03-09 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        35.54,\n    \"currentShortMarketSituation\": 64.46,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 38.39,\n    \"previousShortMarketSituation\":
+        61.61,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -30201,\n    \"previousNetPosition\": -24113,\n    \"changeInNetPosition\":
+        -25.25,\n    \"marketSentiment\": \" Increasing Bearish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2021-03-02 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        38.39,\n    \"currentShortMarketSituation\": 61.61,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 38.39,\n    \"previousShortMarketSituation\":
+        61.61,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -24113,\n    \"previousNetPosition\": -24113,\n    \"changeInNetPosition\":
+        0,\n    \"marketSentiment\": \"Bearish\",\n    \"reversalTrend\": false\n
+        \ },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2020-12-15 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        74.03,\n    \"currentShortMarketSituation\": 25.97,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 75.67,\n    \"previousShortMarketSituation\":
+        24.33,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        59883,\n    \"previousNetPosition\": 65947,\n    \"changeInNetPosition\":
+        -9.2,\n    \"marketSentiment\": \"Increasing Bearish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2020-12-08 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        75.67,\n    \"currentShortMarketSituation\": 24.33,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 80.69,\n    \"previousShortMarketSituation\":
+        19.31,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        65947,\n    \"previousNetPosition\": 80053,\n    \"changeInNetPosition\":
+        -17.62,\n    \"marketSentiment\": \"Increasing Bearish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2020-12-01 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        80.69,\n    \"currentShortMarketSituation\": 19.31,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 83.4,\n    \"previousShortMarketSituation\":
+        16.6,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        80053,\n    \"previousNetPosition\": 80719,\n    \"changeInNetPosition\":
+        -0.83,\n    \"marketSentiment\": \"Increasing Bearish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2020-11-24 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        83.4,\n    \"currentShortMarketSituation\": 16.6,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 84.72,\n    \"previousShortMarketSituation\":
+        15.28,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        80719,\n    \"previousNetPosition\": 88999,\n    \"changeInNetPosition\":
+        -9.3,\n    \"marketSentiment\": \"Increasing Bearish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2020-11-17 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        84.72,\n    \"currentShortMarketSituation\": 15.28,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 85.36,\n    \"previousShortMarketSituation\":
+        14.64,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        88999,\n    \"previousNetPosition\": 77725,\n    \"changeInNetPosition\":
+        14.5,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2020-11-10 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        85.36,\n    \"currentShortMarketSituation\": 14.64,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 32.05,\n    \"previousShortMarketSituation\":
+        67.95,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        77725,\n    \"previousNetPosition\": -39036,\n    \"changeInNetPosition\":
+        299.11,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        true\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2020-11-03 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        32.05,\n    \"currentShortMarketSituation\": 67.95,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 28.7,\n    \"previousShortMarketSituation\":
+        71.3,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -39036,\n    \"previousNetPosition\": -46405,\n    \"changeInNetPosition\":
+        15.88,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        true\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2020-10-27 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        28.7,\n    \"currentShortMarketSituation\": 71.3,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 26.79,\n    \"previousShortMarketSituation\":
+        73.21,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -46405,\n    \"previousNetPosition\": -46449,\n    \"changeInNetPosition\":
+        0.09,\n    \"marketSentiment\": \"Increasing Bullish\",\n    \"reversalTrend\":
+        true\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2020-10-20 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        26.79,\n    \"currentShortMarketSituation\": 73.21,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 25.12,\n    \"previousShortMarketSituation\":
+        74.88,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -46449,\n    \"previousNetPosition\": -42637,\n    \"changeInNetPosition\":
+        -8.94,\n    \"marketSentiment\": \" Increasing Bearish\",\n    \"reversalTrend\":
+        false\n  },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2020-10-13 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        25.12,\n    \"currentShortMarketSituation\": 74.88,\n    \"marketSituation\":
+        \"Bearish\",\n    \"previousLongMarketSituation\": 25.12,\n    \"previousShortMarketSituation\":
+        74.88,\n    \"previousMarketSituation\": \"Bearish\",\n    \"netPostion\":
+        -42637,\n    \"previousNetPosition\": -42637,\n    \"changeInNetPosition\":
+        0,\n    \"marketSentiment\": \"Bearish\",\n    \"reversalTrend\": false\n
+        \ },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2020-09-15 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        74.46,\n    \"currentShortMarketSituation\": 25.54,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 74.46,\n    \"previousShortMarketSituation\":
+        25.54,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        131815,\n    \"previousNetPosition\": 131815,\n    \"changeInNetPosition\":
+        0,\n    \"marketSentiment\": \"Bearish\",\n    \"reversalTrend\": false\n
+        \ },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2020-08-18 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        55.39,\n    \"currentShortMarketSituation\": 44.61,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 55.39,\n    \"previousShortMarketSituation\":
+        44.61,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        25951,\n    \"previousNetPosition\": 25951,\n    \"changeInNetPosition\":
+        0,\n    \"marketSentiment\": \"Bearish\",\n    \"reversalTrend\": false\n
+        \ },\n  {\n    \"symbol\": \"VX\",\n    \"date\": \"2020-07-28 00:00:00\",\n
+        \   \"name\": \"S&P 500 E-Mini (VX)\",\n    \"sector\": \"INDICES\",\n    \"exchange\":
+        \"MICRO E-MINI S&P 500 INDEX - CHICAGO MERCANTILE EXCHANGE\",\n    \"currentLongMarketSituation\":
+        55.96,\n    \"currentShortMarketSituation\": 44.04,\n    \"marketSituation\":
+        \"Bullish\",\n    \"previousLongMarketSituation\": 55.96,\n    \"previousShortMarketSituation\":
+        44.04,\n    \"previousMarketSituation\": \"Bullish\",\n    \"netPostion\":
+        18478,\n    \"previousNetPosition\": 18478,\n    \"changeInNetPosition\":
+        0,\n    \"marketSentiment\": \"Bearish\",\n    \"reversalTrend\": false\n
+        \ }\n]"
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Headers:
+      - X-Requested-With, content-type, auth-token, Authorization, stripe-signature,
+        APPS, publicauthkey, privateauthkey
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Max-Age:
+      - '3600'
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 18 Mar 2024 18:10:10 GMT
+      ETag:
+      - W/"15679-UwZ8ohdLqMOYwXlizongRcOinac"
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Powered-By:
+      - Express
+    status:
+      code: 200
+      message: OK
+version: 1

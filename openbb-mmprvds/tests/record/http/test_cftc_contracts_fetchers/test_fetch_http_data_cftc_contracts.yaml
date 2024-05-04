@@ -1,0 +1,115 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+    method: GET
+    uri: https://financialmodelingprep.com/api/v4/commitment_of_traders_report/list?apikey=MOCK_API_KEY
+  response:
+    body:
+      string: "[\n  {\n    \"trading_symbol\": \"NG\",\n    \"short_name\": \"Natural
+        Gas (NG)\"\n  },\n  {\n    \"trading_symbol\": \"TN\",\n    \"short_name\":
+        \"Ultra 10-Year T-Note (TN)\"\n  },\n  {\n    \"trading_symbol\": \"A6\",\n
+        \   \"short_name\": \"Australian Dollar (A6)\"\n  },\n  {\n    \"trading_symbol\":
+        \"PA\",\n    \"short_name\": \"Palladium (PA)\"\n  },\n  {\n    \"trading_symbol\":
+        \"BT\",\n    \"short_name\": \"Bitcoin CME Futures (BT)\"\n  },\n  {\n    \"trading_symbol\":
+        \"CC\",\n    \"short_name\": \"Cocoa (CC)\"\n  },\n  {\n    \"trading_symbol\":
+        \"T6\",\n    \"short_name\": \"South African Rand (T6)\"\n  },\n  {\n    \"trading_symbol\":
+        \"OJ\",\n    \"short_name\": \"Orange Juice (OJ)\"\n  },\n  {\n    \"trading_symbol\":
+        \"ZM\",\n    \"short_name\": \"Soybean Meal (ZM)\"\n  },\n  {\n    \"trading_symbol\":
+        \"KC\",\n    \"short_name\": \"Coffee (KC)\"\n  },\n  {\n    \"trading_symbol\":
+        \"ZC\",\n    \"short_name\": \"Corn (ZC)\"\n  },\n  {\n    \"trading_symbol\":
+        \"UD\",\n    \"short_name\": \"Ultra T-Bond (UD)\"\n  },\n  {\n    \"trading_symbol\":
+        \"CT\",\n    \"short_name\": \"Cotton #2 (CT)\"\n  },\n  {\n    \"trading_symbol\":
+        \"LE\",\n    \"short_name\": \"Live Cattle (LE)\"\n  },\n  {\n    \"trading_symbol\":
+        \"ZW\",\n    \"short_name\": \"Wheat (ZW)\"\n  },\n  {\n    \"trading_symbol\":
+        \"ZN\",\n    \"short_name\": \"10-Year T-Note (ZN)\"\n  },\n  {\n    \"trading_symbol\":
+        \"ZO\",\n    \"short_name\": \"Oats (ZO)\"\n  },\n  {\n    \"trading_symbol\":
+        \"KE\",\n    \"short_name\": \"KCBT Wheat (KE)\"\n  },\n  {\n    \"trading_symbol\":
+        \"E6\",\n    \"short_name\": \"Euro FX (E6)\"\n  },\n  {\n    \"trading_symbol\":
+        \"BP\",\n    \"short_name\": \"BRENT PHYS NYME (BP)\"\n  },\n  {\n    \"trading_symbol\":
+        \"R6\",\n    \"short_name\": \"Russian Ruble (R6)\"\n  },\n  {\n    \"trading_symbol\":
+        \"SI\",\n    \"short_name\": \"Silver (SI)\"\n  },\n  {\n    \"trading_symbol\":
+        \"EW\",\n    \"short_name\": \"S&P Midcap E-Mini (EW)\"\n  },\n  {\n    \"trading_symbol\":
+        \"PL\",\n    \"short_name\": \"Platinum (PL)\"\n  },\n  {\n    \"trading_symbol\":
+        \"HO\",\n    \"short_name\": \"ULSD NY Harbor (HO)\"\n  },\n  {\n    \"trading_symbol\":
+        \"MW\",\n    \"short_name\": \"Spring Wheat (MW)\"\n  },\n  {\n    \"trading_symbol\":
+        \"GC\",\n    \"short_name\": \"Gold (GC)\"\n  },\n  {\n    \"trading_symbol\":
+        \"ZK\",\n    \"short_name\": \"Ethanol Futures (ZK)\"\n  },\n  {\n    \"trading_symbol\":
+        \"D6\",\n    \"short_name\": \"Canadian Dollar (D6)\"\n  },\n  {\n    \"trading_symbol\":
+        \"ZB\",\n    \"short_name\": \"30-Year T-Bond (ZB)\"\n  },\n  {\n    \"trading_symbol\":
+        \"NM\",\n    \"short_name\": \"Nasdaq 100 Mircro E-Mini (NM)\"\n  },\n  {\n
+        \   \"trading_symbol\": \"ZQ\",\n    \"short_name\": \"30-Day Fed Funds (ZQ)\"\n
+        \ },\n  {\n    \"trading_symbol\": \"SB\",\n    \"short_name\": \"Sugar #11
+        (SB)\"\n  },\n  {\n    \"trading_symbol\": \"VF\",\n    \"short_name\": \"CBOE
+        VIX (VF)\"\n  },\n  {\n    \"trading_symbol\": \"LS\",\n    \"short_name\":
+        \"Lumber (LS)\"\n  },\n  {\n    \"trading_symbol\": \"M6\",\n    \"short_name\":
+        \"Mexican Peso (M6)\"\n  },\n  {\n    \"trading_symbol\": \"NQ\",\n    \"short_name\":
+        \"Nasdaq 100 E-Mini (NQ)\"\n  },\n  {\n    \"trading_symbol\": \"MWP\",\n
+        \   \"short_name\": \"ALUMINUM MWP\"\n  },\n  {\n    \"trading_symbol\": \"HE\",\n
+        \   \"short_name\": \"Lean Hogs (HE)\"\n  },\n  {\n    \"trading_symbol\":
+        \"N6\",\n    \"short_name\": \"New Zealand Dollar (N6)\"\n  },\n  {\n    \"trading_symbol\":
+        \"CL\",\n    \"short_name\": \"Crude Oil WTI (CL)\"\n  },\n  {\n    \"trading_symbol\":
+        \"DL\",\n    \"short_name\": \"Class III Milk (DL)\"\n  },\n  {\n    \"trading_symbol\":
+        \"ZL\",\n    \"short_name\": \"Soybean Oil (ZL)\"\n  },\n  {\n    \"trading_symbol\":
+        \"ZF\",\n    \"short_name\": \"5-Year T-Note (ZF)\"\n  },\n  {\n    \"trading_symbol\":
+        \"GF\",\n    \"short_name\": \"Feeder Cattle (GF)\"\n  },\n  {\n    \"trading_symbol\":
+        \"J6\",\n    \"short_name\": \"Japanese Yen (J6)\"\n  },\n  {\n    \"trading_symbol\":
+        \"ZT\",\n    \"short_name\": \"2-Year T-Note (ZT)\"\n  },\n  {\n    \"trading_symbol\":
+        \"ZR\",\n    \"short_name\": \"Rough Rice (ZR)\"\n  },\n  {\n    \"trading_symbol\":
+        \"RB\",\n    \"short_name\": \"Gasoline RBOB (RB)\"\n  },\n  {\n    \"trading_symbol\":
+        \"HRC\",\n    \"short_name\": \"STEEL-HRC\"\n  },\n  {\n    \"trading_symbol\":
+        \"YM\",\n    \"short_name\": \"Dow Indu 30 E-Mini (YM)\"\n  },\n  {\n    \"trading_symbol\":
+        \"QR\",\n    \"short_name\": \"Russell 2000 E-Mini (QR)\"\n  },\n  {\n    \"trading_symbol\":
+        \"B6\",\n    \"short_name\": \"British Pound (B6)\"\n  },\n  {\n    \"trading_symbol\":
+        \"BZ\",\n    \"short_name\": \"Crude Oil BRENT (BZ)\"\n  },\n  {\n    \"trading_symbol\":
+        \"GM\",\n    \"short_name\": \"Gold Mini (GM)\"\n  },\n  {\n    \"trading_symbol\":
+        \"ES\",\n    \"short_name\": \"S&P 500 E-Mini (ES)\"\n  },\n  {\n    \"trading_symbol\":
+        \"L6\",\n    \"short_name\": \"Brazilian Real (L6)\"\n  },\n  {\n    \"trading_symbol\":
+        \"VX\",\n    \"short_name\": \"S&P 500 E-Mini (VX)\"\n  },\n  {\n    \"trading_symbol\":
+        \"0\",\n    \"short_name\": \"0\"\n  },\n  {\n    \"trading_symbol\": \"DX\",\n
+        \   \"short_name\": \"US Dollar Index (DX)\"\n  },\n  {\n    \"trading_symbol\":
+        \"S6\",\n    \"short_name\": \"Swiss Franc (S6)\"\n  },\n  {\n    \"trading_symbol\":
+        \"HG\",\n    \"short_name\": \"High Grade Copper (HG)\"\n  },\n  {\n    \"trading_symbol\":
+        \"ZS\",\n    \"short_name\": \"Soybeans (ZS)\"\n  }\n]"
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Headers:
+      - X-Requested-With, content-type, auth-token, Authorization, stripe-signature,
+        APPS, publicauthkey, privateauthkey
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Max-Age:
+      - '3600'
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 18 Mar 2024 18:28:40 GMT
+      ETag:
+      - W/"126b-vG9itkZqqwWYIDtmigUG4DN2dv4"
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Powered-By:
+      - Express
+    status:
+      code: 200
+      message: OK
+version: 1
