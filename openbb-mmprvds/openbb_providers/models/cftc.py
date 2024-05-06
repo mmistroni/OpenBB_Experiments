@@ -4,6 +4,7 @@ from openbb_core.provider.abstract.data import Data
 from openbb_core.provider.abstract.fetcher import Fetcher
 from openbb_core.provider.abstract.query_params import QueryParams
 from pydantic import Field
+import logging
 
 import requests
 
@@ -80,6 +81,8 @@ class CommitmentOfTradersFetcher(
         limit = query.limit or 1
 
         base_url = f'https://financialmodelingprep.com/api/v4/commitment_of_traders_report_analysis/{symbol}?apikey={api_key}'
+
+        logging.info(f'Calling url:{base_url}')
 
         # Here we mock an example_response for brevity.
         example_response = requests.get(base_url).json()[0:limit]

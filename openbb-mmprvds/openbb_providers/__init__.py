@@ -5,13 +5,11 @@ from openbb_providers.models.fetchers import ExampleFetcher
 from openbb_providers.models.cftc import CommitmentOfTradersFetcher
 from openbb_providers.models.cftc_contracts import  CFTCContractsFetcher
 cftc_provider = Provider(
-    name="cftc",
+    name="cftc_provider",
     website="https://pyth.network/",
     description=(
-        "Pyth2's complete suite of APIs solves all your market data needs. From contracts to frontend, Pyth has it covered."
-        +" No subscription necessary: read the docs and connect instantly!"
+        "Provider for fetching CFTC data."
     ),
-    credentials=["api_key"],
     fetcher_dict={
         "CFTCContracts"  :  CFTCContractsFetcher,
         'CommitmentOfTraders' : CommitmentOfTradersFetcher

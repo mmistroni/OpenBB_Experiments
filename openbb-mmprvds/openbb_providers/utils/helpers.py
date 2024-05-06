@@ -9,19 +9,6 @@ from openbb_core.app.service.user_service import UserService
 
 
 
-def run_fetcher_for_symbol(symbol):
-    logging.info(f'Querying for  {symbol}')
-    credentials = UserService().default_user_settings.credentials.model_dump(
-        mode="json"
-    )
-    params = {"symbol": symbol, "limit": 5, "use_cache": False}
-    fetcher = ExampleFetcher()
-    res = fetcher.fetch_data(params, credentials)
-    loop = asyncio.get_event_loop()
-    data = loop.run_until_complete(asyncio.gather(*[res]))
-    logging.info(f'Obtained:{data}')
-    return data
-
 def get_cftc_contracts():
     credentials = UserService().default_user_settings.credentials.model_dump(
         mode="json"
