@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "openbb-providers"
-version = "1.0.2"
+version = "1.0.82"
 description = "Pyth Extension to fetch commitment of traders data"
 authors = ["OpenBB <hello@openbb.co>"]
 readme = "README.md"
@@ -15,4 +15,7 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.plugins."openbb_provider_extension"]
-cftc = "openbb_providers:cftc_provider"
+fmp = "openbb_providers:cftc_provider"
+
+[tool.poetry.plugins."openbb_core_extension"]
+mmcftc = "openbb_providers.router:router"

@@ -3,6 +3,7 @@ from datetime import date
 from openbb_core.provider.abstract.data import Data
 from openbb_core.provider.abstract.fetcher import Fetcher
 from openbb_core.provider.abstract.query_params import QueryParams
+from openbb_fmp.models.etf_info import FMPEtfInfoFetcher
 from pydantic import Field
 import logging
 
@@ -50,7 +51,7 @@ class CommitmentOfTradersFetcher(
 
     This class is responsible for the actual data retrieval.
     """
-    require_credentials = False
+    #require_credentials = False
     @staticmethod
     def transform_query(params: Dict[str, Any]) -> CommitmentOfTradersQueryParams:
         """Define example transform_query.
