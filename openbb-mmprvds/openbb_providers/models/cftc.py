@@ -50,7 +50,7 @@ class CommitmentOfTradersFetcher(
 
     This class is responsible for the actual data retrieval.
     """
-
+    require_credentials = False
     @staticmethod
     def transform_query(params: Dict[str, Any]) -> CommitmentOfTradersQueryParams:
         """Define example transform_query.
@@ -85,9 +85,12 @@ class CommitmentOfTradersFetcher(
         logging.info(f'Calling url:{base_url}')
 
         # Here we mock an example_response for brevity.
-        example_response = requests.get(base_url).json()[0:limit]
+        example_response = requests.get(base_url).json()
 
-        return example_response
+        if 'Error Message' in example_response:
+            raise Exception(example_response['Error Message'])
+
+        return example_response[0:limit]
 
     @staticmethod
     def transform_data(

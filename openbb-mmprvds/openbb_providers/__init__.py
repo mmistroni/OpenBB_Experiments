@@ -10,6 +10,7 @@ cftc_provider = Provider(
     description=(
         "Provider for fetching CFTC data."
     ),
+    credentials=["api_key"],
     fetcher_dict={
         "CFTCContracts"  :  CFTCContractsFetcher,
         'CommitmentOfTraders' : CommitmentOfTradersFetcher
