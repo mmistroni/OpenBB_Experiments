@@ -1,5 +1,5 @@
 from openbb_core.provider.abstract.provider import Provider
-from openbb_mmext.models.cftc import CommitmentOfTradersFetcher
+from openbb_providers.models.cftc import CommitmentOfTradersFetcher
 
 cftc_provider = Provider(
     name="cftc provider",
