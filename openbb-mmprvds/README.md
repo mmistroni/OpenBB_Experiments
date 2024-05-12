@@ -1,5 +1,9 @@
 # OpenBB CFTC Provider
 
+pytest-vcr
+pytest-http
+
+
 This extension integrates the CFTC data provider to extract commitment of traders
 
 the provider can be ran manually using openbb_providers's helper module like this

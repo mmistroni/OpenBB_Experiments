@@ -15,7 +15,7 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.plugins."openbb_provider_extension"]
-fmp = "openbb_providers:cftc_provider"
+cftc = "openbb_providers:cftc_provider"
 
 [tool.poetry.plugins."openbb_core_extension"]
 mmcftc = "openbb_providers.router:router"
