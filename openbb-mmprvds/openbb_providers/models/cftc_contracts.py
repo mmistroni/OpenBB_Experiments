@@ -8,7 +8,7 @@ from pydantic import Field
 import requests
 
 
-class CFTCContractsQueryParams(QueryParams):
+class CommitmentOfTradersReportListQueryParams(QueryParams):
     """
     Commitment of Traders report  list
 
@@ -16,7 +16,7 @@ class CFTCContractsQueryParams(QueryParams):
 
     """
 
-class CFTCContractsData(Data):
+class CommitmentOfTradersReportListData(Data):
     """
     This class hold data related to commitment of traders contracts
 
@@ -28,10 +28,10 @@ class CFTCContractsData(Data):
     short_name: str = Field(description="Contract s hort name.")
 
 
-class CFTCContractsFetcher(
+class CommitmentOfTradersReportFetcher(
     Fetcher[
-        CFTCContractsQueryParams,
-        List[CFTCContractsData],
+        CommitmentOfTradersReportListQueryParams,
+        List[CommitmentOfTradersReportListData],
     ]
 ):
     """Example Fetcher class.
@@ -40,17 +40,17 @@ class CFTCContractsFetcher(
     """
 
     @staticmethod
-    def transform_query(params: Dict[str, Any]) -> CFTCContractsQueryParams:
+    def transform_query(params: Dict[str, Any]) -> CommitmentOfTradersReportListQueryParams:
         """Define example transform_query.
 
         Here we can pre-process the query parameters and add any extra parameters that
         will be used inside the extract_data method.
         """
-        return CFTCContractsQueryParams(**params)
+        return CommitmentOfTradersReportListQueryParams(**params)
 
     @staticmethod
     def extract_data(
-        query: CFTCContractsQueryParams,
+        query: CommitmentOfTradersReportListQueryParams,
         credentials: Optional[Dict[str, str]],
         **kwargs: Any,
     ) -> List[dict]:
@@ -74,11 +74,11 @@ class CFTCContractsFetcher(
 
     @staticmethod
     def transform_data(
-        query: CFTCContractsQueryParams, data: List[dict], **kwargs: Any
-    ) -> List[CFTCContractsData]:
+        query: CommitmentOfTradersReportListQueryParams, data: List[dict], **kwargs: Any
+    ) -> List[CommitmentOfTradersReportListData]:
         """Define example transform_data.
 
         Right now, we're converting the data to fit our desired format.
         You can apply other transformations to it here.
         """
-        return [CFTCContractsData(**d) for d in data]
+        return [CommitmentOfTradersReportListData(**d) for d in data]

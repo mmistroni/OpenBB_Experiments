@@ -1,6 +1,6 @@
 """Pyth2 Fetchers tests."""
 import pytest
-from openbb_providers.models.cftc import CommitmentOfTradersFetcher, CommitmentOfTradersData
+from openbb_providers.models.cftc import CommitmentOfTradersAnalysisFetcher, CommitmentOfTradersAnalysisData
 from openbb_core.app.service.user_service import UserService
 import re
 import requests
@@ -33,7 +33,7 @@ def vcr_config():
 @pytest.mark.integration
 def test_cftc_fetcher(credentials=test_credentials):
     params = {"symbol": "VX", "limit": 5, "use_cache": False}
-    fetcher = CommitmentOfTradersFetcher()
+    fetcher = CommitmentOfTradersAnalysisFetcher()
     result = fetcher.test(params, credentials)
     assert result is None
 
@@ -46,7 +46,7 @@ def test_cftc_data():
                  'previousMarketSituation': 'Bullish', 'netPostion': 19315, 'previousNetPosition': 35733,
                  'changeInNetPosition': -45.95, 'marketSentiment': 'Increasing Bearish', 'reversalTrend': False}
 
-    ed = CommitmentOfTradersData(**test_dict)
+    ed = CommitmentOfTradersAnalysisData(**test_dict)
 
     assert ed.symbol == 'VX'
     assert ed.date == '2024-01-30 00:00:00'
@@ -62,14 +62,14 @@ def test_cftc_data():
 @pytest.mark.record_http
 def test_fetch_http_data_cftc(credentials=test_credentials):
     params = {"symbol": "VX", "limit": 5, "use_cache": False}
-    fetcher = CommitmentOfTradersFetcher()
+    fetcher = CommitmentOfTradersAnalysisFetcher()
     result = fetcher.test(params, credentials)
     assert result is None
 
 @pytest.mark.record_http
 def test_fetch_http_data_cftc_no_limits(credentials=test_credentials):
     params = {"symbol": "VX",  "use_cache": False}
-    fetcher = CommitmentOfTradersFetcher()
+    fetcher = CommitmentOfTradersAnalysisFetcher()
     result = fetcher.test(params, credentials)
     assert result is None
 

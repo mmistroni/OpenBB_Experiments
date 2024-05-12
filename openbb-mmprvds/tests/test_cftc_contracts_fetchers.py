@@ -1,6 +1,6 @@
 """Pyth2 Fetchers tests."""
 import pytest
-from openbb_providers.models.cftc_contracts import CFTCContractsData, CFTCContractsFetcher
+from openbb_providers.models.cftc_contracts import CommitmentOfTradersReportListData, CommitmentOfTradersReportFetcher
 from openbb_core.app.service.user_service import UserService
 import re
 import requests
@@ -33,7 +33,7 @@ def vcr_config():
 @pytest.mark.integration
 def test_cftc_fetcher(credentials=test_credentials):
     params = { "use_cache": False}
-    fetcher = CFTCContractsFetcher()
+    fetcher = CommitmentOfTradersReportFetcher()
     result = fetcher.test(params, credentials)
     assert result is None
 
@@ -44,7 +44,7 @@ def test_cftc_data():
                     "short_name": "Natural Gas (NG)"
     }
 
-    cdata = CFTCContractsData(**test_dict)
+    cdata = CommitmentOfTradersReportListData(**test_dict)
 
     assert cdata.symbol == 'NG'
     assert cdata.short_name == "Natural Gas (NG)"
@@ -52,7 +52,7 @@ def test_cftc_data():
 @pytest.mark.record_http
 def test_fetch_http_data_cftc_contracts(credentials=test_credentials):
     params = {"symbol": "VX", "limit": 5, "use_cache": False}
-    fetcher = CFTCContractsFetcher()
+    fetcher = CommitmentOfTradersReportFetcher()
     result = fetcher.test(params, credentials)
     assert result is None
 

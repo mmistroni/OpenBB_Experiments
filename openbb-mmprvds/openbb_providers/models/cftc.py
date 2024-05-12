@@ -10,7 +10,7 @@ import logging
 import requests
 
 
-class CommitmentOfTradersQueryParams(QueryParams):
+class CommitmentOfTradersAnalysisQueryParams(QueryParams):
     """
     FMP Query Parameters for commitment of traders analysis
 
@@ -22,7 +22,7 @@ class CommitmentOfTradersQueryParams(QueryParams):
     limit: Optional[int] = Field(description="Number of commitment of traders to download", default=1)
 
 
-class CommitmentOfTradersData(Data):
+class CommitmentOfTradersAnalysisData(Data):
     """Sample provider data for commitment of traders.
 
     """
@@ -39,10 +39,10 @@ class CommitmentOfTradersData(Data):
     reversal_trend: bool = Field(description="flag indicating if there is a trend reversal in this contract", alias="reversalTrend")
 
 
-class CommitmentOfTradersFetcher(
+class CommitmentOfTradersAnalysisFetcher(
     Fetcher[
-        CommitmentOfTradersQueryParams,
-        List[CommitmentOfTradersData],
+        CommitmentOfTradersAnalysisQueryParams,
+        List[CommitmentOfTradersAnalysisData],
     ]
 ):
     """ FMP Commitment of Traders Fetcher class.
@@ -50,17 +50,17 @@ class CommitmentOfTradersFetcher(
     This class is responsible for the actual data retrieval.
     """
     @staticmethod
-    def transform_query(params: Dict[str, Any]) -> CommitmentOfTradersQueryParams:
+    def transform_query(params: Dict[str, Any]) -> CommitmentOfTradersAnalysisQueryParams:
         """Define example transform_query.
 
         Here we can pre-process the query parameters and add any extra parameters that
         will be used inside the extract_data method.
         """
-        return CommitmentOfTradersQueryParams(**params)
+        return CommitmentOfTradersAnalysisQueryParams(**params)
 
     @staticmethod
     def extract_data(
-        query: CommitmentOfTradersQueryParams,
+        query: CommitmentOfTradersAnalysisQueryParams,
         credentials: Optional[Dict[str, str]],
         **kwargs: Any,
     ) -> List[dict]:
@@ -91,11 +91,11 @@ class CommitmentOfTradersFetcher(
 
     @staticmethod
     def transform_data(
-        query: CommitmentOfTradersQueryParams, data: List[dict], **kwargs: Any
-    ) -> List[CommitmentOfTradersData]:
+        query: CommitmentOfTradersAnalysisQueryParams, data: List[dict], **kwargs: Any
+    ) -> List[CommitmentOfTradersAnalysisData]:
         """Define example transform_data.
 
         Right now, we're converting the data to fit our desired format.
         You can apply other transformations to it here.
         """
-        return [CommitmentOfTradersData(**d) for d in data]
+        return [CommitmentOfTradersAnalysisData(**d) for d in data]
