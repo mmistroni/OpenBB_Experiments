@@ -8,7 +8,7 @@ from pydantic import Field
 import requests
 
 
-class CommitmentOfTradersQueryParams(QueryParams):
+class ExampleQueryParams(QueryParams):
     """Example provider query.
 
     This is the definition of our query parameters that are specific to this provider.
@@ -17,11 +17,11 @@ class CommitmentOfTradersQueryParams(QueryParams):
     """
 
     symbol: str = Field(description="Symbol to query.")
-    limit: Optional[int] = Field(description="Number of commitment of traders to download", default=1)
+    limit: Optional[int] = Field(description="Optional limit on observations.By default is set to 100", default=100)
 
 
-class CommitmentOfTradersData(Data):
-    """Sample provider data for fething Commitment of traders data.
+class ExampleData(Data):
+    """Sample provider data.
 
     The fields are displayed as-is in the output of the command. In this case, its the
     symbol, date and marketCap.
@@ -29,20 +29,13 @@ class CommitmentOfTradersData(Data):
 
     symbol: str = Field(description="Ticker.")
     date: str = Field(description="As Of Date.")
-    name: str = Field(description="Name of Future.")
-    current_long_market_situation : float = Field(description="Current Week Long Contracts.", alias="currentLongMarketSituation")
-    current_short_market_situation: float = Field(description="Current Week Short Contracts.", alias="currentShortMarketSituation")
-    previous_long_market_situation: float = Field(description="Previous Week Long Contracts.", alias="previousLongMarketSituation")
-    previous_short_market_situation: float = Field(description="Previous Week Short Contracts.", alias="previousShortMarketSituation")
-    contract_sentiment: str = Field(description="Current Market Sentiment for the Contract", alias="marketSituation")
-    previous_contract_sentiment: str = Field(description="Previous Market Sentiment for the Contract", alias="previousMarketSituation")
-    reversal_trend: bool = Field(description="flag indicating if there is a trend reversal in this contract", alias="reversalTrend")
+    marketCap: float = Field(description="Market Cap.")
 
 
-class CommitmentOfTradersFetcher(
+class ExampleFetcher(
     Fetcher[
-        CommitmentOfTradersQueryParams,
-        List[CommitmentOfTradersData],
+        ExampleQueryParams,
+        List[ExampleData],
     ]
 ):
     """Example Fetcher class.
@@ -51,17 +44,17 @@ class CommitmentOfTradersFetcher(
     """
 
     @staticmethod
-    def transform_query(params: Dict[str, Any]) -> CommitmentOfTradersQueryParams:
+    def transform_query(params: Dict[str, Any]) -> ExampleQueryParams:
         """Define example transform_query.
 
         Here we can pre-process the query parameters and add any extra parameters that
         will be used inside the extract_data method.
         """
-        return CommitmentOfTradersQueryParams(**params)
+        return ExampleQueryParams(**params)
 
     @staticmethod
     def extract_data(
-        query: CommitmentOfTradersQueryParams,
+        query: ExampleQueryParams,
         credentials: Optional[Dict[str, str]],
         **kwargs: Any,
     ) -> List[dict]:
@@ -77,23 +70,22 @@ class CommitmentOfTradersFetcher(
         )
 
         symbol = query.symbol
-        limit = query.limit or 1
+        limit = query.limit or 100
 
-        base_url = f'https://financialmodelingprep.com/api/v4/commitment_of_traders_report_analysis/{symbol}?apikey={api_key}'
+        base_url = f'https://financialmodelingprep.com/api/v3/historical-market-capitalization/{symbol}?limit={limit}&apikey={api_key}'
 
         # Here we mock an example_response for brevity.
-        example_response = requests.get(base_url).json()[0:limit]
+        example_response = requests.get(base_url).json()
 
         return example_response
 
-
     @staticmethod
     def transform_data(
-        query: CommitmentOfTradersQueryParams, data: List[dict], **kwargs: Any
-    ) -> List[CommitmentOfTradersData]:
+        query: ExampleQueryParams, data: List[dict], **kwargs: Any
+    ) -> List[ExampleData]:
         """Define example transform_data.
 
         Right now, we're converting the data to fit our desired format.
         You can apply other transformations to it here.
         """
-        return [CommitmentOfTradersData(**d) for d in data]
+        return [ExampleData(**d) for d in data]
