@@ -2,6 +2,8 @@
 
 pytest-vcr
 pytest-http
+wrapt
+aiohttp_client_cache
 
 
 This extension integrates the CFTC data provider to extract commitment of traders
