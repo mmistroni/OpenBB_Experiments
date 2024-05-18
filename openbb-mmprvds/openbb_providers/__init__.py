@@ -17,6 +17,7 @@ cftc_provider = Provider(
 )
 
 
+
 fmp_provider.fetcher_dict.update({
         "CommitmentOfTradersAnalysis": CommitmentOfTradersAnalysisFetcher,
         "CommitmentOfTradersReport": CommitmentOfTradersReportFetcher})
