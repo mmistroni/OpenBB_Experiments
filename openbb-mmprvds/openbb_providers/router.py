@@ -6,7 +6,7 @@ from openbb_core.app.provider_interface import (ExtraParams, ProviderChoices,
 from openbb_core.app.query import Query
 from openbb_core.app.router import Router
 from pydantic import BaseModel
-from openbb_mmext.utils.helpers import get_nymo, get_nysi
+
 
 router = Router(prefix="")
 
@@ -15,7 +15,7 @@ router = Router(prefix="")
 def xot() -> OBBject[dict]:
     return OBBject(results = {'foo' : 'bar'})
 
-@router.command(model="CommitmentOfTradersList")
+@router.command(model="CommitmentOfTradersReport")
 async def cot_list(
     cc: CommandContext,
     provider_choices: ProviderChoices,

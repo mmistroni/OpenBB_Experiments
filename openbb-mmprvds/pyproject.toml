@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "openbb-providers"
-version = "1.0.82"
+version = "1.0.84"
 description = "Pyth Extension to fetch commitment of traders data"
 authors = ["OpenBB <hello@openbb.co>"]
 readme = "README.md"
