@@ -1,0 +1,268 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+    method: GET
+    uri: https://seekingalpha.com/feed/dividends/editors-picks
+  response:
+    body:
+      string: "<?xml version=\"1.0\"?>\n<rss version=\"2.0\">\n  <channel>\n    <title>Articles
+        on Seeking Alpha</title>\n    <link>https://seekingalpha.com/dividends/editors-picks</link>\n
+        \   <description>&#xA9; seekingalpha.com. Use of this feed is limited to personal,
+        non-commercial use and is governed by Seeking Alpha's Terms of Use (https://about.seekingalpha.com/terms).
+        Publishing this feed for public or commercial use and/or misrepresentation
+        by a third party is prohibited.</description>\n    <item>\n      <title>Citizens
+        Community: An Undervalued Dividend Growth Stock</title>\n      <link>https://seekingalpha.com/article/4693898-citizens-community-an-undervalued-dividend-growth-stock?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/CZWI\">CZWI</category>\n
+        \     <pubDate>Thu, 16 May 2024 12:54:46 -0400</pubDate>\n      <guid>https://seekingalpha.com/article/4693898-citizens-community-an-undervalued-dividend-growth-stock?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>Hasbro: Fairly Priced As Turnaround
+        Game Plan Is Playing Out</title>\n      <link>https://seekingalpha.com/article/4692181-hasbro-fairly-priced-as-turnaround-game-plan-is-playing-out?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/HAS\">HAS</category>\n
+        \     <pubDate>Sat, 11 May 2024 07:57:11 -0400</pubDate>\n      <guid>https://seekingalpha.com/article/4692181-hasbro-fairly-priced-as-turnaround-game-plan-is-playing-out?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>Archrock Will Be An Industry Leader
+        In Natural Gas Compression</title>\n      <link>https://seekingalpha.com/article/4691436-archrock-will-be-an-industry-leader-in-natural-gas-compression?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/KGS\">KGS</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/USAC\">USAC</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/AROC\">AROC</category>\n
+        \     <pubDate>Thu, 09 May 2024 15:41:14 -0400</pubDate>\n      <guid>https://seekingalpha.com/article/4691436-archrock-will-be-an-industry-leader-in-natural-gas-compression?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>TD Bank's Fentanyl Probe: Assessing
+        The Damage</title>\n      <link>https://seekingalpha.com/article/4689330-td-banks-fentanyl-probe-assessing-the-damage?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/FHN\">FHN</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/WFC\">WFC</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/JPM\">JPM</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/BAC\">BAC</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/TD\">TD</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/TD:CA\">TD:CA</category>\n
+        \     <pubDate>Fri, 03 May 2024 19:46:45 -0400</pubDate>\n      <guid>https://seekingalpha.com/article/4689330-td-banks-fentanyl-probe-assessing-the-damage?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>Equity Residential: Management Hints
+        At Attractive Entry Price For The Stock</title>\n      <link>https://seekingalpha.com/article/4688367-equity-residential-management-hints-at-attractive-entry-price-for-the-stock?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/EQR\">EQR</category>\n
+        \     <pubDate>Thu, 02 May 2024 03:14:12 -0400</pubDate>\n      <guid>https://seekingalpha.com/article/4688367-equity-residential-management-hints-at-attractive-entry-price-for-the-stock?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>Civista Bancshares Has An Attractive
+        Dividend With Significant Upside</title>\n      <link>https://seekingalpha.com/article/4687231-civista-bancshares-has-an-attractive-dividend-with-significant-upside?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/CIVB\">CIVB</category>\n
+        \     <pubDate>Mon, 29 Apr 2024 12:27:31 -0400</pubDate>\n      <guid>https://seekingalpha.com/article/4687231-civista-bancshares-has-an-attractive-dividend-with-significant-upside?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>Coca-Cola Dividend Valuation: 2014 Vs.
+        2024 (Dividend Aristocrat)</title>\n      <link>https://seekingalpha.com/article/4683700-coca-cola-dividend-valuation-2014-vs-2024-dividend-aristocrat?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/KO\">KO</category>\n
+        \     <pubDate>Sun, 14 Apr 2024 12:20:07 -0400</pubDate>\n      <guid>https://seekingalpha.com/article/4683700-coca-cola-dividend-valuation-2014-vs-2024-dividend-aristocrat?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>SCHD: My Bet On Value's Inflection Point</title>\n
+        \     <link>https://seekingalpha.com/article/4682453-schd-my-bet-on-values-inflection-point?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/SCHD\">SCHD</category>\n
+        \     <pubDate>Sat, 06 Apr 2024 01:30:10 -0400</pubDate>\n      <guid>https://seekingalpha.com/article/4682453-schd-my-bet-on-values-inflection-point?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>Hercules Capital: Trades At A Premium
+        For A Reason (Rating Upgrade)</title>\n      <link>https://seekingalpha.com/article/4681263-hercules-capital-trades-at-a-premium-for-a-reason-rating-upgrade?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/PSEC\">PSEC</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/TRIN\">TRIN</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/ARCC\">ARCC</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/MAIN\">MAIN</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/HTGC\">HTGC</category>\n
+        \     <pubDate>Sat, 30 Mar 2024 00:28:32 -0400</pubDate>\n      <guid>https://seekingalpha.com/article/4681263-hercules-capital-trades-at-a-premium-for-a-reason-rating-upgrade?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>Dividends Don't Lie</title>\n      <link>https://seekingalpha.com/article/4681180-dividends-dont-lie?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <pubDate>Fri, 29 Mar 2024 01:46:52 -0400</pubDate>\n      <guid>https://seekingalpha.com/article/4681180-dividends-dont-lie?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>Ventas: The Silver Tsunami Vs. A Decade
+        Of Underperformance</title>\n      <link>https://seekingalpha.com/article/4680792-ventas-silver-tsunami-vs-decade-of-underperformance?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/WELL\">WELL</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/OHI\">OHI</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/VNQ\">VNQ</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/VTR\">VTR</category>\n
+        \     <pubDate>Wed, 27 Mar 2024 14:27:17 -0400</pubDate>\n      <guid>https://seekingalpha.com/article/4680792-ventas-silver-tsunami-vs-decade-of-underperformance?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>Alpine Income Property Trust: Downgraded
+        To Market Perform</title>\n      <link>https://seekingalpha.com/article/4678663-alpine-income-property-trust-downgraded-to-market-perform?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/PINE\">PINE</category>\n
+        \     <pubDate>Sat, 16 Mar 2024 07:16:44 -0400</pubDate>\n      <guid>https://seekingalpha.com/article/4678663-alpine-income-property-trust-downgraded-to-market-perform?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>Innovative Industrial Properties: Will
+        It Have You Rolling In The Green?</title>\n      <link>https://seekingalpha.com/article/4677141-innovative-industrial-properties-will-it-have-you-rolling-in-the-green?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/PW\">PW</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/PW.PR.A\">PW.PR.A</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/IIPR\">IIPR</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/IIPR.PR.A\">IIPR.PR.A</category>\n
+        \     <pubDate>Sat, 09 Mar 2024 01:58:11 -0500</pubDate>\n      <guid>https://seekingalpha.com/article/4677141-innovative-industrial-properties-will-it-have-you-rolling-in-the-green?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>TriplePoint Venture Growth: Dividend
+        Cut Looks 2 Quarters Away</title>\n      <link>https://seekingalpha.com/article/4676612-triplepoint-venture-growth-dividend-cut-looks-two-quarters-away?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/TPVG\">TPVG</category>\n
+        \     <pubDate>Thu, 07 Mar 2024 10:51:40 -0500</pubDate>\n      <guid>https://seekingalpha.com/article/4676612-triplepoint-venture-growth-dividend-cut-looks-two-quarters-away?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>Healthcare Realty Trust: Prognosis Guarded</title>\n
+        \     <link>https://seekingalpha.com/article/4675675-healthcare-realty-trust-prognosis-guarded?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/DOC\">DOC</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/DOC\">DOC</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/VTR\">VTR</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/WELL\">WELL</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/HR\">HR</category>\n
+        \     <pubDate>Mon, 04 Mar 2024 09:00:00 -0500</pubDate>\n      <guid>https://seekingalpha.com/article/4675675-healthcare-realty-trust-prognosis-guarded?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>Prologis: Too Expensive At Current Interest
+        Rates</title>\n      <link>https://seekingalpha.com/article/4673168-prologis-too-expensive-at-current-interest-rates?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/PLD\">PLD</category>\n
+        \     <pubDate>Sat, 24 Feb 2024 06:29:55 -0500</pubDate>\n      <guid>https://seekingalpha.com/article/4673168-prologis-too-expensive-at-current-interest-rates?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>2024 Real Estate Supply Report</title>\n
+        \     <link>https://seekingalpha.com/article/4669763-2024-real-estate-supply-report?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/CPT\">CPT</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/PLD\">PLD</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/ARE\">ARE</category>\n
+        \     <pubDate>Tue, 13 Feb 2024 11:05:46 -0500</pubDate>\n      <guid>https://seekingalpha.com/article/4669763-2024-real-estate-supply-report?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>NNN REIT Q4: A Wonderful REIT At A Great
+        Price</title>\n      <link>https://seekingalpha.com/article/4669280-nnn-reit-q4-a-wonderful-reit-at-a-great-price?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/O\">O</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/ADC\">ADC</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/DEA\">DEA</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/FRT\">FRT</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/BRX\">BRX</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/NNN\">NNN</category>\n
+        \     <pubDate>Mon, 12 Feb 2024 07:00:00 -0500</pubDate>\n      <guid>https://seekingalpha.com/article/4669280-nnn-reit-q4-a-wonderful-reit-at-a-great-price?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>Omega Flex: Becoming More Appealing,
+        But Valuation Still Relatively High</title>\n      <link>https://seekingalpha.com/article/4664196-omega-flex-more-appealing-valuation-relatively-high?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/OFLX\">OFLX</category>\n
+        \     <pubDate>Mon, 22 Jan 2024 11:59:46 -0500</pubDate>\n      <guid>https://seekingalpha.com/article/4664196-omega-flex-more-appealing-valuation-relatively-high?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>Code Red Alert: 5 Lessons Office REIT
+        Investors Can Learn From Malls</title>\n      <link>https://seekingalpha.com/article/4662583-code-red-alert-5-lessons-office-reit-investors-can-learn-from-malls?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/KRC\">KRC</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/WRBY\">WRBY</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/SPG\">SPG</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/SKT\">SKT</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/KIM\">KIM</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/MAC\">MAC</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/IP\">IP</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/OPI\">OPI</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/KRG\">KRG</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/BXP\">BXP</category>\n
+        \     <pubDate>Fri, 12 Jan 2024 15:08:23 -0500</pubDate>\n      <guid>https://seekingalpha.com/article/4662583-code-red-alert-5-lessons-office-reit-investors-can-learn-from-malls?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>My Top 3 YARP Stocks Right Now (Yield
+        At A Reasonable Price)</title>\n      <link>https://seekingalpha.com/article/4662153-my-top-3-yarp-stocks-right-now-yield-at-a-reasonable-price?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/IP\">IP</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/ETR\">ETR</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/GILD\">GILD</category>\n
+        \     <pubDate>Wed, 10 Jan 2024 10:58:13 -0500</pubDate>\n      <guid>https://seekingalpha.com/article/4662153-my-top-3-yarp-stocks-right-now-yield-at-a-reasonable-price?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>Equinix Is Expensive, But Worth It</title>\n
+        \     <link>https://seekingalpha.com/article/4662031-equinix-is-expensive-but-worth-it?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/DLR\">DLR</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/EQIX\">EQIX</category>\n
+        \     <pubDate>Tue, 09 Jan 2024 18:38:18 -0500</pubDate>\n      <guid>https://seekingalpha.com/article/4662031-equinix-is-expensive-but-worth-it?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>Nexus Industrial REIT: A Compelling
+        Blend Of Robust Growth And Strong Yield</title>\n      <link>https://seekingalpha.com/article/4661675-nexus-industrial-reit-compelling-blend-robust-growth-strong-yield?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/DREUF\">DREUF</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/GRP.UN\">GRP.UN</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/DIR.UN:CA\">DIR.UN:CA</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/GRT.UN:CA\">GRT.UN:CA</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/EFRTF\">EFRTF</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/NXR.UN:CA\">NXR.UN:CA</category>\n
+        \     <pubDate>Mon, 08 Jan 2024 08:18:12 -0500</pubDate>\n      <guid>https://seekingalpha.com/article/4661675-nexus-industrial-reit-compelling-blend-robust-growth-strong-yield?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>BlackRock TCP Capital: Potential To
+        Be A Major Player In The BDC Space Post-Merger?</title>\n      <link>https://seekingalpha.com/article/4661442-blackrock-tcp-capital-potential-to-be-a-major-player-in-the-bdc-space-post-merger?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/BIZD\">BIZD</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/BLK\">BLK</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/CSWC\">CSWC</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/BKCC\">BKCC</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/MAIN\">MAIN</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/ARCC\">ARCC</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/SLRC\">SLRC</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/TCPC\">TCPC</category>\n
+        \     <pubDate>Mon, 08 Jan 2024 07:00:00 -0500</pubDate>\n      <guid>https://seekingalpha.com/article/4661442-blackrock-tcp-capital-potential-to-be-a-major-player-in-the-bdc-space-post-merger?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>Texas Instruments May Not Look Cheap,
+        But Its Future Looks Bright</title>\n      <link>https://seekingalpha.com/article/4660978-texas-instruments-may-not-look-cheap-but-its-future-looks-bright?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/TXN\">TXN</category>\n
+        \     <pubDate>Wed, 03 Jan 2024 11:35:18 -0500</pubDate>\n      <guid>https://seekingalpha.com/article/4660978-texas-instruments-may-not-look-cheap-but-its-future-looks-bright?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>The Hershey Company: A Sweet Dividend
+        Growth Stock Anticipating 2024 Deflation</title>\n      <link>https://seekingalpha.com/article/4659318-hershey-company-sweet-dividend-growth-stock-anticipating-2024-deflation?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/HSY\">HSY</category>\n
+        \     <pubDate>Sat, 23 Dec 2023 00:11:22 -0500</pubDate>\n      <guid>https://seekingalpha.com/article/4659318-hershey-company-sweet-dividend-growth-stock-anticipating-2024-deflation?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>Canadian REITs Are Getting Interesting</title>\n
+        \     <link>https://seekingalpha.com/article/4658516-canadian-reits-are-getting-interesting?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/PLD\">PLD</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/MHCUF\">MHCUF</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/BSRTF\">BSRTF</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/SRRTF\">SRRTF</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/TCN\">TCN</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/HOM.U:CA\">HOM.U:CA</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/HOM.UN:CA\">HOM.UN:CA</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/MHC.U:CA\">MHC.U:CA</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/MHC.UN:CA\">MHC.UN:CA</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/SGR.U:CA\">SGR.U:CA</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/SGR.UN:CA\">SGR.UN:CA</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/TCN:CA\">TCN:CA</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/CAR.UN:CA\">CAR.UN:CA</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/VNQ\">VNQ</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/IUSPF\">IUSPF</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/RWR\">RWR</category>\n
+        \     <pubDate>Mon, 18 Dec 2023 16:39:57 -0500</pubDate>\n      <guid>https://seekingalpha.com/article/4658516-canadian-reits-are-getting-interesting?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>Exxon Mobil Is Approaching A 4% Yield
+        And Looks Undervalued</title>\n      <link>https://seekingalpha.com/article/4657545-exxon-mobil-is-approaching-a-4-percent-yield-and-looks-undervalued?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/XOM\">XOM</category>\n
+        \     <pubDate>Wed, 13 Dec 2023 09:00:00 -0500</pubDate>\n      <guid>https://seekingalpha.com/article/4657545-exxon-mobil-is-approaching-a-4-percent-yield-and-looks-undervalued?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>Disney: No, The Dividend Doesn't Matter</title>\n
+        \     <link>https://seekingalpha.com/article/4656844-disney-no-the-dividend-doesnt-matter?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/NFLX\">NFLX</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/CMCSA\">CMCSA</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/DIS\">DIS</category>\n
+        \     <pubDate>Fri, 08 Dec 2023 10:34:26 -0500</pubDate>\n      <guid>https://seekingalpha.com/article/4656844-disney-no-the-dividend-doesnt-matter?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>I Am Riding The Medical Properties Trust
+        Bounce (Technical Analysis)</title>\n      <link>https://seekingalpha.com/article/4655907-i-am-riding-the-medical-properties-trust-bounce-technical-analysis?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/MPW\">MPW</category>\n
+        \     <pubDate>Mon, 04 Dec 2023 18:49:47 -0500</pubDate>\n      <guid>https://seekingalpha.com/article/4655907-i-am-riding-the-medical-properties-trust-bounce-technical-analysis?utm_source=feed_articles_dividends_editors_picks&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n  </channel>\n</rss>\n\n\n"
+    headers:
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '294'
+      Allow:
+      - GET, POST, HEAD, PUT, PATCH, DELETE, OPTIONS
+      Cache-Control:
+      - max-age=0, public
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '4176'
+      Content-Security-Policy:
+      - 'default-src https: wss: data: blob: ''unsafe-inline'' ''unsafe-eval''; report-uri
+        https://seekingalpha.com/report/csp'
+      Content-Type:
+      - application/xml; charset=utf-8
+      Date:
+      - Sun, 19 May 2024 09:05:30 GMT
+      ETag:
+      - W/"5ffb25641a57a082b2dd688adef3de60"
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubDomains; preload
+      Vary:
+      - User-Agent, Accept-Encoding
+      X-Cache:
+      - HIT, MISS
+      X-Cache-Hits:
+      - 9, 0
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-Id:
+      - qcklCzZqAiav0YeN
+      X-Runtime:
+      - '0.081675'
+      X-Served-By:
+      - cache-bfi-krnt7300110-BFI, cache-lon420118-LON
+      X-Timer:
+      - S1716109530.477577,VS0,VE135
+      X-XSS-Protection:
+      - '0'
+      alt-svc:
+      - h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+      set-cookie:
+      - machine_cookie=3061967836423; expires=Sat, 19 May 2029 09:05:30 GMT; path=/;
+      - machine_cookie_ts=1716109530; expires=Sat, 19 May 2029 09:05:30 GMT; path=/;
+    status:
+      code: 200
+      message: OK
+version: 1

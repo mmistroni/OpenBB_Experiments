@@ -1,6 +1,6 @@
 """Pyth2 Fetchers tests."""
 import pytest
-from openbb_providers.models.cftc_contracts import CommitmentOfTradersReportListData, CommitmentOfTradersReportFetcher
+from openbb_providers.models.fmp_marketcap import FMPMarketCapData, FMPMarketCapDataFetcher
 from openbb_core.app.service.user_service import UserService
 import re
 import requests
@@ -30,25 +30,28 @@ def vcr_config():
     }
 
 #
-def test_cftc_data():
-
-    test_dict = {
-                    "trading_symbol": "NG",
-                    "short_name": "Natural Gas (NG)"
-    }
-
-    cdata = CommitmentOfTradersReportListData(**test_dict)
-
-    assert cdata.symbol == 'NG'
-    assert cdata.short_name == "Natural Gas (NG)"
-
-@pytest.mark.record_http
-def test_fetch_http_data_cftc_contracts(credentials=test_credentials):
-    params = {"symbol": "VX", "limit": 5, "use_cache": False}
-    fetcher = CommitmentOfTradersReportFetcher()
+@pytest.mark.vcr()
+def test_fmp_marketcap_fetcher_no_limit(credentials=test_credentials):
+    params = {"symbol": "AAPL", "use_cache": False}
+    fetcher = FMPMarketCapDataFetcher()
     result = fetcher.test(params, credentials)
     assert result is None
 
+@pytest.mark.vcr()
+def test_fmp_marketcap_fetcher_with_limit(credentials=test_credentials):
+    params = {"symbol": "AAPL", "limit" : 50, "use_cache": False}
+    fetcher = FMPMarketCapDataFetcher()
+    result = fetcher.test(params, credentials)
+    assert result is None
 
+def test_fmp_data():
 
+    test_dict = {'date': '2024-01-30 00:00:00', 'symbol': 'AAPL',
+                 'marketCap': 12345}
+
+    mc = FMPMarketCapData(**test_dict)
+
+    assert mc.symbol == test_dict['symbol']
+    assert mc.date == test_dict['date']
+    assert mc.marketcap == test_dict['marketCap']
 

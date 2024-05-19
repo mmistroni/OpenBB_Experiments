@@ -29,13 +29,6 @@ def vcr_config():
         "before_record_response": response_filter,
     }
 
-#
-@pytest.mark.integration
-def test_cftc_fetcher(credentials=test_credentials):
-    params = {"symbol": "VX", "limit": 5, "use_cache": False}
-    fetcher = CommitmentOfTradersAnalysisFetcher()
-    result = fetcher.test(params, credentials)
-    assert result is None
 
 def test_cftc_data():
 

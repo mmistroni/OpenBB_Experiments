@@ -1,0 +1,326 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+    method: GET
+    uri: https://financialmodelingprep.com/api/v3/historical-market-capitalization/AAPL?apikey=MOCK_API_KEY&limit=220
+  response:
+    body:
+      string: "[\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2024-05-17\",\n
+        \   \"marketCap\": 2925109878720\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\":
+        \"2024-05-16\",\n    \"marketCap\": 2924647703040\n  },\n  {\n    \"symbol\":
+        \"AAPL\",\n    \"date\": \"2024-05-15\",\n    \"marketCap\": 2922799000320\n
+        \ },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2024-05-14\",\n    \"marketCap\":
+        2887519590080\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2024-05-13\",\n
+        \   \"marketCap\": 2869802855680\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\":
+        \"2024-05-10\",\n    \"marketCap\": 2820041940800\n  },\n  {\n    \"symbol\":
+        \"AAPL\",\n    \"date\": \"2024-05-09\",\n    \"marketCap\": 2843458841920\n
+        \ },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2024-05-08\",\n    \"marketCap\":
+        2815266125440\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2024-05-07\",\n
+        \   \"marketCap\": 2810028134400\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\":
+        \"2024-05-06\",\n    \"marketCap\": 2799398093760\n  },\n  {\n    \"symbol\":
+        \"AAPL\",\n    \"date\": \"2024-05-03\",\n    \"marketCap\": 2825125873280\n
+        \ },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2024-05-02\",\n    \"marketCap\":
+        2665675263680\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2024-05-01\",\n
+        \   \"marketCap\": 2608211420800\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\":
+        \"2024-04-30\",\n    \"marketCap\": 2624079452480\n  },\n  {\n    \"symbol\":
+        \"AAPL\",\n    \"date\": \"2024-04-29\",\n    \"marketCap\": 2672916016000\n
+        \ },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2024-04-26\",\n    \"marketCap\":
+        2608211420800\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2024-04-25\",\n
+        \   \"marketCap\": 2617300875840\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\":
+        \"2024-04-24\",\n    \"marketCap\": 2603897781120\n  },\n  {\n    \"symbol\":
+        \"AAPL\",\n    \"date\": \"2024-04-23\",\n    \"marketCap\": 2571237366400\n
+        \ },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2024-04-22\",\n    \"marketCap\":
+        2554907159040\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2024-04-19\",\n
+        \   \"marketCap\": 2541966240000\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\":
+        \"2024-04-18\",\n    \"marketCap\": 2573394186240\n  },\n  {\n    \"symbol\":
+        \"AAPL\",\n    \"date\": \"2024-04-17\",\n    \"marketCap\": 2588183808000\n
+        \ },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2024-04-16\",\n    \"marketCap\":
+        2609443889280\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2024-04-15\",\n
+        \   \"marketCap\": 2660437272640\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\":
+        \"2024-04-12\",\n    \"marketCap\": 2719903876800\n  },\n  {\n    \"symbol\":
+        \"AAPL\",\n    \"date\": \"2024-04-11\",\n    \"marketCap\": 2696641034240\n
+        \ },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2024-04-10\",\n    \"marketCap\":
+        2584794519680\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2024-04-09\",\n
+        \   \"marketCap\": 2613911587520\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\":
+        \"2024-04-08\",\n    \"marketCap\": 2595116443200\n  },\n  {\n    \"symbol\":
+        \"AAPL\",\n    \"date\": \"2024-04-05\",\n    \"marketCap\": 2612525060480\n
+        \ },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2024-04-04\",\n    \"marketCap\":
+        2600816609920\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2024-04-03\",\n
+        \   \"marketCap\": 2613603470400\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\":
+        \"2024-04-02\",\n    \"marketCap\": 2601124727040\n  },\n  {\n    \"symbol\":
+        \"AAPL\",\n    \"date\": \"2024-04-01\",\n    \"marketCap\": 2619457695680\n
+        \ },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2024-03-28\",\n    \"marketCap\":
+        2641796186880\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2024-03-27\",\n
+        \   \"marketCap\": 2669988903360\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\":
+        \"2024-03-26\",\n    \"marketCap\": 2614527821760\n  },\n  {\n    \"symbol\":
+        \"AAPL\",\n    \"date\": \"2024-03-25\",\n    \"marketCap\": 2632090497600\n
+        \ },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2024-03-22\",\n    \"marketCap\":
+        2654120871680\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2024-03-21\",\n
+        \   \"marketCap\": 2640101542720\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\":
+        \"2024-03-20\",\n    \"marketCap\": 2752564291520\n  },\n  {\n    \"symbol\":
+        \"AAPL\",\n    \"date\": \"2024-03-19\",\n    \"marketCap\": 2712663124480\n
+        \ },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2024-03-18\",\n    \"marketCap\":
+        2676305304320\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2024-03-15\",\n
+        \   \"marketCap\": 2659358862720\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\":
+        \"2024-03-14\",\n    \"marketCap\": 2665213088000\n  },\n  {\n    \"symbol\":
+        \"AAPL\",\n    \"date\": \"2024-03-13\",\n    \"marketCap\": 2636404137280\n
+        \ },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2024-03-12\",\n    \"marketCap\":
+        2668756434880\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2024-03-11\",\n
+        \   \"marketCap\": 2661361624000\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\":
+        \"2024-03-08\",\n    \"marketCap\": 2630241794880\n  },\n  {\n    \"symbol\":
+        \"AAPL\",\n    \"date\": \"2024-03-07\",\n    \"marketCap\": 2603589664000\n
+        \ },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2024-03-06\",\n    \"marketCap\":
+        2605438366720\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2024-03-05\",\n
+        \   \"marketCap\": 2620844222720\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\":
+        \"2024-03-04\",\n    \"marketCap\": 2697565385600\n  },\n  {\n    \"symbol\":
+        \"AAPL\",\n    \"date\": \"2024-03-01\",\n    \"marketCap\": 2767816088960\n
+        \ },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2024-02-29\",\n    \"marketCap\":
+        2784608472000\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2024-02-28\",\n
+        \   \"marketCap\": 2794930395520\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\":
+        \"2024-02-27\",\n    \"marketCap\": 2813571481280\n  },\n  {\n    \"symbol\":
+        \"AAPL\",\n    \"date\": \"2024-02-26\",\n    \"marketCap\": 2790924872960\n
+        \ },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2024-02-23\",\n    \"marketCap\":
+        2811876837120\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2024-02-22\",\n
+        \   \"marketCap\": 2840377670720\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\":
+        \"2024-02-21\",\n    \"marketCap\": 2808795665920\n  },\n  {\n    \"symbol\":
+        \"AAPL\",\n    \"date\": \"2024-02-20\",\n    \"marketCap\": 2797087215360\n
+        \ },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2024-02-16\",\n    \"marketCap\":
+        2808641607360\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2024-02-15\",\n
+        \   \"marketCap\": 2832520684160\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\":
+        \"2024-02-14\",\n    \"marketCap\": 2836988382400\n  },\n  {\n    \"symbol\":
+        \"AAPL\",\n    \"date\": \"2024-02-13\",\n    \"marketCap\": 2850699594240\n
+        \ },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2024-02-12\",\n    \"marketCap\":
+        2883205950400\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2024-02-09\",\n
+        \   \"marketCap\": 2909395905600\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\":
+        \"2024-02-08\",\n    \"marketCap\": 2901230801920\n  },\n  {\n    \"symbol\":
+        \"AAPL\",\n    \"date\": \"2024-02-07\",\n    \"marketCap\": 2918023184960\n
+        \ },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2024-02-06\",\n    \"marketCap\":
+        2916328540800\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2024-02-05\",\n
+        \   \"marketCap\": 2891371054080\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\":
+        \"2024-02-02\",\n    \"marketCap\": 2863178337600\n  },\n  {\n    \"symbol\":
+        \"AAPL\",\n    \"date\": \"2024-02-01\",\n    \"marketCap\": 2878738252160\n
+        \ },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2024-01-31\",\n    \"marketCap\":
+        2840839846400\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2024-01-30\",\n
+        \   \"marketCap\": 2896917162240\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\":
+        \"2024-01-29\",\n    \"marketCap\": 2953764770880\n  },\n  {\n    \"symbol\":
+        \"AAPL\",\n    \"date\": \"2024-01-26\",\n    \"marketCap\": 2964394811520\n
+        \ },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2024-01-25\",\n    \"marketCap\":
+        2991355059520\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2024-01-24\",\n
+        \   \"marketCap\": 2996438992000\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\":
+        \"2024-01-23\",\n    \"marketCap\": 3006914974080\n  },\n  {\n    \"symbol\":
+        \"AAPL\",\n    \"date\": \"2024-01-22\",\n    \"marketCap\": 2987041419840\n
+        \ },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2024-01-19\",\n    \"marketCap\":
+        2951145775360\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2024-01-18\",\n
+        \   \"marketCap\": 2906006617280\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\":
+        \"2024-01-17\",\n    \"marketCap\": 2814341774080\n  },\n  {\n    \"symbol\":
+        \"AAPL\",\n    \"date\": \"2024-01-16\",\n    \"marketCap\": 2828977337280\n
+        \ },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2024-01-12\",\n    \"marketCap\":
+        2864256747520\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2024-01-11\",\n
+        \   \"marketCap\": 2859172815040\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\":
+        \"2024-01-10\",\n    \"marketCap\": 2868416328640\n  },\n  {\n    \"symbol\":
+        \"AAPL\",\n    \"date\": \"2024-01-09\",\n    \"marketCap\": 2852240179840\n
+        \ },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2024-01-08\",\n    \"marketCap\":
+        2858710639360\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2024-01-05\",\n
+        \   \"marketCap\": 2791232990080\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\":
+        \"2024-01-04\",\n    \"marketCap\": 2802479264960\n  },\n  {\n    \"symbol\":
+        \"AAPL\",\n    \"date\": \"2024-01-03\",\n    \"marketCap\": 2838528968000\n
+        \ },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2024-01-02\",\n    \"marketCap\":
+        2859943107840\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-12-29\",\n
+        \   \"marketCap\": 2986094670390\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\":
+        \"2023-12-28\",\n    \"marketCap\": 3002379921540\n  },\n  {\n    \"symbol\":
+        \"AAPL\",\n    \"date\": \"2023-12-27\",\n    \"marketCap\": 2995710723450\n
+        \ },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-12-26\",\n    \"marketCap\":
+        2994159747150\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-12-22\",\n
+        \   \"marketCap\": 3002690116800\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\":
+        \"2023-12-21\",\n    \"marketCap\": 3019440660840\n  },\n  {\n    \"symbol\":
+        \"AAPL\",\n    \"date\": \"2023-12-20\",\n    \"marketCap\": 3021767125290\n
+        \ },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-12-19\",\n    \"marketCap\":
+        3054492725220\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-12-18\",\n
+        \   \"marketCap\": 3038207474070\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\":
+        \"2023-12-15\",\n    \"marketCap\": 3064263875910\n  },\n  {\n    \"symbol\":
+        \"AAPL\",\n    \"date\": \"2023-12-14\",\n    \"marketCap\": 3072639147930\n
+        \ },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-12-13\",\n    \"marketCap\":
+        3070312683480\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-12-12\",\n
+        \   \"marketCap\": 3019905953730\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\":
+        \"2023-12-11\",\n    \"marketCap\": 2996176016340\n  },\n  {\n    \"symbol\":
+        \"AAPL\",\n    \"date\": \"2023-12-08\",\n    \"marketCap\": 3035415716730\n
+        \ },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-12-07\",\n    \"marketCap\":
+        3013081658010\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-12-06\",\n
+        \   \"marketCap\": 2982837620160\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\":
+        \"2023-12-05\",\n    \"marketCap\": 2999898359460\n  },\n  {\n    \"symbol\":
+        \"AAPL\",\n    \"date\": \"2023-12-04\",\n    \"marketCap\": 2938014405090\n
+        \ },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-12-01\",\n    \"marketCap\":
+        2966087076120\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-11-30\",\n
+        \   \"marketCap\": 2946079481850\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\":
+        \"2023-11-29\",\n    \"marketCap\": 2937083819310\n  },\n  {\n    \"symbol\":
+        \"AAPL\",\n    \"date\": \"2023-11-28\",\n    \"marketCap\": 2953058875200\n
+        \ },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-11-27\",\n    \"marketCap\":
+        2943597919770\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-11-24\",\n
+        \   \"marketCap\": 2946389677110\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\":
+        \"2023-11-22\",\n    \"marketCap\": 2967172759530\n  },\n  {\n    \"symbol\":
+        \"AAPL\",\n    \"date\": \"2023-11-21\",\n    \"marketCap\": 2956781218320\n
+        \ },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-11-20\",\n    \"marketCap\":
+        2969344126350\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-11-17\",\n
+        \   \"marketCap\": 2942046943470\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\":
+        \"2023-11-16\",\n    \"marketCap\": 2942357138730\n  },\n  {\n    \"symbol\":
+        \"AAPL\",\n    \"date\": \"2023-11-15\",\n    \"marketCap\": 2915990541630\n
+        \ },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-11-14\",\n    \"marketCap\":
+        2907149976720\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-11-13\",\n
+        \   \"marketCap\": 2866204202400\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\":
+        \"2023-11-10\",\n    \"marketCap\": 2891019823200\n  },\n  {\n    \"symbol\":
+        \"AAPL\",\n    \"date\": \"2023-11-09\",\n    \"marketCap\": 2829135868830\n
+        \ },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-11-08\",\n    \"marketCap\":
+        2836580555070\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-11-07\",\n
+        \   \"marketCap\": 2819985108660\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\":
+        \"2023-11-06\",\n    \"marketCap\": 2779814822490\n  },\n  {\n    \"symbol\":
+        \"AAPL\",\n    \"date\": \"2023-11-03\",\n    \"marketCap\": 2739799633950\n
+        \ },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-11-02\",\n    \"marketCap\":
+        2754068615910\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-11-01\",\n
+        \   \"marketCap\": 2698233469110\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\":
+        \"2023-10-31\",\n    \"marketCap\": 2648602227510\n  },\n  {\n    \"symbol\":
+        \"AAPL\",\n    \"date\": \"2023-10-30\",\n    \"marketCap\": 2641157541270\n
+        \ },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-10-27\",\n    \"marketCap\":
+        2609052331860\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-10-26\",\n
+        \   \"marketCap\": 2588424347070\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\":
+        \"2023-10-25\",\n    \"marketCap\": 2653720449300\n  },\n  {\n    \"symbol\":
+        \"AAPL\",\n    \"date\": \"2023-10-24\",\n    \"marketCap\": 2690013294720\n
+        \ },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-10-23\",\n    \"marketCap\":
+        2683188999000\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-10-20\",\n
+        \   \"marketCap\": 2681327827440\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\":
+        \"2023-10-19\",\n    \"marketCap\": 2721343015980\n  },\n  {\n    \"symbol\":
+        \"AAPL\",\n    \"date\": \"2023-10-18\",\n    \"marketCap\": 2727236725920\n
+        \ },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-10-17\",\n    \"marketCap\":
+        2747554515450\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-10-16\",\n
+        \   \"marketCap\": 2771904843360\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\":
+        \"2023-10-13\",\n    \"marketCap\": 2773921112550\n  },\n  {\n    \"symbol\":
+        \"AAPL\",\n    \"date\": \"2023-10-12\",\n    \"marketCap\": 2802769271730\n
+        \ },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-10-11\",\n    \"marketCap\":
+        2788655387400\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-10-10\",\n
+        \   \"marketCap\": 2766786621570\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\":
+        \"2023-10-09\",\n    \"marketCap\": 2776092479370\n  },\n  {\n    \"symbol\":
+        \"AAPL\",\n    \"date\": \"2023-10-06\",\n    \"marketCap\": 2752827834870\n
+        \ },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-10-05\",\n    \"marketCap\":
+        2712812646330\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-10-04\",\n
+        \   \"marketCap\": 2693425442580\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\":
+        \"2023-10-03\",\n    \"marketCap\": 2673883141200\n  },\n  {\n    \"symbol\":
+        \"AAPL\",\n    \"date\": \"2023-10-02\",\n    \"marketCap\": 2694821321250\n
+        \ },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-09-29\",\n    \"marketCap\":
+        2670779095140\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-09-28\",\n
+        \   \"marketCap\": 2662667389460\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\":
+        \"2023-09-27\",\n    \"marketCap\": 2658611536620\n  },\n  {\n    \"symbol\":
+        \"AAPL\",\n    \"date\": \"2023-09-26\",\n    \"marketCap\": 2682478670640\n
+        \ },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-09-25\",\n    \"marketCap\":
+        2746748338720\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-09-22\",\n
+        \   \"marketCap\": 2726625068860\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\":
+        \"2023-09-21\",\n    \"marketCap\": 2713209555620\n  },\n  {\n    \"symbol\":
+        \"AAPL\",\n    \"date\": \"2023-09-20\",\n    \"marketCap\": 2737544672660\n
+        \ },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-09-19\",\n    \"marketCap\":
+        2793390646380\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-09-18\",\n
+        \   \"marketCap\": 2776231268980\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\":
+        \"2023-09-15\",\n    \"marketCap\": 2730056944340\n  },\n  {\n    \"symbol\":
+        \"AAPL\",\n    \"date\": \"2023-09-14\",\n    \"marketCap\": 2741444531160\n
+        \ },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-09-13\",\n    \"marketCap\":
+        2717577397140\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-09-12\",\n
+        \   \"marketCap\": 2750180214200\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\":
+        \"2023-09-11\",\n    \"marketCap\": 2797914482240\n  },\n  {\n    \"symbol\":
+        \"AAPL\",\n    \"date\": \"2023-09-08\",\n    \"marketCap\": 2779507150120\n
+        \ },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-09-07\",\n    \"marketCap\":
+        2769835501040\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-09-06\",\n
+        \   \"marketCap\": 2853292472940\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\":
+        \"2023-09-05\",\n    \"marketCap\": 2959212629800\n  },\n  {\n    \"symbol\":
+        \"AAPL\",\n    \"date\": \"2023-09-01\",\n    \"marketCap\": 2955468765640\n
+        \ },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-08-31\",\n    \"marketCap\":
+        2930665665580\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-08-30\",\n
+        \   \"marketCap\": 2927233790100\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\":
+        \"2023-08-29\",\n    \"marketCap\": 2872167788080\n  },\n  {\n    \"symbol\":
+        \"AAPL\",\n    \"date\": \"2023-08-28\",\n    \"marketCap\": 2810862012460\n
+        \ },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-08-25\",\n    \"marketCap\":
+        2786214906740\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-08-24\",\n
+        \   \"marketCap\": 2751428168920\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\":
+        \"2023-08-23\",\n    \"marketCap\": 2825369486080\n  },\n  {\n    \"symbol\":
+        \"AAPL\",\n    \"date\": \"2023-08-22\",\n    \"marketCap\": 2764687687820\n
+        \ },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-08-21\",\n    \"marketCap\":
+        2743004474560\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-08-18\",\n
+        \   \"marketCap\": 2721945238660\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\":
+        \"2023-08-17\",\n    \"marketCap\": 2714301516000\n  },\n  {\n    \"symbol\":
+        \"AAPL\",\n    \"date\": \"2023-08-16\",\n    \"marketCap\": 2754392061380\n
+        \ },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-08-15\",\n    \"marketCap\":
+        2768119563300\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-08-14\",\n
+        \   \"marketCap\": 2799474425640\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\":
+        \"2023-08-11\",\n    \"marketCap\": 2773423370860\n  },\n  {\n    \"symbol\":
+        \"AAPL\",\n    \"date\": \"2023-08-10\",\n    \"marketCap\": 2776231268980\n
+        \ },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-08-09\",\n    \"marketCap\":
+        2779663144460\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-08-08\",\n
+        \   \"marketCap\": 2804778233200\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\":
+        \"2023-08-07\",\n    \"marketCap\": 2789958770900\n  },\n  {\n    \"symbol\":
+        \"AAPL\",\n    \"date\": \"2023-08-04\",\n    \"marketCap\": 2838940993660\n
+        \ },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-08-03\",\n    \"marketCap\":
+        2982143797780\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-08-02\",\n
+        \   \"marketCap\": 3004138999720\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\":
+        \"2023-08-01\",\n    \"marketCap\": 3051405284740\n  },\n  {\n    \"symbol\":
+        \"AAPL\",\n    \"date\": \"2023-07-31\",\n    \"marketCap\": 3064508809300\n
+        \ },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-07-28\",\n    \"marketCap\":
+        3054837160220\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-07-27\",\n
+        \   \"marketCap\": 3014122637480\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\":
+        \"2023-07-26\",\n    \"marketCap\": 3034089913000\n  },\n  {\n    \"symbol\":
+        \"AAPL\",\n    \"date\": \"2023-07-25\",\n    \"marketCap\": 3020362411080\n
+        \ },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-07-24\",\n    \"marketCap\":
+        3006790903500\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-07-21\",\n
+        \   \"marketCap\": 2994155361960\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\":
+        \"2023-07-20\",\n    \"marketCap\": 3012718688420\n  },\n  {\n    \"symbol\":
+        \"AAPL\",\n    \"date\": \"2023-07-19\",\n    \"marketCap\": 3043449573400\n
+        \ },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-07-18\",\n    \"marketCap\":
+        3022078348820\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-07-17\",\n
+        \   \"marketCap\": 3026134201660\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\":
+        \"2023-07-14\",\n    \"marketCap\": 2974656069460\n  },\n  {\n    \"symbol\":
+        \"AAPL\",\n    \"date\": \"2023-07-13\",\n    \"marketCap\": 2972316154360\n
+        \ },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-07-12\",\n    \"marketCap\":
+        2960304590180\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-07-11\",\n
+        \   \"marketCap\": 2933941546720\n  },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\":
+        \"2023-07-10\",\n    \"marketCap\": 2942209246740\n  },\n  {\n    \"symbol\":
+        \"AAPL\",\n    \"date\": \"2023-07-07\",\n    \"marketCap\": 2974500075120\n
+        \ },\n  {\n    \"symbol\": \"AAPL\",\n    \"date\": \"2023-07-06\",\n    \"marketCap\":
+        2992127435540\n  }\n]"
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Headers:
+      - X-Requested-With, content-type, auth-token, Authorization, stripe-signature,
+        APPS, publicauthkey, privateauthkey
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Max-Age:
+      - '3600'
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sun, 19 May 2024 08:13:21 GMT
+      ETag:
+      - W/"4ba2-9+fwdgZb9KFCQ8Tntwtpnl3b1xc"
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Powered-By:
+      - Express
+    status:
+      code: 200
+      message: OK
+version: 1

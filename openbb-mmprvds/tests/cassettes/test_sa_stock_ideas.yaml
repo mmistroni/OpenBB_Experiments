@@ -1,0 +1,240 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+    method: GET
+    uri: https://seekingalpha.com/feed/stock-ideas
+  response:
+    body:
+      string: "<?xml version=\"1.0\"?>\n<rss version=\"2.0\">\n  <channel>\n    <title>Articles
+        on Seeking Alpha</title>\n    <link>https://seekingalpha.com/stock-ideas/</link>\n
+        \   <description>&#xA9; seekingalpha.com. Use of this feed is limited to personal,
+        non-commercial use and is governed by Seeking Alpha's Terms of Use (https://about.seekingalpha.com/terms).
+        Publishing this feed for public or commercial use and/or misrepresentation
+        by a third party is prohibited.</description>\n    <item>\n      <title>Samsung:
+        Expecting This Laggard To Catch Up On Peers</title>\n      <link>https://seekingalpha.com/article/4694357-samsung-expecting-this-laggard-to-start-catch-up-to-peers?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/SSNLF\">SSNLF</category>\n
+        \     <pubDate>Sun, 19 May 2024 04:59:42 -0400</pubDate>\n      <guid>https://seekingalpha.com/article/4694357-samsung-expecting-this-laggard-to-start-catch-up-to-peers?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>Caterpillar: Overreaction To Dealer
+        Inventory Situation And Good Medium-Term Prospects Present A Buying Opportunity</title>\n
+        \     <link>https://seekingalpha.com/article/4694354-caterpillar-overreaction-to-dealer-inventory-situation-and-good-medium-term-prospects-present-a-buying-opportunity?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/CATR:CA\">CATR:CA</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/CAT\">CAT</category>\n
+        \     <pubDate>Sun, 19 May 2024 04:48:00 -0400</pubDate>\n      <guid>https://seekingalpha.com/article/4694354-caterpillar-overreaction-to-dealer-inventory-situation-and-good-medium-term-prospects-present-a-buying-opportunity?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>Envoy Medical Is Pursuing Filling A
+        Hearing Industry Void</title>\n      <link>https://seekingalpha.com/article/4694353-envoy-medical-is-pursuing-filling-a-hearing-industry-void?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/COCHW\">COCHW</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/SONVF\">SONVF</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/SONVY\">SONVY</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/COCH\">COCH</category>\n
+        \     <pubDate>Sun, 19 May 2024 04:45:09 -0400</pubDate>\n      <guid>https://seekingalpha.com/article/4694353-envoy-medical-is-pursuing-filling-a-hearing-industry-void?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>Why SMH Is My Top Pick For Semiconductor
+        Sector Exposure</title>\n      <link>https://seekingalpha.com/article/4694347-why-smh-etf-is-my-top-pick-for-semiconductor-sector-exposure?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/SOXX\">SOXX</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/SMH\">SMH</category>\n
+        \     <pubDate>Sun, 19 May 2024 03:08:49 -0400</pubDate>\n      <guid>https://seekingalpha.com/article/4694347-why-smh-etf-is-my-top-pick-for-semiconductor-sector-exposure?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>Rivian: Turning The Corner</title>\n
+        \     <link>https://seekingalpha.com/article/4694346-rivian-turning-the-corner?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/RIVN\">RIVN</category>\n
+        \     <pubDate>Sun, 19 May 2024 02:52:07 -0400</pubDate>\n      <guid>https://seekingalpha.com/article/4694346-rivian-turning-the-corner?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>Suzano: Perennial Competitive Advantages
+        And Attractive Valuation</title>\n      <link>https://seekingalpha.com/article/4694332-suzano-perennial-competitive-advantages-and-attractive-valuation?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/IP\">IP</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/SEOAY\">SEOAY</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/UPMKF\">UPMKF</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/WRK\">WRK</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/SUZ\">SUZ</category>\n
+        \     <pubDate>Sun, 19 May 2024 00:02:17 -0400</pubDate>\n      <guid>https://seekingalpha.com/article/4694332-suzano-perennial-competitive-advantages-and-attractive-valuation?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>Calumet Specialty Products Endured Rainy
+        Days With Blue Skies Ahead</title>\n      <link>https://seekingalpha.com/article/4694330-calumet-specialty-products-endured-rainy-days-with-blue-skies-ahead?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/CLMT\">CLMT</category>\n
+        \     <pubDate>Sat, 18 May 2024 23:53:51 -0400</pubDate>\n      <guid>https://seekingalpha.com/article/4694330-calumet-specialty-products-endured-rainy-days-with-blue-skies-ahead?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>Chubb: Warren Buffett Takes Notice Of
+        The Solid Financial Performance</title>\n      <link>https://seekingalpha.com/article/4694327-chubb-warren-buffett-takes-notice-of-solid-financial-performance?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/CB\">CB</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/BRK.A\">BRK.A</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/BRK.B\">BRK.B</category>\n
+        \     <pubDate>Sat, 18 May 2024 16:17:11 -0400</pubDate>\n      <guid>https://seekingalpha.com/article/4694327-chubb-warren-buffett-takes-notice-of-solid-financial-performance?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>C3.ai: Turnaround Already Underway After
+        Its Dramatic Plunge</title>\n      <link>https://seekingalpha.com/article/4694034-c3ai-turnaround-already-underway-after-its-dramatic-plunge?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/AI\">AI</category>\n
+        \     <pubDate>Sat, 18 May 2024 11:30:00 -0400</pubDate>\n      <guid>https://seekingalpha.com/article/4694034-c3ai-turnaround-already-underway-after-its-dramatic-plunge?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>Roche Is Joining The Obesity Party But
+        Questions Remain</title>\n      <link>https://seekingalpha.com/article/4694321-roche-is-joining-the-obesity-party-but-questions-remain?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/VKTX\">VKTX</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/LLY\">LLY</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/NVO\">NVO</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/REGN\">REGN</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/ALNY\">ALNY</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/RHHBY\">RHHBY</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/RHHBF\">RHHBF</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/RHHVF\">RHHVF</category>\n
+        \     <pubDate>Sat, 18 May 2024 11:18:53 -0400</pubDate>\n      <guid>https://seekingalpha.com/article/4694321-roche-is-joining-the-obesity-party-but-questions-remain?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>PayPal: A Great Value For Long-Term
+        Investors</title>\n      <link>https://seekingalpha.com/article/4694310-paypal-great-value-for-long-term-investors?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/PYPL\">PYPL</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/ADYEY\">ADYEY</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/SQ\">SQ</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/V\">V</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/MA\">MA</category>\n
+        \     <pubDate>Sat, 18 May 2024 10:17:11 -0400</pubDate>\n      <guid>https://seekingalpha.com/article/4694310-paypal-great-value-for-long-term-investors?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>Cisco Systems: Strong Fundamentals &amp;
+        Growth Potential Make This 3.2%Yield Attractive</title>\n      <link>https://seekingalpha.com/article/4694288-cisco-systems-strong-fundamentals-and-growth-potential-make-this-3-2-percent-yield-attractive?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/SBUX\">SBUX</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/AAPL\">AAPL</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/NVDA\">NVDA</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/ANET\">ANET</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/CSCO\">CSCO</category>\n
+        \     <pubDate>Sat, 18 May 2024 10:00:00 -0400</pubDate>\n      <guid>https://seekingalpha.com/article/4694288-cisco-systems-strong-fundamentals-and-growth-potential-make-this-3-2-percent-yield-attractive?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>TFI International: An Acquisition Machine
+        And Cash Compounder</title>\n      <link>https://seekingalpha.com/article/4694305-tfi-international-an-acquisition-machine-and-cash-compounder?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/TFII:CA\">TFII:CA</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/TFII\">TFII</category>\n
+        \     <pubDate>Sat, 18 May 2024 09:37:37 -0400</pubDate>\n      <guid>https://seekingalpha.com/article/4694305-tfi-international-an-acquisition-machine-and-cash-compounder?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>Don't Underestimate Tesla's Position
+        In AI And Robotics</title>\n      <link>https://seekingalpha.com/article/4694300-dont-underestimate-teslas-position-in-ai-and-robotics?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/TSLA\">TSLA</category>\n
+        \     <pubDate>Sat, 18 May 2024 09:14:59 -0400</pubDate>\n      <guid>https://seekingalpha.com/article/4694300-dont-underestimate-teslas-position-in-ai-and-robotics?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>XPEV: Understand The Risk</title>\n
+        \     <link>https://seekingalpha.com/article/4694298-xpev-understand-the-risk?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/XPEV\">XPEV</category>\n
+        \     <pubDate>Sat, 18 May 2024 08:39:55 -0400</pubDate>\n      <guid>https://seekingalpha.com/article/4694298-xpev-understand-the-risk?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>Crocs: Strategic Catalysts To Drive
+        Sustained Growth</title>\n      <link>https://seekingalpha.com/article/4694295-crocs-strategic-catalysts-to-drive-sustained-growth?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/CROX\">CROX</category>\n
+        \     <pubDate>Sat, 18 May 2024 08:23:03 -0400</pubDate>\n      <guid>https://seekingalpha.com/article/4694295-crocs-strategic-catalysts-to-drive-sustained-growth?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>Mueller Water Products: Good Growth
+        Prospects And Potential For Re-Rating</title>\n      <link>https://seekingalpha.com/article/4694292-mueller-water-products-good-growth-prospects-potential-re-rating?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/MWA\">MWA</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/TTEK\">TTEK</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/XYL\">XYL</category>\n
+        \     <pubDate>Sat, 18 May 2024 08:00:23 -0400</pubDate>\n      <guid>https://seekingalpha.com/article/4694292-mueller-water-products-good-growth-prospects-potential-re-rating?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>Rivian: 80% Of Market Value Is Now Cash</title>\n
+        \     <link>https://seekingalpha.com/article/4694284-rivian-80-percent-of-market-value-is-now-cash?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/BYDDF\">BYDDF</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/TSLA\">TSLA</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/F\">F</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/RIVN\">RIVN</category>\n
+        \     <pubDate>Sat, 18 May 2024 07:02:11 -0400</pubDate>\n      <guid>https://seekingalpha.com/article/4694284-rivian-80-percent-of-market-value-is-now-cash?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>Oddity Tech: A Unique Fusion Of Beauty
+        And Tech</title>\n      <link>https://seekingalpha.com/article/4694283-oddity-tech-a-unique-fusion-of-beauty-and-tech?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/ODD\">ODD</category>\n
+        \     <pubDate>Sat, 18 May 2024 07:00:09 -0400</pubDate>\n      <guid>https://seekingalpha.com/article/4694283-oddity-tech-a-unique-fusion-of-beauty-and-tech?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>Alibaba: Let's Talk About The Elephant
+        In The Room</title>\n      <link>https://seekingalpha.com/article/4694282-baba-lets-talk-about-the-elephant-in-the-room?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/BABA\">BABA</category>\n
+        \     <pubDate>Sat, 18 May 2024 06:45:48 -0400</pubDate>\n      <guid>https://seekingalpha.com/article/4694282-baba-lets-talk-about-the-elephant-in-the-room?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>ConocoPhillips: Delaware, Willow And
+        The Decade Of Low-Risk Growth</title>\n      <link>https://seekingalpha.com/article/4694280-conocophillips-delaware-willow-and-the-decade-of-low-risk-growth?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/COP\">COP</category>\n
+        \     <pubDate>Sat, 18 May 2024 06:26:50 -0400</pubDate>\n      <guid>https://seekingalpha.com/article/4694280-conocophillips-delaware-willow-and-the-decade-of-low-risk-growth?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>Griffon's Global Sourcing Strategy Is
+        Improving Potential Returns</title>\n      <link>https://seekingalpha.com/article/4694275-griffons-global-sourcing-strategy-is-improving-potential-returns?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/SPY\">SPY</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/GFF\">GFF</category>\n
+        \     <pubDate>Sat, 18 May 2024 05:43:03 -0400</pubDate>\n      <guid>https://seekingalpha.com/article/4694275-griffons-global-sourcing-strategy-is-improving-potential-returns?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>A Gift For Net Buyers Of Stocks: Diamond
+        Hill</title>\n      <link>https://seekingalpha.com/article/4694272-gift-for-net-buyers-of-stocks-diamond-hill?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/DHIL\">DHIL</category>\n
+        \     <pubDate>Sat, 18 May 2024 05:34:07 -0400</pubDate>\n      <guid>https://seekingalpha.com/article/4694272-gift-for-net-buyers-of-stocks-diamond-hill?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>CCC Intelligent Solutions: IX Cloud
+        To Provide More Cross-Selling Opportunities</title>\n      <link>https://seekingalpha.com/article/4694270-ccc-intelligent-solutions-ix-cloud-to-provide-more-cross-selling-opportunities?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/CCCS\">CCCS</category>\n
+        \     <pubDate>Sat, 18 May 2024 05:25:57 -0400</pubDate>\n      <guid>https://seekingalpha.com/article/4694270-ccc-intelligent-solutions-ix-cloud-to-provide-more-cross-selling-opportunities?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>Net Lease Office Properties: This Office
+        REIT Is A Steal</title>\n      <link>https://seekingalpha.com/article/4694269-net-lease-office-properties-this-office-reit-is-a-steal?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/NLOP\">NLOP</category>\n
+        \     <pubDate>Sat, 18 May 2024 05:18:19 -0400</pubDate>\n      <guid>https://seekingalpha.com/article/4694269-net-lease-office-properties-this-office-reit-is-a-steal?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>Zillow Group: Multiple Growth Catalysts,
+        But Slowdown In Residential Is A Concern</title>\n      <link>https://seekingalpha.com/article/4694265-zillow-group-multiple-growth-catalysts-but-slowdown-in-residential-is-a-concern?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/ZG\">ZG</category>\n
+        \     <pubDate>Sat, 18 May 2024 04:58:48 -0400</pubDate>\n      <guid>https://seekingalpha.com/article/4694265-zillow-group-multiple-growth-catalysts-but-slowdown-in-residential-is-a-concern?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>On Holding: The Story Of David With
+        The Growth Of Goliath</title>\n      <link>https://seekingalpha.com/article/4694256-on-holding-the-story-of-david-with-the-growth-of-goliath?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/ADDYY\">ADDYY</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/SKX\">SKX</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/DECK\">DECK</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/NKE\">NKE</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/UAA\">UAA</category>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/ONON\">ONON</category>\n
+        \     <pubDate>Sat, 18 May 2024 04:03:12 -0400</pubDate>\n      <guid>https://seekingalpha.com/article/4694256-on-holding-the-story-of-david-with-the-growth-of-goliath?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>Logitech: Initiate Buy Rating On Growth
+        And Margin Expansion Tailwinds</title>\n      <link>https://seekingalpha.com/article/4694253-logitech-buy-growth-margin-expansion-tailwinds?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/LOGI\">LOGI</category>\n
+        \     <pubDate>Sat, 18 May 2024 03:43:15 -0400</pubDate>\n      <guid>https://seekingalpha.com/article/4694253-logitech-buy-growth-margin-expansion-tailwinds?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>Biohaven: Promising Pipeline With Troriluzole,
+        Taldefgrobep Alfa, And BHV-7000 Leading The Charge</title>\n      <link>https://seekingalpha.com/article/4694249-biohaven-promising-pipeline-troriluzole-taldefgrobep-alfa-bhv-7000-leading-charge?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/BHVN\">BHVN</category>\n
+        \     <pubDate>Sat, 18 May 2024 03:10:13 -0400</pubDate>\n      <guid>https://seekingalpha.com/article/4694249-biohaven-promising-pipeline-troriluzole-taldefgrobep-alfa-bhv-7000-leading-charge?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n    <item>\n      <title>Lam Research: More Wafer Fab Equipment
+        Spend For FY2025, Maintaining Buy</title>\n      <link>https://seekingalpha.com/article/4694234-lam-research-more-wafer-fab-equipment-spend-for-fy2025-lrcx-stock-buy?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</link>\n
+        \     <category domain=\"https://seekingalpha.com/symbol/LRCX\">LRCX</category>\n
+        \     <pubDate>Fri, 17 May 2024 23:17:58 -0400</pubDate>\n      <guid>https://seekingalpha.com/article/4694234-lam-research-more-wafer-fab-equipment-spend-for-fy2025-lrcx-stock-buy?utm_source=feed_articles_stock_ideas&amp;utm_medium=referral&amp;feed_item_type=article</guid>\n
+        \   </item>\n  </channel>\n</rss>\n\n\n"
+    headers:
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      Allow:
+      - GET, POST, HEAD, PUT, PATCH, DELETE, OPTIONS
+      Cache-Control:
+      - max-age=0, public
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '3820'
+      Content-Security-Policy:
+      - 'default-src https: wss: data: blob: ''unsafe-inline'' ''unsafe-eval''; report-uri
+        https://seekingalpha.com/report/csp'
+      Content-Type:
+      - application/xml; charset=utf-8
+      Date:
+      - Sun, 19 May 2024 09:05:45 GMT
+      ETag:
+      - W/"dec6d7058c1373b4064611c42574937c"
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubDomains; preload
+      Vary:
+      - User-Agent, Accept-Encoding
+      X-Cache:
+      - MISS, MISS
+      X-Cache-Hits:
+      - 0, 0
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-Id:
+      - P8FfrNkclS9xG0YH
+      X-Runtime:
+      - '0.071169'
+      X-Served-By:
+      - cache-bfi-krnt7300107-BFI, cache-lhr7362-LHR
+      X-Timer:
+      - S1716109545.975316,VS0,VE217
+      X-XSS-Protection:
+      - '0'
+      alt-svc:
+      - h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+      set-cookie:
+      - machine_cookie=1171956168230; expires=Sat, 19 May 2029 09:05:45 GMT; path=/;
+      - machine_cookie_ts=1716109545; expires=Sat, 19 May 2029 09:05:45 GMT; path=/;
+    status:
+      code: 200
+      message: OK
+version: 1
