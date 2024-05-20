@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "openbb-providers"
-version = "1.0.88"
+version = "1.0.89"
 description = "Python custom  Extension for OBB"
 authors = ["Marco Mistroni <mmistroni@gmail.com>"]
 readme = "README.md"
@@ -8,7 +8,12 @@ packages = [{ include = "openbb_providers" }]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-openbb-core = "^1.1.1"
+openbb-core = "^1.1.2"
+openbb-devtools = { version = "^1.0.0b1" }
+beautifulsoup4  = { version = "^4.12.3" }
+pandas = { version = "^2.2.1" }
+finvizfinance = { version = "^0.14.7" }
+
 
 [build-system]
 requires = ["poetry-core"]

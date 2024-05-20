@@ -16,7 +16,7 @@ def test_get_nymo():
     nymo = res_dict['VALUE']
     assert nymo == -28.14
 
-@pytest.mark.vcr()
+@pytest.mark.record_http
 def test_get_nysi():
 
     res_dict = get_nysi()

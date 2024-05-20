@@ -35,18 +35,28 @@ async def cot(
     """Example Data."""
     return await OBBject.from_query(Query(**locals()))
 
-@router.command(methods=["GET"])
-def sa_stock_ideas() -> OBBject[dict]:
-    data = get_seekingalpha_stock_ideas()
-    return OBBject(results = data)
-
-@router.command(methods=["GET"])
-def sa_dividend_picks() -> OBBject[dict]:
-    data = get_seekingalpha_dividend_picks()
-    return OBBject(results = data)
-
 @router.command(model="FMPMarketCapDataFetcher")
-async def cot(
+async def marketcap(
+    cc: CommandContext,
+    provider_choices: ProviderChoices,
+    standard_params: StandardParams,
+    extra_params: ExtraParams,
+) -> OBBject[BaseModel]:
+    """Example Data."""
+    return await OBBject.from_query(Query(**locals()))
+
+@router.command(model="SeekingAlphaDividendPicks")
+async def sa_dividend_picks(
+    cc: CommandContext,
+    provider_choices: ProviderChoices,
+    standard_params: StandardParams,
+    extra_params: ExtraParams,
+) -> OBBject[BaseModel]:
+    """Example Data."""
+    return await OBBject.from_query(Query(**locals()))
+
+@router.command(model="SeekingAlphaStockIdeas")
+async def sa_stock_ideas(
     cc: CommandContext,
     provider_choices: ProviderChoices,
     standard_params: StandardParams,

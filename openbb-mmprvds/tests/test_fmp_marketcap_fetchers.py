@@ -37,7 +37,7 @@ def test_fmp_marketcap_fetcher_no_limit(credentials=test_credentials):
     result = fetcher.test(params, credentials)
     assert result is None
 
-@pytest.mark.vcr()
+@pytest.mark.record_http
 def test_fmp_marketcap_fetcher_with_limit(credentials=test_credentials):
     params = {"symbol": "AAPL", "limit" : 50, "use_cache": False}
     fetcher = FMPMarketCapDataFetcher()
