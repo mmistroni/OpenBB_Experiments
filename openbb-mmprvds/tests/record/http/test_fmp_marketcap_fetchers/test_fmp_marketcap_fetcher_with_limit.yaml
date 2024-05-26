@@ -1,0 +1,62 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+    method: GET
+    uri: https://financialmodelingprep.com/api/v3/historical-market-capitalization/AAPL?apikey=MOCK_API_KEY&limit=50
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA6WXu6qUQRCEc59i2diFvl/MDqYG5mJwRCMVRU8i4rtbi5hNB7bBJv8sxdDzdVX3
+        m2eXy0/8Lpfr9x+f3335dH1xuT48vH51ff7n6/vHpw/3b0JiN/Kb2N+Tz4/fPn54evn4FcfSEkXm
+        IlWE41/P/1lXj7qVTRYaLVtdOd/XqDObyWipy2fdUOUw4tjq0nBfZbVU/Gunyzm8mzN1ZaUsdWPQ
+        tbBMUtre1wddyW4i0u19z/xWpXM7lJec8cBvdJGUe2x1zzyUEBmD4lpyRn3WNTWvgvSyvlRnXXaJ
+        YHFb8kBnfosJ5UVrbPuYzvwCMsXLtWYsdQce0G/ilbr1Mzr7WYRHosS65YzOfhZUwmyy5MxueuY3
+        4GPZCAxb3dducuY3Uhree7ffpe6Zh/+ug5z9LBieTjCfWvWFTXkcpIWAK+ZVH9uUx54smhqx6zeb
+        8tjdmpJhwMs68JkHh5PFHbYtD3z2M0/VNq7Y5bFNeQzv5dK6Y7bUnfhtM61azlE25XEEmaakxLYO
+        Zx6SkfJaGdt+48HPQIMxqa3f7exn6N+7nQG2ZX2HPA7WZkZg+LKPhzz2dsacahijlrqTn4mLE6jY
+        1mHyMyoGbL2bS2zKY9QXVmm53ANszGOC8xoaY+tnUx5j5vOMXs6TepMzD2iK7ICf7fY36J79LKIb
+        rkOqqzlKxzxmzA6JTN7NZzrmMRoCGdS52990yrdAEGF4SF6/28ADVk1iN9ntbzrtm/AbD8MstfMd
+        nfIY40OEojV2/qBTHkeGkmPb3O2FOuabtyKT4299n739DWqgbIsyEQAA
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Headers:
+      - X-Requested-With, content-type, auth-token, Authorization, stripe-signature,
+        APPS, publicauthkey, privateauthkey
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Max-Age:
+      - '3600'
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sun, 26 May 2024 07:58:46 GMT
+      ETag:
+      - W/"1132-clRF/Bk/2a7x36rnylIT4Q/9ylw"
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Powered-By:
+      - Express
+    status:
+      code: 200
+      message: OK
+version: 1

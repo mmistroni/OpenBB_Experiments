@@ -30,14 +30,14 @@ def vcr_config():
     }
 
 #
-@pytest.mark.vcr()
+@pytest.mark.record_http
 def test_sa_stock_ideas(credentials=test_credentials):
     params = {}
     fetcher = SAStockIdeaFetcher()
     result = fetcher.test(params, credentials)
     assert result is None
 
-@pytest.mark.vcr()
+@pytest.mark.record_http
 def test_sa_dividend_picks(credentials=test_credentials):
     params = {}
     fetcher = SADividendPicksFetcher()
