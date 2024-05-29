@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "openbb-providers"
-version = "1.0.90"
+version = "1.0.91"
 description = "Python custom  Extension for OBB"
 authors = ["Marco Mistroni <mmistroni@gmail.com>"]
 readme = "README.md"
@@ -22,6 +22,7 @@ build-backend = "poetry.core.masonry.api"
 [tool.poetry.plugins."openbb_provider_extension"]
 cftc = "openbb_providers:cftc_provider"
 sa_provider = "openbb_providers:sa_provider"
-
+cramer_provider = "openbb_providers:cramer_provider"
+finviz_provider = "openbb_providers:finviz_provider"
 [tool.poetry.plugins."openbb_core_extension"]
 mmext = "openbb_providers.router:router"

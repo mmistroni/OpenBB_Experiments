@@ -19,7 +19,7 @@ class SeekingAlphaQueryParams(QueryParams):
 
 
 class SeekingAlphaData(Data):
-    """Sample provider data for commitment of traders.
+    """Sample data class for SeekingAlpha data.
 
     """
 
@@ -36,7 +36,7 @@ class SAStockIdeaFetcher(
         List[SeekingAlphaData],
     ]
 ):
-    """ FMP Commitment of Traders Fetcher class.
+    """ SA Fetcher class.
 
     This class is responsible for the actual data retrieval.
     """

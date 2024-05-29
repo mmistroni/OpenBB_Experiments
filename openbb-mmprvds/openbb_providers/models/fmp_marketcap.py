@@ -29,7 +29,7 @@ class FMPMarketCapData(Data):
 
     symbol: str = Field(description="Ticker.")
     date: str = Field(description="As Of Date.")
-    marketcap: float = Field(description="Market Cap." , alias="marketCap")
+    marketcap: float = Field(description="Market Cap.", alias="marketCap")
 
 
 class FMPMarketCapDataFetcher(

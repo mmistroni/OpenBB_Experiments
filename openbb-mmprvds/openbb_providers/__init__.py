@@ -7,6 +7,8 @@ from openbb_providers.models.cftc import CommitmentOfTradersAnalysisFetcher
 from openbb_providers.models.cftc_contracts import  CommitmentOfTradersReportFetcher
 from openbb_providers.models.fmp_marketcap import FMPMarketCapDataFetcher
 from openbb_providers.models.seekingalpha import SADividendPicksFetcher, SAStockIdeaFetcher
+from openbb_providers.models.cramer import CramerFetcher
+from openbb_providers.models.finviz import FinvizCanslimFetcher
 
 
 cftc_provider = Provider(
@@ -30,7 +32,27 @@ sa_provider = Provider(
     }
 )
 
+cramer_provider = Provider(
+    name="cramer_provider",
+    website="https://pyth.network/",
+    description=(
+        "Provider for fetching Jim Cramer recommendations."
+    ),
+    fetcher_dict={
+        'CramerRecommendations' : CramerFetcher,
+    }
+)
 
+finviz_provider = Provider(
+    name="finviz_provider",
+    website="https://pyth.network/",
+    description=(
+        "Provider for fetching Jim Cramer recommendations."
+    ),
+    fetcher_dict={
+        'FinvizCanslim' : FinvizCanslimFetcher
+    }
+)
 
 
 fmp_provider.fetcher_dict.update({
