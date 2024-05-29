@@ -1,4 +1,4 @@
-# OpenBB CFTC Provider
+# OpenBB Custom Providers
 
 This is an attempt to write some extensions for the OpenBB platform.
 
@@ -11,3 +11,7 @@ Extensions in this repo contains
   - Stock Ideas articles
 - FMP MarketCap 
   - retrieves historical market cap from FMP
+- Jim Cramer's recommendation
+  - fetches Jim Cramer Stock Picks
+- Finviz Canslim provider
+  - Leverages Finviz screener API (unofficial) to retrieve stocks according to canslim criteria
