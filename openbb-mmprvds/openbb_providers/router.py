@@ -15,9 +15,12 @@ router = Router(prefix="")
 @router.command(
     model="CommitmentOfTradersReport",
     examples = [
-        APIEx(
+        PythonEx(
             description="Return all Commitment of traders contracts",
-            parameters={})
+            code=[
+            "cot_report = obb.mmext.cot_list()"
+                ]
+        )
     ]
 )
 async def cot_list(
@@ -32,13 +35,13 @@ async def cot_list(
 @router.command(
     model="CommitmentOfTradersAnalysis",
     examples=[
-        APIEx(
-            description="Get commitment of traders analysis for a specific contract(VX), returning the last analysis.",
-            parameters={"symbol": "VX"}),
-
-        APIEx(
-            description="Get commitment of traders analysis for VX, returning last 100 results.",
-            parameters={"symbol" : "VX", "limit": 100})
+        PythonEx(
+            description="Return commitment of traders analysis for a specific symbol",
+            code=[
+            "vx = obb.mmext.cot(symbol='VX')",
+            "vx = obb.mmext.cot(symbol='VX', limit=10)",
+                ]
+        )
     ]
 )
 async def cot(
@@ -53,13 +56,14 @@ async def cot(
 @router.command(
     model="FMPMarketCapDataFetcher",
     examples=[
-        APIEx(
-            description="Return daily marketcap for last 220 days.",
-            parameters={"symbol": "AAPL"}),
+        PythonEx(
+                    description="Return MarketCap for a company (default last 220 days)",
+                    code=[
+                    "mkcap = obb.mmext.marketcap(symbol='T')",
+                    "mkcap = obb.mmext.marketcap(symbol='T', limit=100)"
+                        ]
+        )
 
-        APIEx(
-            description="Return daily marketcap for the number of days specified by the limit parameters.",
-            parameters={"symbol" : "AAPL", "limit": 100})
     ]
 
 )
@@ -72,7 +76,18 @@ async def marketcap(
     """Example Data."""
     return await OBBject.from_query(Query(**locals()))
 
-@router.command(model="SeekingAlphaDividendPicks")
+@router.command(
+        model="SeekingAlphaDividendPicks",
+        examples=[
+                PythonEx(
+                            description="Return SeekingAlpha dividend picsk article)",
+                            code=[
+                            "obb.mmext.sa_dividend_picks()"
+                                ]
+                )
+
+            ]
+)
 async def sa_dividend_picks(
     cc: CommandContext,
     provider_choices: ProviderChoices,
@@ -82,7 +97,17 @@ async def sa_dividend_picks(
     """Example Data."""
     return await OBBject.from_query(Query(**locals()))
 
-@router.command(model="SeekingAlphaStockIdeas")
+@router.command(
+    model="SeekingAlphaStockIdeas",
+    examples = [
+        PythonEx(
+            description="Return SeekingAlpha stock ideas articles)",
+            code=[
+                "obb.mmext.sa_stock_ideas()"
+            ]
+        )
+    ]
+)
 async def sa_stock_ideas(
     cc: CommandContext,
     provider_choices: ProviderChoices,
@@ -93,7 +118,18 @@ async def sa_stock_ideas(
     return await OBBject.from_query(Query(**locals()))
 
 
-@router.command(model="SeekingAlphaStockIdeas")
+@router.command(
+    model="CramerRecommendations",
+    examples = [
+            PythonEx(
+                description="Return Jim Cramer stock recommendations)",
+                code=[
+                    "obb.mmext.cramer()"
+                ]
+            )
+        ]
+)
+
 async def cramer(
     cc: CommandContext,
     provider_choices: ProviderChoices,
@@ -102,6 +138,27 @@ async def cramer(
 ) -> OBBject[BaseModel]:
     """Example Data."""
     return await OBBject.from_query(Query(**locals()))
+
+@router.command(
+    model="FinvizCanslim",
+    examples = [
+            PythonEx(
+                description="Return canslim stock via finviz)",
+                code=[
+                    "obb.mmext.canslim()"
+                ]
+            )
+    ]
+)
+async def canslim(
+    cc: CommandContext,
+    provider_choices: ProviderChoices,
+    standard_params: StandardParams,
+    extra_params: ExtraParams,
+) -> OBBject[BaseModel]:
+    """Example Data."""
+    return await OBBject.from_query(Query(**locals()))
+
 
 
 

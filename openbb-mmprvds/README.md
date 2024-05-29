@@ -16,3 +16,5 @@ Extensions in this repo contains
 - Finviz Canslim provider
   - Leverages Finviz screener API (unofficial) to retrieve stocks according to canslim criteria. IMHO Finviz has 
     a more flexible screener than FMP, but the API i am using is 'sort of' unofficial. 
+
+# set result preferences as dataframe, for better display obb.user.preferences.output_type = "dataframe"
