@@ -23,8 +23,8 @@ class SeekingAlphaData(Data):
 
     """
 
-    tickers: str = Field(description="Tickers mentioned in article.")
-    as_of_date: str = Field(description="As Of Date.")
+    tickers: str = Field(description="Ticker mentioned in article.")
+    as_of_date: date = Field(description="As Of Date of the feed.")
     detail: str = Field(description="Details of Article")
     link: str = Field(description="Link to Article")
 

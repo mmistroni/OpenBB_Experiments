@@ -3,9 +3,7 @@ import pytest
 from openbb_providers.models.seekingalpha import SeekingAlphaData, SADividendPicksFetcher, SAStockIdeaFetcher
 from openbb_core.app.service.user_service import UserService
 import re
-import requests
-from bs4 import BeautifulSoup
-
+from datetime import date
 
 test_credentials = UserService().default_user_settings.credentials.model_dump(
     mode="json"
@@ -46,7 +44,7 @@ def test_sa_dividend_picks(credentials=test_credentials):
 
 def test_sa_data():
 
-    test_dict = {'as_of_date': '2024-05-17',
+    test_dict = {'as_of_date': date(2022,1,1),
                   'tickers': 'FTAI',
                   'detail': 'ftai aviation: still a buy after stock price doubles',
                   'link': 'https://seekingalpha.com/article/4694208-ftai-aviation'
