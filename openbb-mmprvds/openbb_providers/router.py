@@ -140,17 +140,22 @@ async def cramer(
     return await OBBject.from_query(Query(**locals()))
 
 @router.command(
-    model="FinvizCanslim",
+    model="FinvizScreener",
     examples = [
             PythonEx(
-                description="Return canslim stock via finviz)",
+                description="Return stock via finviz screener",
                 code=[
-                    "obb.mmext.canslim()"
+                    "obb.mmext.screener(filters=dict(price='Over $10')",
+                    '''
+                       sample_dict = {'Market Cap.': '+Small (over $300mln)', 'Average Volume': 'Over 200K', 'Price': 'Over $10'}
+                       obb.mmext.screener(filters=sample_dict)
+                    '''
+
                 ]
             )
     ]
 )
-async def canslim(
+async def finviz_screener(
     cc: CommandContext,
     provider_choices: ProviderChoices,
     standard_params: StandardParams,

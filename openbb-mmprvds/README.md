@@ -13,8 +13,11 @@ Extensions in this repo contains
   - retrieves historical market cap from FMP
 - Jim Cramer's recommendation
   - fetches Jim Cramer Stock Picks
-- Finviz Canslim provider
-  - Leverages Finviz screener API (unofficial) to retrieve stocks according to canslim criteria. IMHO Finviz has 
+- Finviz Screener
+  - Leverages Finviz screener API (unofficial) to retrieve stocks according to multiple criteria. IMHO Finviz has 
     a more flexible screener than FMP, but the API i am using is 'sort of' unofficial. 
 
 # set result preferences as dataframe, for better display obb.user.preferences.output_type = "dataframe"
+
+# Some notes on writing unit tests
+https://docs.openbb.co/platform/developer_guide/tests 
