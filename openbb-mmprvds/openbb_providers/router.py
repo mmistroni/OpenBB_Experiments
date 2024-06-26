@@ -148,7 +148,7 @@ async def cramer(
                     "obb.mmext.screener(filters=dict(price='Over $10')",
                     '''
                        sample_dict = {'Market Cap.': '+Small (over $300mln)', 'Average Volume': 'Over 200K', 'Price': 'Over $10'}
-                       obb.mmext.screener(filters=sample_dict)
+                       obb.mmext.finviz_screener(filters=sample_dict)
                     '''
 
                 ]
@@ -164,6 +164,26 @@ async def finviz_screener(
     """Example Data."""
     return await OBBject.from_query(Query(**locals()))
 
+
+@router.command(
+    model="FinvizWatchlist",
+    examples = [
+            PythonEx(
+                description="Return stock from finviz using watchlist screenervvia finviz screener",
+                code=[
+                    "obb.mmext.finviz_watchlist()",
+                ]
+            )
+    ]
+)
+async def finviz_watchlist(
+    cc: CommandContext,
+    provider_choices: ProviderChoices,
+    standard_params: StandardParams,
+    extra_params: ExtraParams,
+) -> OBBject[BaseModel]:
+    """Example Data."""
+    return await OBBject.from_query(Query(**locals()))
 
 
 

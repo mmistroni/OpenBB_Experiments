@@ -1,6 +1,7 @@
 """Pyth2 Fetchers tests."""
 import pytest
-from openbb_providers.models.finviz_provider import FinvizScreenerData, FinvizScreenerQueryParams, FinvizScreenerFetcher
+from openbb_providers.models.finviz_provider import FinvizScreenerData, FinvizScreenerQueryParams, FinvizScreenerFetcher,\
+                                                    FinvizWatchlistFetcher
 from openbb_core.app.service.user_service import UserService
 import re
 
@@ -44,6 +45,14 @@ def test_finviz_fetcher(credentials=test_credentials):
     fetcher = FinvizScreenerFetcher()
     result = fetcher.test(params, credentials)
     assert result is None
+
+@pytest.mark.record_http
+def test_finviz_watchilst_fetcher(credentials=test_credentials):
+    params = {}
+    fetcher = FinvizWatchlistFetcher()
+    result = fetcher.test(params, credentials)
+    assert result is None
+
 
 
 def test_finviz_data():

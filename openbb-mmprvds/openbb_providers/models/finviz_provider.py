@@ -19,8 +19,15 @@ class FinvizScreenerQueryParams(QueryParams):
 
     """
 
-    filters: dict = Field(description="A dictionary of Finviz Filters.")
+    filters: Dict[str, str] = Field(description="A dictionary of Finviz Filters.")
 
+class FinvizWatchlistQueryParams(QueryParams):
+    """
+    Finviz Query Paramms for a generic watchlist
+
+    https://pypi.org/project/finvizfinance/
+
+    """
 
 class FinvizScreenerData(Data):
     """Sample provider data for finviz screener.
@@ -49,6 +56,8 @@ class FinvizScreenerFetcher(
 
     This class is responsible for the actual data retrieval.
     """
+
+
     @staticmethod
     def transform_query(params: Dict[str, Any]) -> FinvizScreenerQueryParams:
         """Define example transform_query.
@@ -69,11 +78,6 @@ class FinvizScreenerFetcher(
         Here we make the actual request to the data provider and receive the raw data.
         If you said your Provider class needs credentials you can get them here.
         """
-        api_key = (
-            credentials.get("fmp_api_key")
-            if credentials
-            else ""
-        )
         filters = query.filters
         return run_screener(filters)
 
@@ -87,3 +91,77 @@ class FinvizScreenerFetcher(
         You can apply other transformations to it here.
         """
         return [FinvizScreenerData(**d) for d in data]
+
+class FinvizWatchlistFetcher(
+    Fetcher[
+        FinvizWatchlistQueryParams,
+        List[FinvizScreenerData],
+    ]
+):
+    """ Finviz Screener Fetcher class.
+
+    This class is responsible for the actual data retrieval.
+    """
+
+
+    @staticmethod
+    def transform_query(params: Dict[str, Any]) -> FinvizWatchlistQueryParams:
+        """Define example transform_query.
+
+        Here we can pre-process the query parameters and add any extra parameters that
+        will be used inside the extract_data method.
+        """
+        return FinvizWatchlistQueryParams(**params)
+
+    @staticmethod
+    def extract_data(
+        query: FinvizWatchlistQueryParams,
+        credentials: Optional[Dict[str, str]],
+        **kwargs: Any,
+    ) -> List[dict]:
+        """Define example extract_data.
+
+        Here we make the actual request to the data provider and receive the raw data.
+        If you said your Provider class needs credentials you can get them here.
+        """
+        price_filters = {
+            'Price': 'Over $10',
+            '20-Day Simple Moving Average': 'Price above SMA20',
+            '50-Day Simple Moving Average': 'Price above SMA50',
+            '200-Day Simple Moving Average': 'Price above SMA200',
+        }
+
+        desc_filters = {
+            'Market Cap.': '+Mid (over $2bln)',
+            'Average Volume': 'Over 200K',
+            # 'Float': 'Under 50M',
+            # 'Asset Type':'Equities (Stocks)'
+        }
+
+        fund_filters = {
+            'EPS growththis year': 'Over 20%',
+            'EPS growthnext year': 'Over 20%',
+            'EPS growthqtr over qtr': 'Over 20%',
+            'Sales growthqtr over qtr': 'Over 20%',
+            'Gross Margin': 'Over 20%',
+            'Return on Equity': 'Over +20%',
+            'InstitutionalOwnership': 'Under 60%'
+        }
+
+        filters_dict = price_filters
+        filters_dict.update(desc_filters)
+        filters_dict.update(fund_filters)
+
+        return run_screener(filters_dict)
+
+    @staticmethod
+    def transform_data(
+        query: FinvizWatchlistQueryParams, data: List[dict], **kwargs: Any
+    ) -> List[FinvizScreenerData]:
+        """Define example transform_data.
+
+        Right now, we're converting the data to fit our desired format.
+        You can apply other transformations to it here.
+        """
+        return [FinvizScreenerData(**d) for d in data]
+
