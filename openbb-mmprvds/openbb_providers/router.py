@@ -165,29 +165,6 @@ async def finviz_screener(
     return await OBBject.from_query(Query(**locals()))
 
 
-@router.command(
-    model="FinvizWatchlist",
-    examples = [
-            PythonEx(
-                description="Return stock from finviz using watchlist screenervvia finviz screener",
-                code=[
-                    "obb.mmext.finviz_watchlist()",
-                ]
-            )
-    ]
-)
-async def finviz_watchlist(
-    cc: CommandContext,
-    provider_choices: ProviderChoices,
-    standard_params: StandardParams,
-    extra_params: ExtraParams,
-) -> OBBject[BaseModel]:
-    """Example Data."""
-    return await OBBject.from_query(Query(**locals()))
-
-
-
-
 
 
 
