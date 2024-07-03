@@ -139,6 +139,7 @@ async def cramer(
     """Example Data."""
     return await OBBject.from_query(Query(**locals()))
 
+
 @router.command(
     model="FinvizScreener",
     examples = [
