@@ -143,18 +143,14 @@ async def cramer(
     model="FinvizScreener",
     examples = [
             PythonEx(
-                description="Return stock via finviz screener",
+                description="Screener for Finviz)",
                 code=[
-                    "obb.mmext.screener(filters=dict(price='Over $10')",
-                    '''
-                       sample_dict = {'Market Cap.': '+Small (over $300mln)', 'Average Volume': 'Over 200K', 'Price': 'Over $10'}
-                       obb.mmext.finviz_screener(filters=sample_dict)
-                    '''
-
+                    "obb.mmext.finviz_screener(filters={'Market Cap.': '+Small (over $300mln)'})"
                 ]
             )
-    ]
+        ]
 )
+
 async def finviz_screener(
     cc: CommandContext,
     provider_choices: ProviderChoices,
@@ -163,8 +159,3 @@ async def finviz_screener(
 ) -> OBBject[BaseModel]:
     """Example Data."""
     return await OBBject.from_query(Query(**locals()))
-
-
-
-
-

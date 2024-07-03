@@ -5,6 +5,9 @@ from openbb_core.provider.abstract.fetcher import Fetcher
 from openbb_core.provider.abstract.query_params import QueryParams
 from pydantic import Field
 from openbb_providers.utils.finviz_helpers import run_screener
+from pydantic import BaseModel, model_validator
+from typing import Optional, List
+import json
 
 import logging
 
@@ -20,6 +23,15 @@ class FinvizScreenerQueryParams(QueryParams):
     """
 
     filters: Dict[str, str] = Field(description="A dictionary of Finviz Filters.")
+
+    @model_validator(mode='before')
+    @classmethod
+    def validate_to_json(cls, value):
+        if isinstance(value, str):
+            return cls(**json.loads(value))
+        return value
+
+
 
 class FinvizWatchlistQueryParams(QueryParams):
     """

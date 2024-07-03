@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "openbb-providers"
-version = "1.0.95"
+version = "1.0.98"
 description = "Python custom  Extension for OBB"
 authors = ["Marco Mistroni <mmistroni@gmail.com>"]
 readme = "README.md"
