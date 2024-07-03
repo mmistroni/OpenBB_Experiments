@@ -22,7 +22,7 @@ class FinvizScreenerQueryParams(QueryParams):
 
     """
 
-    filters: Dict[str, str] = Field(description="A dictionary of Finviz Filters.")
+    filters: List[str] = Field(description="A dictionary of Finviz Filters.")
 
     @model_validator(mode='before')
     @classmethod
