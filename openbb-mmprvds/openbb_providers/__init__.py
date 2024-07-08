@@ -8,7 +8,8 @@ from openbb_providers.models.cftc_contracts import  CommitmentOfTradersReportFet
 from openbb_providers.models.fmp_marketcap import FMPMarketCapDataFetcher
 from openbb_providers.models.seekingalpha import SADividendPicksFetcher, SAStockIdeaFetcher
 from openbb_providers.models.cramer import CramerFetcher
-from openbb_providers.models.finviz_provider import FinvizScreenerFetcher, FinvizWatchlistFetcher
+from openbb_providers.models.finviz_provider import FinvizScreenerFetcher, FinvizWatchlistFetcher,\
+                                                    FinvizHiLoFetcher
 
 
 cftc_provider = Provider(
@@ -50,8 +51,9 @@ finviz_provider = Provider(
         "Provider for Finviz Screener."
     ),
     fetcher_dict={
-        'FinvizScreener' : FinvizScreenerFetcher,
-        "FinvizWatchlist": FinvizWatchlistFetcher
+        #'FinvizScreener' : FinvizScreenerFetcher,
+        "FinvizWatchlist": FinvizWatchlistFetcher,
+        "FinvizHiLoFetcher" : FinvizHiLoFetcher
     }
 )
 

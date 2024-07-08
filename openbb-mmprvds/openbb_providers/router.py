@@ -141,18 +141,18 @@ async def cramer(
 
 
 @router.command(
-    model="FinvizScreener",
+    model="FinvizHiLoFetcher",
     examples = [
             PythonEx(
-                description="Screener for Finviz)",
+                description="Fetcher for stocks that hit 52wk high or 52wklow",
                 code=[
-                    "obb.mmext.finviz_screener(filters={'Market Cap.': '+Small (over $300mln)'})"
+                    "obb.mmext.hilo()"
                 ]
             )
         ]
 )
 
-async def finviz_screener(
+async def hilo(
     cc: CommandContext,
     provider_choices: ProviderChoices,
     standard_params: StandardParams,
