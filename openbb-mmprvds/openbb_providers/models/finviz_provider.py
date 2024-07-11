@@ -22,7 +22,7 @@ class FinvizScreenerQueryParams(QueryParams):
 
     """
 
-    filters: List[str] = Field(description="A dictionary of Finviz Filters.")
+    filters: Dict[str, str] = Field(description="A dictionary of Finviz Filters.")
 
     @model_validator(mode='before')
     @classmethod
@@ -138,34 +138,33 @@ class FinvizWatchlistFetcher(
 
         Here we make the actual request to the data provider and receive the raw data.
         If you said your Provider class needs credentials you can get them here.
+        Note, we are filtering on sto
         """
-        price_filters = [
-            'Price=Over $10',
-            '20-Day Simple Moving Average=Price above SMA20',
-            '50-Day Simple Moving Average=Price above SMA50',
-            '200-Day Simple Moving Average=Price above SMA200',
-        ]
-
-        desc_filters = {
-            'Market Cap.=+Mid (over $2bln)',
-            'Average Volume=Over 200K',
-            # 'Float': 'Under 50M',
-            # 'Asset Type':'Equities (Stocks)'
+        price_filters = {
+            'Price' : 'Over $10',
+            '20-Day Simple Moving Average' : 'Price above SMA20',
+            '50-Day Simple Moving Average' : 'Price above SMA50',
+            '200-Day Simple Moving Average' : 'Price above SMA200',
         }
 
-        fund_filters = [
-            'EPS growththis year=Over 20%',
-            'EPS growthnext year=Over 20%',
-            'EPS growthqtr over qtr=Over 20%',
-            'Sales growthqtr over qtr=Over 20%',
-            'Gross Margin=Over 20%',
-            'Return on Equity=Over +20%',
-            'InstitutionalOwnership=Under 60%'
-        ]
+        desc_filters = {
+            'Market Cap.' : '+Mid (over $2bln)',
+            'Average Volume' : 'Over 200K',
+        }
+
+        fund_filters = {
+            'EPS growththis year' : 'Over 20%',
+            'EPS growthnext year' : 'Over 20%',
+            'EPS growthqtr over qtr' : 'Over 20%',
+            'Sales growthqtr over qtr' : 'Over 20%',
+            'Gross Margin' : 'Over 20%',
+            'Return on Equity' : 'Over +20%',
+            'InstitutionalOwnership' : 'Under 60%'
+        }
 
         filters_dict = price_filters
-        filters_dict += desc_filters
-        filters_dict += fund_filters
+        filters_dict.update(desc_filters)
+        filters_dict.update(fund_filters)
 
         return run_screener(filters_dict)
 
@@ -197,7 +196,7 @@ class FinvizHiLoData(Data):
 
     new_high: List[str] = Field(description="Ticker of stocks that reached new highs.")
     new_low: List[str] =  Field(description="Ticker of stocks that reached new low.")
-    strength: str = Field(description="This shows the number of stocks on the NYSE at 52-week highs compared to those at 52-week lows", alias='Sector')
+    strength: int = Field(description="This shows the number of stocks on the NYSE at 52-week highs compared to those at 52-week lows", alias='Sector')
 
 
 class FinvizHiLoFetcher(
@@ -240,9 +239,9 @@ class FinvizHiLoFetcher(
         low_filter_dict = {'52-Week High/Low': low_filter}
 
         highs = run_screener(high_filter_dict)
-        high_ticks = ','.join([d['Ticker'] for d in highs])
+        high_ticks = [d['Ticker'] for d in highs]
         lows = run_screener(low_filter_dict)
-        low_ticks = ','.join([d['Ticker'] for d in lows])
+        low_ticks = [d['Ticker'] for d in lows]
 
         return [dict(new_high=high_ticks, new_low=low_ticks, strength=len(high_ticks) - len(low_ticks))]
 

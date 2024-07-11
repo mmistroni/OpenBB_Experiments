@@ -30,18 +30,18 @@ def vcr_config():
 #
 @pytest.mark.record_http
 def test_finviz_fetcher(credentials=test_credentials):
-    generic_filter_lst = ['Market Cap.=+Small (over $300mln)',
-                    'Average Volume=Over 200K',
-                    'Price=Over $10',
-                    'EPS growththis year=Over 20%',
-                    'EPS growthnext year=Positive (>0%)',
-                    'Gross Margin=Positive (>0%)',
-                    'EPS growthqtr over qtr=Over 20%',
-                    'Sales growthqtr over qtr=Over 20%',
-                    'Return on Equity=Positive (>0%)'
-                    ]
+    generic_filter_dct = {'Market Cap.' : '+Small (over $300mln)',
+                    'Average Volume' : 'Over 200K',
+                    'Price' : 'Over $10',
+                    'EPS growththis year' : 'Over 20%',
+                    'EPS growthnext year' : 'Positive (>0%)',
+                    'Gross Margin' : 'Positive (>0%)',
+                    'EPS growthqtr over qtr' : 'Over 20%',
+                    'Sales growthqtr over qtr' : 'Over 20%',
+                    'Return on Equity' : 'Positive (>0%)'
+                          }
 
-    params = {'filters' : generic_filter_lst}
+    params = {'filters' : generic_filter_dct}
     fetcher = FinvizScreenerFetcher()
     result = fetcher.test(params, credentials)
     assert result is None

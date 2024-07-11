@@ -11,7 +11,7 @@ interactions:
       Cookie:
       - chartsTheme=dark; notice-newsletter=show; screenerUrl=v%3D111%26f%3Dcap_smallover%2Cfa_epsqoq_o20%2Cfa_epsyoy_o20%2Cfa_epsyoy1_pos%2Cfa_grossmargin_pos%2Cfa_roe_pos%2Cfa_salesqoq_o20%2Csh_avgvol_o200%2Csh_price_o10%26o%3Dticker%26r%3D61
     method: GET
-    uri: https://finviz.com/screener.ashx?f=sh_price_o10%2Cta_sma20_pa%2Cta_sma50_pa%2Cta_sma200_pa%2Csh_avgvol_o200%2Ccap_midover%2Cfa_epsyoy_o20%2Cfa_epsyoy1_o20%2Cfa_epsqoq_o20%2Cfa_salesqoq_o20%2Cfa_grossmargin_o20%2Cfa_roe_o20%2Csh_instown_u60&o=ticker&v=111
+    uri: https://finviz.com/screener.ashx?f=sh_price_o10%2Cta_sma20_pa%2Cta_sma50_pa%2Cta_sma200_pa%2Ccap_midover%2Csh_avgvol_o200%2Cfa_epsyoy_o20%2Cfa_epsyoy1_o20%2Cfa_epsqoq_o20%2Cfa_salesqoq_o20%2Cfa_grossmargin_o20%2Cfa_roe_o20%2Csh_instown_u60&o=ticker&v=111
   response:
     body:
       string: "<!DOCTYPE html>\n<html lang=\"en\" class=\" dark\">\n<head>\n<title>Stock
@@ -100,15 +100,15 @@ interactions:
         true,\r\n                quoteSearchExt: '',\r\n                isJoinBannerVisible:
         false,\r\n            };\r\n        </script><script src=\"/assets/dist-legacy/script/browser_check.fca380bf.js\"></script><script
         src=\"/assets/dist-legacy/script/vendor/boxover.bd6045ad.js\"></script>\n<script
-        src=\"/assets/dist-legacy/runtime.ce917f3c.js\" onerror=\"window.handleScriptNotLoaded(this)\"></script><script
-        src=\"/assets/dist-legacy/libs_init.6c24f8e6.js\" onerror=\"window.handleScriptNotLoaded(this)\"></script><script
-        src=\"/assets/dist-legacy/4448.4d6ce3b6.js\" onerror=\"window.handleScriptNotLoaded(this)\"></script><script
-        src=\"/assets/dist-legacy/508.6d240dae.js\" onerror=\"window.handleScriptNotLoaded(this)\"></script><script
-        src=\"/assets/dist-legacy/1556.75067b82.js\" onerror=\"window.handleScriptNotLoaded(this)\"></script><script
-        src=\"/assets/dist-legacy/3988.202a9cce.js\" onerror=\"window.handleScriptNotLoaded(this)\"></script><script
-        src=\"/assets/dist-legacy/7603.96a170ed.js\" onerror=\"window.handleScriptNotLoaded(this)\"></script><script
-        src=\"/assets/dist-legacy/8776.e3c917b5.js\" onerror=\"window.handleScriptNotLoaded(this)\"></script><script
-        src=\"/assets/dist-legacy/header.c785c764.js\" onerror=\"window.handleScriptNotLoaded(this)\"></script><script
+        src=\"/assets/dist-legacy/runtime.bac1d3e0.js\" onerror=\"window.handleScriptNotLoaded(this)\"></script><script
+        src=\"/assets/dist-legacy/libs_init.edd97563.js\" onerror=\"window.handleScriptNotLoaded(this)\"></script><script
+        src=\"/assets/dist-legacy/4331.c294779f.js\" onerror=\"window.handleScriptNotLoaded(this)\"></script><script
+        src=\"/assets/dist-legacy/7000.1d247042.js\" onerror=\"window.handleScriptNotLoaded(this)\"></script><script
+        src=\"/assets/dist-legacy/6457.20fa6770.js\" onerror=\"window.handleScriptNotLoaded(this)\"></script><script
+        src=\"/assets/dist-legacy/2725.c93fe3ff.js\" onerror=\"window.handleScriptNotLoaded(this)\"></script><script
+        src=\"/assets/dist-legacy/7898.27164289.js\" onerror=\"window.handleScriptNotLoaded(this)\"></script><script
+        src=\"/assets/dist-legacy/830.a8c13e73.js\" onerror=\"window.handleScriptNotLoaded(this)\"></script><script
+        src=\"/assets/dist-legacy/header.9b887649.js\" onerror=\"window.handleScriptNotLoaded(this)\"></script><script
         type=\"text/javascript\">\r\n            var portfolioRowsLimit=50;\r\n            function
         ScreenerSelectOnChange() {}\r\n            FinvizSettings.screenerCurrentTimeframe
         = {timeframe: \"d\", dateRange: null}\r\n\r\n            function trackPagination(source)
@@ -120,12 +120,12 @@ interactions:
         type=\"text/javascript\" onerror=\"window.handleScriptNotLoaded(this)\"></script>\n<script>FinvizSettings.defaultPeriod
         = 'd'</script>\n<script src=\"/assets/dist-legacy/script/screener_free.31df4c86.js\"
         type=\"text/javascript\" onerror=\"window.handleScriptNotLoaded(this)\"></script><script
-        src=\"/assets/dist-legacy/8460.5e045e55.js\" onerror=\"window.handleScriptNotLoaded(this)\"></script><script
-        src=\"/assets/dist-legacy/9604.6098cf60.js\" onerror=\"window.handleScriptNotLoaded(this)\"></script><script
-        src=\"/assets/dist-legacy/8672.597122d3.js\" onerror=\"window.handleScriptNotLoaded(this)\"></script><script
-        src=\"/assets/dist-legacy/5061.779fe29d.js\" onerror=\"window.handleScriptNotLoaded(this)\"></script><script
-        src=\"/assets/dist-legacy/7704.1e6ccb24.js\" onerror=\"window.handleScriptNotLoaded(this)\"></script><script
-        src=\"/assets/dist-legacy/screener.92888d89.js\" onerror=\"window.handleScriptNotLoaded(this)\"></script></head>\n\r\n
+        src=\"/assets/dist-legacy/5959.721deb1f.js\" onerror=\"window.handleScriptNotLoaded(this)\"></script><script
+        src=\"/assets/dist-legacy/1528.59da484a.js\" onerror=\"window.handleScriptNotLoaded(this)\"></script><script
+        src=\"/assets/dist-legacy/1028.7573c3cb.js\" onerror=\"window.handleScriptNotLoaded(this)\"></script><script
+        src=\"/assets/dist-legacy/7530.0e58f8e1.js\" onerror=\"window.handleScriptNotLoaded(this)\"></script><script
+        src=\"/assets/dist-legacy/5621.ff3280b4.js\" onerror=\"window.handleScriptNotLoaded(this)\"></script><script
+        src=\"/assets/dist-legacy/screener.8136a615.js\" onerror=\"window.handleScriptNotLoaded(this)\"></script></head>\n\r\n
         \         <script>\r\n            const channelIdToLabel = {\r\n                '1':
         'MarketWatch',\r\n                '2': 'WSJ',\r\n                '3': 'Reuters',\r\n
         \               '4': 'Yahoo Finance',\r\n                '5': 'CNN',\r\n                '6':
@@ -1256,10 +1256,10 @@ interactions:
         alt=\"\" border=\"0\"></td></tr>\n<tr>\n<td width=\"100%\">\n<div class=\"relative
         w-full min-h-6\"><div class=\"absolute bottom-0 left-0 right-0 top-0 flex
         justify-between items-center space-x-2\">\n<div id=\"screener-total\" class=\"count-text
-        whitespace-nowrap\">#1 / 4 Total</div>\n<div id=\"screener-fullview-links\"
+        whitespace-nowrap\">#1 / 6 Total</div>\n<div id=\"screener-fullview-links\"
         class=\"fullview-links flex space-x-3 lg:space-x-5 justify-center items-center
         overflow-hidden text-link\"\">\n<span class=\"tab-link whitespace-nowrap\">\n<a
-        href=\"javascript:SavePortfolio(4,'v=111&f=cap_midover,fa_epsqoq_o20,fa_epsyoy_o20,fa_epsyoy1_o20,fa_grossmargin_o20,fa_roe_o20,fa_salesqoq_o20,sh_avgvol_o200,sh_instown_u60,sh_price_o10,ta_sma20_pa,ta_sma200_pa,ta_sma50_pa&o=ticker')\"
+        href=\"javascript:SavePortfolio(6,'v=111&f=cap_midover,fa_epsqoq_o20,fa_epsyoy_o20,fa_epsyoy1_o20,fa_grossmargin_o20,fa_roe_o20,fa_salesqoq_o20,sh_avgvol_o200,sh_instown_u60,sh_price_o10,ta_sma20_pa,ta_sma200_pa,ta_sma50_pa&o=ticker')\"
         class=\"tab-link\">save as portfolio</a> | \n<a href=\"/elite.ashx?utm_source=finviz&utm_medium=banner&utm_campaign=screener-create-alert\"
         class=\"tab-link\">create alert</a></span>\n<span style=\"white-space: nowrap\"><span
         class=\"count-text\"><b>Refresh:</b></span> <a href=\"/screener.ashx?v=111&f=cap_midover,fa_epsqoq_o20,fa_epsyoy_o20,fa_epsyoy1_o20,fa_grossmargin_o20,fa_roe_o20,fa_salesqoq_o20,sh_avgvol_o200,sh_instown_u60,sh_price_o10,ta_sma20_pa,ta_sma200_pa,ta_sma50_pa&o=ticker&ar=180\"
@@ -1300,26 +1300,25 @@ interactions:
         1x, https://charts2-node.finviz.com/chart.ashx?cs=m&t=APP&tf=d&s=linear&ct=candle_stick&tm=d&sf=2
         2x' width='324' height='180' alt='' referrerPolicy='no-referrer-when-downgrade'
         loading='lazy'><div><b>Applovin Corp</b>Software - Application <span>\u2022</span>
-        USA <span>\u2022</span> 28.57B</div>] offsetx=[100] offsety=[0] delay=[0]\"><a
+        USA <span>\u2022</span> 27.76B</div>] offsetx=[100] offsety=[0] delay=[0]\"><a
         href=\"quote.ashx?t=APP&ty=c&p=d&b=1\" class=\"tab-link\">APP</a></td><td
         height=\"10\" align=\"left\"><a href=\"quote.ashx?t=APP&ty=c&p=d&b=1\" \">Applovin
         Corp</a></td><td height=\"10\" align=\"left\"><a href=\"quote.ashx?t=APP&ty=c&p=d&b=1\"
         \">Technology</a></td><td height=\"10\" align=\"left\"><a href=\"quote.ashx?t=APP&ty=c&p=d&b=1\"
         \">Software - Application</a></td><td height=\"10\" align=\"left\"><a href=\"quote.ashx?t=APP&ty=c&p=d&b=1\"
         \">USA</a></td><td height=\"10\" align=\"right\"><a href=\"quote.ashx?t=APP&ty=c&p=d&b=1\"
-        \">28.57B</a></td><td height=\"10\" align=\"right\"><a href=\"quote.ashx?t=APP&ty=c&p=d&b=1\"
-        \"><span class=\"color-text is-negative\">51.45</span></a></td><td height=\"10\"
-        align=\"right\" data-boxover=\"cssbody=[hoverchart] cssheader=[tabchrthdr]
-        body=[<img src='https://charts2-node.finviz.com/chart.ashx?cs=m&t=APP&tf=d&s=linear&ct=candle_stick&tm=d'
+        \">27.76B</a></td><td height=\"10\" align=\"right\"><a href=\"quote.ashx?t=APP&ty=c&p=d&b=1\"
+        \">49.98</a></td><td height=\"10\" align=\"right\" data-boxover=\"cssbody=[hoverchart]
+        cssheader=[tabchrthdr] body=[<img src='https://charts2-node.finviz.com/chart.ashx?cs=m&t=APP&tf=d&s=linear&ct=candle_stick&tm=d'
         srcset='https://charts2-node.finviz.com/chart.ashx?cs=m&t=APP&tf=d&s=linear&ct=candle_stick&tm=d
         1x, https://charts2-node.finviz.com/chart.ashx?cs=m&t=APP&tf=d&s=linear&ct=candle_stick&tm=d&sf=2
         2x' width='324' height='180' alt='' referrerPolicy='no-referrer-when-downgrade'
         loading='lazy'><div><b>Applovin Corp</b>Software - Application <span>\u2022</span>
-        USA <span>\u2022</span> 28.57B</div>] offsetx=[-324] offsety=[20] delay=[0]\"><a
-        href=\"quote.ashx?t=APP&ty=c&p=d&b=1\" \"><span class=\"color-text is-positive\">86.84</span></a></td><td
+        USA <span>\u2022</span> 27.76B</div>] offsetx=[-324] offsety=[20] delay=[0]\"><a
+        href=\"quote.ashx?t=APP&ty=c&p=d&b=1\" \"><span class=\"color-text is-negative\">84.36</span></a></td><td
         height=\"10\" align=\"right\"><a href=\"quote.ashx?t=APP&ty=c&p=d&b=1\" \"><span
-        class=\"color-text is-positive\">3.78%</span></a></td><td height=\"10\" align=\"right\"><a
-        href=\"quote.ashx?t=APP&ty=c&p=d&b=1\" \">2,986,783</a></td></tr><tr class=\"styled-row
+        class=\"color-text is-negative\">-0.41%</span></a></td><td height=\"10\" align=\"right\"><a
+        href=\"quote.ashx?t=APP&ty=c&p=d&b=1\" \">2,348,851</a></td></tr><tr class=\"styled-row
         is-hoverable is-bordered is-rounded is-striped has-color-text\" valign=\"top\">\n<td
         height=\"10\" align=\"right\"><a href=\"quote.ashx?t=APPF&ty=c&p=d&b=1\" \">2</a></td><td
         height=\"10\" align=\"left\" data-boxover=\"cssbody=[hoverchart] cssheader=[tabchrthdr]
@@ -1328,26 +1327,26 @@ interactions:
         1x, https://charts2-node.finviz.com/chart.ashx?cs=m&t=APPF&tf=d&s=linear&ct=candle_stick&tm=d&sf=2
         2x' width='324' height='180' alt='' referrerPolicy='no-referrer-when-downgrade'
         loading='lazy'><div><b>Appfolio Inc</b>Software - Application <span>\u2022</span>
-        USA <span>\u2022</span> 9.17B</div>] offsetx=[100] offsety=[0] delay=[0]\"><a
+        USA <span>\u2022</span> 8.98B</div>] offsetx=[100] offsety=[0] delay=[0]\"><a
         href=\"quote.ashx?t=APPF&ty=c&p=d&b=1\" class=\"tab-link\">APPF</a></td><td
         height=\"10\" align=\"left\"><a href=\"quote.ashx?t=APPF&ty=c&p=d&b=1\" \">Appfolio
         Inc</a></td><td height=\"10\" align=\"left\"><a href=\"quote.ashx?t=APPF&ty=c&p=d&b=1\"
         \">Technology</a></td><td height=\"10\" align=\"left\"><a href=\"quote.ashx?t=APPF&ty=c&p=d&b=1\"
         \">Software - Application</a></td><td height=\"10\" align=\"left\"><a href=\"quote.ashx?t=APPF&ty=c&p=d&b=1\"
         \">USA</a></td><td height=\"10\" align=\"right\"><a href=\"quote.ashx?t=APPF&ty=c&p=d&b=1\"
-        \">9.17B</a></td><td height=\"10\" align=\"right\"><a href=\"quote.ashx?t=APPF&ty=c&p=d&b=1\"
-        \"><span class=\"color-text is-negative\">122.13</span></a></td><td height=\"10\"
+        \">8.98B</a></td><td height=\"10\" align=\"right\"><a href=\"quote.ashx?t=APPF&ty=c&p=d&b=1\"
+        \"><span class=\"color-text is-negative\">119.53</span></a></td><td height=\"10\"
         align=\"right\" data-boxover=\"cssbody=[hoverchart] cssheader=[tabchrthdr]
         body=[<img src='https://charts2-node.finviz.com/chart.ashx?cs=m&t=APPF&tf=d&s=linear&ct=candle_stick&tm=d'
         srcset='https://charts2-node.finviz.com/chart.ashx?cs=m&t=APPF&tf=d&s=linear&ct=candle_stick&tm=d
         1x, https://charts2-node.finviz.com/chart.ashx?cs=m&t=APPF&tf=d&s=linear&ct=candle_stick&tm=d&sf=2
         2x' width='324' height='180' alt='' referrerPolicy='no-referrer-when-downgrade'
         loading='lazy'><div><b>Appfolio Inc</b>Software - Application <span>\u2022</span>
-        USA <span>\u2022</span> 9.17B</div>] offsetx=[-324] offsety=[20] delay=[0]\"><a
-        href=\"quote.ashx?t=APPF&ty=c&p=d&b=1\" \"><span class=\"color-text is-positive\">253.35</span></a></td><td
+        USA <span>\u2022</span> 8.98B</div>] offsetx=[-324] offsety=[20] delay=[0]\"><a
+        href=\"quote.ashx?t=APPF&ty=c&p=d&b=1\" \"><span class=\"color-text is-negative\">247.96</span></a></td><td
         height=\"10\" align=\"right\"><a href=\"quote.ashx?t=APPF&ty=c&p=d&b=1\" \"><span
-        class=\"color-text is-positive\">2.50%</span></a></td><td height=\"10\" align=\"right\"><a
-        href=\"quote.ashx?t=APPF&ty=c&p=d&b=1\" \">245,508</a></td></tr><tr class=\"styled-row
+        class=\"color-text is-negative\">-0.37%</span></a></td><td height=\"10\" align=\"right\"><a
+        href=\"quote.ashx?t=APPF&ty=c&p=d&b=1\" \">155,093</a></td></tr><tr class=\"styled-row
         is-hoverable is-bordered is-rounded is-striped has-color-text\" valign=\"top\">\n<td
         height=\"10\" align=\"right\"><a href=\"quote.ashx?t=ATAT&ty=c&p=d&b=1\" \">3</a></td><td
         height=\"10\" align=\"left\" data-boxover=\"cssbody=[hoverchart] cssheader=[tabchrthdr]
@@ -1356,51 +1355,106 @@ interactions:
         1x, https://charts2-node.finviz.com/chart.ashx?cs=m&t=ATAT&tf=d&s=linear&ct=candle_stick&tm=d&sf=2
         2x' width='324' height='180' alt='' referrerPolicy='no-referrer-when-downgrade'
         loading='lazy'><div><b>Atour Lifestyle Holdings Ltd ADR</b>Lodging <span>\u2022</span>
-        China <span>\u2022</span> 2.13B</div>] offsetx=[100] offsety=[0] delay=[0]\"><a
+        China <span>\u2022</span> 2.14B</div>] offsetx=[100] offsety=[0] delay=[0]\"><a
         href=\"quote.ashx?t=ATAT&ty=c&p=d&b=1\" class=\"tab-link\">ATAT</a></td><td
         height=\"10\" align=\"left\"><a href=\"quote.ashx?t=ATAT&ty=c&p=d&b=1\" \">Atour
         Lifestyle Holdings Ltd ADR</a></td><td height=\"10\" align=\"left\"><a href=\"quote.ashx?t=ATAT&ty=c&p=d&b=1\"
         \">Consumer Cyclical</a></td><td height=\"10\" align=\"left\"><a href=\"quote.ashx?t=ATAT&ty=c&p=d&b=1\"
         \">Lodging</a></td><td height=\"10\" align=\"left\"><a href=\"quote.ashx?t=ATAT&ty=c&p=d&b=1\"
         \">China</a></td><td height=\"10\" align=\"right\"><a href=\"quote.ashx?t=ATAT&ty=c&p=d&b=1\"
-        \">2.13B</a></td><td height=\"10\" align=\"right\"><a href=\"quote.ashx?t=ATAT&ty=c&p=d&b=1\"
-        \">19.16</a></td><td height=\"10\" align=\"right\" data-boxover=\"cssbody=[hoverchart]
+        \">2.14B</a></td><td height=\"10\" align=\"right\"><a href=\"quote.ashx?t=ATAT&ty=c&p=d&b=1\"
+        \">19.23</a></td><td height=\"10\" align=\"right\" data-boxover=\"cssbody=[hoverchart]
         cssheader=[tabchrthdr] body=[<img src='https://charts2-node.finviz.com/chart.ashx?cs=m&t=ATAT&tf=d&s=linear&ct=candle_stick&tm=d'
         srcset='https://charts2-node.finviz.com/chart.ashx?cs=m&t=ATAT&tf=d&s=linear&ct=candle_stick&tm=d
         1x, https://charts2-node.finviz.com/chart.ashx?cs=m&t=ATAT&tf=d&s=linear&ct=candle_stick&tm=d&sf=2
         2x' width='324' height='180' alt='' referrerPolicy='no-referrer-when-downgrade'
         loading='lazy'><div><b>Atour Lifestyle Holdings Ltd ADR</b>Lodging <span>\u2022</span>
-        China <span>\u2022</span> 2.13B</div>] offsetx=[-324] offsety=[20] delay=[0]\"><a
-        href=\"quote.ashx?t=ATAT&ty=c&p=d&b=1\" \">18.82</a></td><td height=\"10\"
+        China <span>\u2022</span> 2.14B</div>] offsetx=[-324] offsety=[20] delay=[0]\"><a
+        href=\"quote.ashx?t=ATAT&ty=c&p=d&b=1\" \">18.89</a></td><td height=\"10\"
         align=\"right\"><a href=\"quote.ashx?t=ATAT&ty=c&p=d&b=1\" \">0.00%</a></td><td
-        height=\"10\" align=\"right\"><a href=\"quote.ashx?t=ATAT&ty=c&p=d&b=1\" \">525,904</a></td></tr><tr
+        height=\"10\" align=\"right\"><a href=\"quote.ashx?t=ATAT&ty=c&p=d&b=1\" \">2,134,218</a></td></tr><tr
+        class=\"styled-row is-hoverable is-bordered is-rounded is-striped has-color-text\"
+        valign=\"top\">\n<td height=\"10\" align=\"right\"><a href=\"quote.ashx?t=NCLH&ty=c&p=d&b=1\"
+        \">4</a></td><td height=\"10\" align=\"left\" data-boxover=\"cssbody=[hoverchart]
+        cssheader=[tabchrthdr] body=[<img src='https://charts2-node.finviz.com/chart.ashx?cs=m&t=NCLH&tf=d&s=linear&ct=candle_stick&tm=d'
+        srcset='https://charts2-node.finviz.com/chart.ashx?cs=m&t=NCLH&tf=d&s=linear&ct=candle_stick&tm=d
+        1x, https://charts2-node.finviz.com/chart.ashx?cs=m&t=NCLH&tf=d&s=linear&ct=candle_stick&tm=d&sf=2
+        2x' width='324' height='180' alt='' referrerPolicy='no-referrer-when-downgrade'
+        loading='lazy'><div><b>Norwegian Cruise Line Holdings Ltd</b>Travel Services
+        <span>\u2022</span> USA <span>\u2022</span> 8.04B</div>] offsetx=[100] offsety=[0]
+        delay=[0]\"><a href=\"quote.ashx?t=NCLH&ty=c&p=d&b=1\" class=\"tab-link\">NCLH</a></td><td
+        height=\"10\" align=\"left\"><a href=\"quote.ashx?t=NCLH&ty=c&p=d&b=1\" \">Norwegian
+        Cruise Line Holdings Ltd</a></td><td height=\"10\" align=\"left\"><a href=\"quote.ashx?t=NCLH&ty=c&p=d&b=1\"
+        \">Consumer Cyclical</a></td><td height=\"10\" align=\"left\"><a href=\"quote.ashx?t=NCLH&ty=c&p=d&b=1\"
+        \">Travel Services</a></td><td height=\"10\" align=\"left\"><a href=\"quote.ashx?t=NCLH&ty=c&p=d&b=1\"
+        \">USA</a></td><td height=\"10\" align=\"right\"><a href=\"quote.ashx?t=NCLH&ty=c&p=d&b=1\"
+        \">8.04B</a></td><td height=\"10\" align=\"right\"><a href=\"quote.ashx?t=NCLH&ty=c&p=d&b=1\"
+        \">28.72</a></td><td height=\"10\" align=\"right\" data-boxover=\"cssbody=[hoverchart]
+        cssheader=[tabchrthdr] body=[<img src='https://charts2-node.finviz.com/chart.ashx?cs=m&t=NCLH&tf=d&s=linear&ct=candle_stick&tm=d'
+        srcset='https://charts2-node.finviz.com/chart.ashx?cs=m&t=NCLH&tf=d&s=linear&ct=candle_stick&tm=d
+        1x, https://charts2-node.finviz.com/chart.ashx?cs=m&t=NCLH&tf=d&s=linear&ct=candle_stick&tm=d&sf=2
+        2x' width='324' height='180' alt='' referrerPolicy='no-referrer-when-downgrade'
+        loading='lazy'><div><b>Norwegian Cruise Line Holdings Ltd</b>Travel Services
+        <span>\u2022</span> USA <span>\u2022</span> 8.04B</div>] offsetx=[-324] offsety=[20]
+        delay=[0]\"><a href=\"quote.ashx?t=NCLH&ty=c&p=d&b=1\" \"><span class=\"color-text
+        is-positive\">18.75</span></a></td><td height=\"10\" align=\"right\"><a href=\"quote.ashx?t=NCLH&ty=c&p=d&b=1\"
+        \"><span class=\"color-text is-positive\">0.48%</span></a></td><td height=\"10\"
+        align=\"right\"><a href=\"quote.ashx?t=NCLH&ty=c&p=d&b=1\" \">9,203,942</a></td></tr><tr
         class=\"styled-row is-hoverable is-bordered is-rounded is-striped has-color-text\"
         valign=\"top\">\n<td height=\"10\" align=\"right\"><a href=\"quote.ashx?t=NU&ty=c&p=d&b=1\"
-        \">4</a></td><td height=\"10\" align=\"left\" data-boxover=\"cssbody=[hoverchart]
+        \">5</a></td><td height=\"10\" align=\"left\" data-boxover=\"cssbody=[hoverchart]
         cssheader=[tabchrthdr] body=[<img src='https://charts2-node.finviz.com/chart.ashx?cs=m&t=NU&tf=d&s=linear&ct=candle_stick&tm=d'
         srcset='https://charts2-node.finviz.com/chart.ashx?cs=m&t=NU&tf=d&s=linear&ct=candle_stick&tm=d
         1x, https://charts2-node.finviz.com/chart.ashx?cs=m&t=NU&tf=d&s=linear&ct=candle_stick&tm=d&sf=2
         2x' width='324' height='180' alt='' referrerPolicy='no-referrer-when-downgrade'
         loading='lazy'><div><b>Nu Holdings Ltd</b>Banks - Regional <span>\u2022</span>
-        Cayman Islands <span>\u2022</span> 59.50B</div>] offsetx=[100] offsety=[0]
+        Cayman Islands <span>\u2022</span> 63.16B</div>] offsetx=[100] offsety=[0]
         delay=[0]\"><a href=\"quote.ashx?t=NU&ty=c&p=d&b=1\" class=\"tab-link\">NU</a></td><td
         height=\"10\" align=\"left\"><a href=\"quote.ashx?t=NU&ty=c&p=d&b=1\" \">Nu
         Holdings Ltd</a></td><td height=\"10\" align=\"left\"><a href=\"quote.ashx?t=NU&ty=c&p=d&b=1\"
         \">Financial</a></td><td height=\"10\" align=\"left\"><a href=\"quote.ashx?t=NU&ty=c&p=d&b=1\"
         \">Banks - Regional</a></td><td height=\"10\" align=\"left\"><a href=\"quote.ashx?t=NU&ty=c&p=d&b=1\"
         \">Cayman Islands</a></td><td height=\"10\" align=\"right\"><a href=\"quote.ashx?t=NU&ty=c&p=d&b=1\"
-        \">59.50B</a></td><td height=\"10\" align=\"right\"><a href=\"quote.ashx?t=NU&ty=c&p=d&b=1\"
-        \">47.79</a></td><td height=\"10\" align=\"right\" data-boxover=\"cssbody=[hoverchart]
-        cssheader=[tabchrthdr] body=[<img src='https://charts2-node.finviz.com/chart.ashx?cs=m&t=NU&tf=d&s=linear&ct=candle_stick&tm=d'
+        \">63.16B</a></td><td height=\"10\" align=\"right\"><a href=\"quote.ashx?t=NU&ty=c&p=d&b=1\"
+        \"><span class=\"color-text is-negative\">50.73</span></a></td><td height=\"10\"
+        align=\"right\" data-boxover=\"cssbody=[hoverchart] cssheader=[tabchrthdr]
+        body=[<img src='https://charts2-node.finviz.com/chart.ashx?cs=m&t=NU&tf=d&s=linear&ct=candle_stick&tm=d'
         srcset='https://charts2-node.finviz.com/chart.ashx?cs=m&t=NU&tf=d&s=linear&ct=candle_stick&tm=d
         1x, https://charts2-node.finviz.com/chart.ashx?cs=m&t=NU&tf=d&s=linear&ct=candle_stick&tm=d&sf=2
         2x' width='324' height='180' alt='' referrerPolicy='no-referrer-when-downgrade'
         loading='lazy'><div><b>Nu Holdings Ltd</b>Banks - Regional <span>\u2022</span>
-        Cayman Islands <span>\u2022</span> 59.50B</div>] offsetx=[-324] offsety=[20]
+        Cayman Islands <span>\u2022</span> 63.16B</div>] offsetx=[-324] offsety=[20]
         delay=[0]\"><a href=\"quote.ashx?t=NU&ty=c&p=d&b=1\" \"><span class=\"color-text
-        is-positive\">12.44</span></a></td><td height=\"10\" align=\"right\"><a href=\"quote.ashx?t=NU&ty=c&p=d&b=1\"
-        \"><span class=\"color-text is-positive\">0.77%</span></a></td><td height=\"10\"
-        align=\"right\"><a href=\"quote.ashx?t=NU&ty=c&p=d&b=1\" \">11,625,030</a></td></tr></table></td></tr></table>\n</td>\n</tr>\n<tr>\n<td>\n<table
+        is-positive\">13.21</span></a></td><td height=\"10\" align=\"right\"><a href=\"quote.ashx?t=NU&ty=c&p=d&b=1\"
+        \"><span class=\"color-text is-positive\">0.46%</span></a></td><td height=\"10\"
+        align=\"right\"><a href=\"quote.ashx?t=NU&ty=c&p=d&b=1\" \">18,234,814</a></td></tr><tr
+        class=\"styled-row is-hoverable is-bordered is-rounded is-striped has-color-text\"
+        valign=\"top\">\n<td height=\"10\" align=\"right\"><a href=\"quote.ashx?t=NVO&ty=c&p=d&b=1\"
+        \">6</a></td><td height=\"10\" align=\"left\" data-boxover=\"cssbody=[hoverchart]
+        cssheader=[tabchrthdr] body=[<img src='https://charts2-node.finviz.com/chart.ashx?cs=m&t=NVO&tf=d&s=linear&ct=candle_stick&tm=d'
+        srcset='https://charts2-node.finviz.com/chart.ashx?cs=m&t=NVO&tf=d&s=linear&ct=candle_stick&tm=d
+        1x, https://charts2-node.finviz.com/chart.ashx?cs=m&t=NVO&tf=d&s=linear&ct=candle_stick&tm=d&sf=2
+        2x' width='324' height='180' alt='' referrerPolicy='no-referrer-when-downgrade'
+        loading='lazy'><div><b>Novo Nordisk ADR</b>Biotechnology <span>\u2022</span>
+        Denmark <span>\u2022</span> 476.53B</div>] offsetx=[100] offsety=[0] delay=[0]\"><a
+        href=\"quote.ashx?t=NVO&ty=c&p=d&b=1\" class=\"tab-link\">NVO</a></td><td
+        height=\"10\" align=\"left\"><a href=\"quote.ashx?t=NVO&ty=c&p=d&b=1\" \">Novo
+        Nordisk ADR</a></td><td height=\"10\" align=\"left\"><a href=\"quote.ashx?t=NVO&ty=c&p=d&b=1\"
+        \">Healthcare</a></td><td height=\"10\" align=\"left\"><a href=\"quote.ashx?t=NVO&ty=c&p=d&b=1\"
+        \">Biotechnology</a></td><td height=\"10\" align=\"left\"><a href=\"quote.ashx?t=NVO&ty=c&p=d&b=1\"
+        \">Denmark</a></td><td height=\"10\" align=\"right\"><a href=\"quote.ashx?t=NVO&ty=c&p=d&b=1\"
+        \">476.53B</a></td><td height=\"10\" align=\"right\"><a href=\"quote.ashx?t=NVO&ty=c&p=d&b=1\"
+        \">49.29</a></td><td height=\"10\" align=\"right\" data-boxover=\"cssbody=[hoverchart]
+        cssheader=[tabchrthdr] body=[<img src='https://charts2-node.finviz.com/chart.ashx?cs=m&t=NVO&tf=d&s=linear&ct=candle_stick&tm=d'
+        srcset='https://charts2-node.finviz.com/chart.ashx?cs=m&t=NVO&tf=d&s=linear&ct=candle_stick&tm=d
+        1x, https://charts2-node.finviz.com/chart.ashx?cs=m&t=NVO&tf=d&s=linear&ct=candle_stick&tm=d&sf=2
+        2x' width='324' height='180' alt='' referrerPolicy='no-referrer-when-downgrade'
+        loading='lazy'><div><b>Novo Nordisk ADR</b>Biotechnology <span>\u2022</span>
+        Denmark <span>\u2022</span> 476.53B</div>] offsetx=[-324] offsety=[20] delay=[0]\"><a
+        href=\"quote.ashx?t=NVO&ty=c&p=d&b=1\" \"><span class=\"color-text is-positive\">142.74</span></a></td><td
+        height=\"10\" align=\"right\"><a href=\"quote.ashx?t=NVO&ty=c&p=d&b=1\" \"><span
+        class=\"color-text is-positive\">1.64%</span></a></td><td height=\"10\" align=\"right\"><a
+        href=\"quote.ashx?t=NVO&ty=c&p=d&b=1\" \">3,031,708</a></td></tr></table></td></tr></table>\n</td>\n</tr>\n<tr>\n<td>\n<table
         width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\">\n<tr>\n<td
         align=\"left\" class=\"count-text\"><b>Filters:</b> cap:midover fa_epsqoq:o20
         fa_epsyoy:o20 fa_epsyoy1:o20 fa_grossmargin:o20 fa_roe:o2...</td><td align=\"right\"
@@ -1413,7 +1467,7 @@ interactions:
         src=\"gfx/nic2x2.gif\" style=\"width:2px;height:10px\" alt=\"\" border=\"0\"></td></tr>\n</table>\n<div
         id=\"IC_D_3x6_1\"class=\"relative overflow-hidden flex items-center justify-center
         w-full mx-auto\" style=\"width:970px;height:315px;max-height:315px\"></div></div>\n</td></tr><!--
-        TS\nAPP|86.84|2986783\nAPPF|253.35|245508\nATAT|18.82|525904\nNU|12.44|11625030\nTE
+        TS\nAPP|84.36|2348851\nAPPF|247.96|155093\nATAT|18.89|2134218\nNCLH|18.75|9203942\nNU|13.21|18234814\nNVO|142.74|3031708\nTE
         -->\n\r\n            <script type=\"text/javascript\">\r\n                ScreenerRefreshInit(0);\r\n
         \           </script>\r\n        </table></div></div>\r\n            <div
         class=\"footer\" style=\"margin-top: 20px;padding-bottom: 115px\">\r\n                <div
@@ -1489,7 +1543,7 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 89e5b25aeaa3945d-LHR
+      - 8a16a6168c29889e-LHR
       Cache-Control:
       - no-cache
       Connection:
@@ -1499,14 +1553,14 @@ interactions:
       Content-Type:
       - text/html; charset=utf-8
       Date:
-      - Fri, 05 Jul 2024 07:38:39 GMT
+      - Thu, 11 Jul 2024 06:13:39 GMT
       Request-Context:
       - appId=cid-v1:bdd405ef-7a83-4f9a-9228-0107d7f4bc90
       Server:
       - cloudflare
       Set-Cookie:
       - screenerUrl=v%3D111%26f%3Dcap_midover%2Cfa_epsqoq_o20%2Cfa_epsyoy_o20%2Cfa_epsyoy1_o20%2Cfa_grossmargin_o20%2Cfa_roe_o20%2Cfa_salesqoq_o20%2Csh_avgvol_o200%2Csh_instown_u60%2Csh_price_o10%2Cta_sma20_pa%2Cta_sma200_pa%2Cta_sma50_pa%26o%3Dticker;
-        expires=Sat, 05 Jul 2025 07:38:39 GMT; domain=.finviz.com; path=/; samesite=lax
+        expires=Fri, 11 Jul 2025 06:13:39 GMT; domain=.finviz.com; path=/; samesite=lax
       Transfer-Encoding:
       - chunked
       Vary:

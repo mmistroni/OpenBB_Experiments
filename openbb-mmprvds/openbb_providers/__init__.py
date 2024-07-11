@@ -51,7 +51,7 @@ finviz_provider = Provider(
         "Provider for Finviz Screener."
     ),
     fetcher_dict={
-        #'FinvizScreener' : FinvizScreenerFetcher,
+        'FinvizScreener' : FinvizScreenerFetcher,
         "FinvizWatchlist": FinvizWatchlistFetcher,
         "FinvizHiLoFetcher" : FinvizHiLoFetcher
     }
