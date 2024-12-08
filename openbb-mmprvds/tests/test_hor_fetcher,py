@@ -1,0 +1,11 @@
+import pytest
+from openbb_providers.utils import hor_fetcher
+import re
+import requests
+from bs4 import BeautifulSoup
+
+def test_fetch_data():
+    test_year = '2020'
+    result = hor_fetcher.fetch_data('2024')
+    assert result == [test_year]
+
