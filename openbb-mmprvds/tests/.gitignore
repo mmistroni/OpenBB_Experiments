@@ -1,0 +1,8 @@
+# Pycache
+__pycache__/
+*.pyc
+*.pyo
+# CPython files
+*.cpython
+# Pytest Cache
+.pytest_cache/
