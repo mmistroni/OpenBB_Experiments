@@ -19,7 +19,7 @@ def get_cramer_picks(lookback=3):
         else:
             ticker  = tds[0].text
             direction = tds[1].text
-            cob = datetime.strptime(tds[2].text, '%b. %d, %Y').date()
+            cob = datetime.strptime(tds[2].text, '%B %d, %Y').date()
 
             if (date.today() - cob).days > lookback:
                 continue
