@@ -6,12 +6,23 @@ from io import BytesIO
 import pandas as pd
 import logging
 
+'''
+Prof A Damodaran's industry datasets.
+https://people.stern.nyu.edu/adamodar/New_Home_Page/datafile/variable.htm
+
+Company By Industry here :https://www.stern.nyu.edu/~adamodar/pc/datasets/indname.xls
+
+All these functions will return 'measures' at industry level
+
+'''
+
 psRatiosUrlTTM = 'https://www.stern.nyu.edu/~adamodar/pc/datasets/psdata.xls'
 betasBySectorTTM = 'https://www.stern.nyu.edu/~adamodar/pc/datasets/betas.xls'
 fundgrowepsTTM = 'https://www.stern.nyu.edu/~adamodar/pc/datasets/fundgr.xls'
 roeTTM = 'https://www.stern.nyu.edu/~adamodar/pc/datasets/roe.xls'
 peRatiosTTM = 'https://www.stern.nyu.edu/~adamodar/pc/datasets/pedata.xls'
 pvDataTTM = 'https://www.stern.nyu.edu/~adamodar/pc/datasets/pbvdata.xls'
+instHoldingTTM  = 'https://www.stern.nyu.edu/~adamodar/pc/datasets/inshold.xls'
 
 def _get_data(url):
     try:
@@ -64,3 +75,11 @@ def get_pvdata():
     https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/pbvdata.html
     '''
     return _get_data(pvDataTTM)
+
+def get_institutional_holders():
+    '''
+    Institutional Holding By Industry
+    https://people.stern.nyu.edu/adamodar/New_Home_Page/datafile/inshold.html
+    '''
+    return _get_data(instHoldingTTM)
+
