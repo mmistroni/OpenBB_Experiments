@@ -10,7 +10,6 @@ Extensions in this repo contains
   - fetches Jim Cramer Stock Picks
 - ADamodaran industry data
 - QuiverQuants Government Contrats
-# set result preferences as datafsrame, for better display obb.user.preferences.output_type = "dataframe"
 
 # Some notes on writing unit tests
 https://docs.openbb.co/platform/developer_guide/tests 
