@@ -45,10 +45,9 @@ def test_government_contracts_data():
     assert ed.funding_agency == test_dict['funding_agency']
     assert ed.description == test_dict['description']
     
-@pytest.mark.vcr
+@pytest.mark.record_http
 def test_fetch_http_data_government_contracts(credentials=test_credentials):
     params = {}
     fetcher = GovernmentContractsFetcher()
     result = fetcher.test(params, credentials)
     assert result is None
-
