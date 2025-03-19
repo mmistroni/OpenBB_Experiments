@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "openbb-providers"
-version = "1.1.23"
+version = "1.1.28"
 description = "Python custom  Extension for OBB"
 authors = ["Marco Mistroni <mmistroni@gmail.com>"]
 readme = "README.md"
@@ -14,6 +14,8 @@ beautifulsoup4  = { version = "^4.12.3" }
 pandas = { version = "^2.2.1" }
 finvizfinance = { version = ">0.14.7" }
 feedparser = { version = "^6.0.11" }
+dateparser = {version = "1.2.1" }
+xlrd = ">=2.0.1"
 
 
 [build-system]
@@ -24,6 +26,7 @@ build-backend = "poetry.core.masonry.api"
 cftc = "openbb_providers:cftc_provider"
 sa_provider = "openbb_providers:sa_provider"
 cramer_provider = "openbb_providers:cramer_provider"
-finviz_provider = "openbb_providers:finviz_provider"
+quiverquants_provider = "openbb_providers:quiverquants_provider"
+damodaran_provider = "openbb_providers:damodaran_provider"
 [tool.poetry.plugins."openbb_core_extension"]
 mmext = "openbb_providers.router:router"

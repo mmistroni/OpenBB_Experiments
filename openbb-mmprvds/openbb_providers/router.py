@@ -141,18 +141,18 @@ async def cramer(
 
 
 @router.command(
-    model="FinvizHiLoFetcher",
+    model="GovernmentContracts",
     examples = [
             PythonEx(
-                description="Fetcher for stocks that hit 52wk high or 52wklow",
+                description="Return Government Contracts from QuiverQuants)",
                 code=[
-                    "obb.mmext.hilo()"
+                    "obb.mmext.gov_contracts()"
                 ]
             )
         ]
 )
 
-async def hilo(
+async def gov_contracts(
     cc: CommandContext,
     provider_choices: ProviderChoices,
     standard_params: StandardParams,
@@ -160,3 +160,26 @@ async def hilo(
 ) -> OBBject[BaseModel]:
     """Example Data."""
     return await OBBject.from_query(Query(**locals()))
+
+@router.command(
+    model="IndustryRoe",
+    examples = [
+            PythonEx(
+                description="Return Industry Roes from ADamodaran website)",
+                code=[
+                    "obb.mmext.industry_roe()"
+                ]
+            )
+        ]
+)
+
+async def industry_roe(
+    cc: CommandContext,
+    provider_choices: ProviderChoices,
+    standard_params: StandardParams,
+    extra_params: ExtraParams,
+) -> OBBject[BaseModel]:
+    """Example Data."""
+    return await OBBject.from_query(Query(**locals()))
+
+

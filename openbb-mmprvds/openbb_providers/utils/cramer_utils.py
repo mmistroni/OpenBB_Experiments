@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 from datetime import date, datetime
 import random
+import dateparser
 def get_cramer_picks(lookback=3):
     baseUrl = 'https://www.quiverquant.com/cramertracker/'
 
@@ -19,7 +20,7 @@ def get_cramer_picks(lookback=3):
         else:
             ticker  = tds[0].text
             direction = tds[1].text
-            cob = datetime.strptime(tds[2].text, '%b. %d, %Y').date()
+            cob = dateparser.parse(tds[2].text).date()
 
             if (date.today() - cob).days > lookback:
                 continue

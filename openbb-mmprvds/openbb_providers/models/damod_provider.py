@@ -7,7 +7,7 @@ from pydantic import Field
 from openbb_providers.utils.finviz_helpers import run_screener
 from pydantic import BaseModel, model_validator
 from typing import Optional, List
-from utils.damod_utils import get_betas, get_fgrowtheps, get_pe,\
+from openbb_providers.utils.damod_utils import get_betas, get_fgrowtheps, get_pe,\
                               get_ps, get_pvdata, get_roe
 import json
 

@@ -10,6 +10,8 @@ from openbb_providers.models.seekingalpha import SADividendPicksFetcher, SAStock
 from openbb_providers.models.cramer import CramerFetcher
 from openbb_providers.models.finviz_provider import FinvizScreenerFetcher, FinvizWatchlistFetcher,\
                                                     FinvizHiLoFetcher
+from openbb_providers.models.quiverquants import GovernmentContractsFetcher
+from openbb_providers.models.damod_provider import RoeFetcher
 
 
 cftc_provider = Provider(
@@ -56,6 +58,29 @@ finviz_provider = Provider(
         "FinvizHiLoFetcher" : FinvizHiLoFetcher
     }
 )
+
+quiverquants_provider = Provider(
+    name="quiverquants_provider",
+    website="https://pyth.network/",
+    description=(
+        "Provider for Government Contracts."
+    ),
+    fetcher_dict={
+        'GovernmentContracts' : GovernmentContractsFetcher
+    }
+)
+
+damodaran_provider = Provider(
+    name="damodaran_provider",
+    website="https://pyth.network/",
+    description=(
+        "Provider for ADamodaran valuations."
+    ),
+    fetcher_dict={
+        'IndustryRoe' : RoeFetcher
+    }
+)
+
 
 
 fmp_provider.fetcher_dict.update({
