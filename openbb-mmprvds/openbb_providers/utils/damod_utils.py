@@ -29,7 +29,7 @@ def _get_data(url):
         response = requests.get(url, verify=False)
         response.raise_for_status()
         xls_file = BytesIO(response.content)
-        return pd.read_excel(xls_file).to_dict('records')
+        return pd.read_excel(xlsFile, sheet_name=1, header=7)
     except Exception as e:
         logging.info(f'Failed to fetch {url}:{str(e)}')
         raise Exception(f'Failed to fetch {url}:{str(e)}')
@@ -47,6 +47,7 @@ def get_roe():
     https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/roe.html
     '''
     return _get_data(roeTTM)
+    
     
 def get_ps():
     '''
