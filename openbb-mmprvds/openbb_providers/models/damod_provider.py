@@ -25,7 +25,7 @@ class RoeQueryParams(QueryParams):
     """
 
 class RoeData(Data):
-    """Sample provider data for finviz screener.
+    """Sample provider damod roe data.
 		
     """
     industry_name: str = Field(description="Industry Name", alias='Industry Name')

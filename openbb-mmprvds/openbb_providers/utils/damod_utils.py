@@ -34,6 +34,13 @@ def _get_data(url):
         logging.info(f'Failed to fetch {url}:{str(e)}')
         raise Exception(f'Failed to fetch {url}:{str(e)}')
 
+def get_valuation_metrics(num_years->int = None):
+    '''
+       use async to retrieve all valuation metrics 
+    '''
+    pass
+
+
 def get_roe():
     '''
     Return on Equity by Sector (US)
