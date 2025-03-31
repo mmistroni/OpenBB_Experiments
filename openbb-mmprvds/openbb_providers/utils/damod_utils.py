@@ -46,7 +46,8 @@ def get_roe():
     Return on Equity by Sector (US)
     https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/roe.html
     '''
-    return _get_data(roeTTM)
+    return _get_data(roeTTM)[['Industry Name', 'Number of firms', 'ROE (unadjusted)' ]]\
+            .rename(columns={'ROE (unadjusted)': 'ROE'})
     
     
 def get_ps():
@@ -54,21 +55,28 @@ def get_ps():
     Revenue Multiples by Sector (US)
     https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/psdata.html
     '''
-    return _get_data(psRatiosUrlTTM)
+    return _get_data(psRatiosUrlTTM)[['Industry Name', 'Number of firms', 'Price/Sales' ]]\
+            .rename(columns={'Price/Sales': 'PS'})
 
 def get_fgrowtheps():
     '''
     Fundamental Growth in EPS by Sector (US)
     https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/fundgr.html
     '''
-    return _get_data(fundgrowepsTTM)
+    return _get_data(fundgrowepsTTM)[['Industry Name', 'Number of firms', 'Fundamental Growth' ]]\
+            .rename(columns={'Fundamental Growth': 'EPS Growth'})
 
 def get_pe():
     '''
     PE Ratio by Sector (US)
     https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/pedata.html
     '''
-    return _get_data((peRatiosTTM))
+    return _get_data((peRatiosTTM))[['Industry Name', 'Number of firms', 
+                                     'Current PE', 
+                                     'Trailing PE', 
+                                     'Forward PE', 'Expected Growth - next 5 years', 'PEG Ratio']]\
+                                    .rename(columns={'Expected Growth - next 5 years' : 'ExpectedGrowth 5y'})
+
 
 def get_betas():
     '''
