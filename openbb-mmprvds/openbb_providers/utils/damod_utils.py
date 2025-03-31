@@ -90,12 +90,21 @@ def get_pvdata():
     Price and Value to Book Ratio by Sector (US)
     https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/pbvdata.html
     '''
-    return _get_data(pvDataTTM)
+    return _get_data(pvDataTTM)[['Industry Name', 'Number of firms', 
+                                     'PBV', 
+                                     'EV/Invested Capital', 
+                                     'ROIC']]\
+                                   .rename(columns={'EV/Invested Capital' : 'EV_Over_InvestedCapital'})
+
 
 def get_institutional_holders():
     '''
     Institutional Holding By Industry
     https://people.stern.nyu.edu/adamodar/New_Home_Page/datafile/inshold.html
     '''
-    return _get_data(instHoldingTTM)
+    return _get_data(instHoldingTTM)[['Industry Name', 'Number of firms', 
+                                     'CEO Holdings', 
+                                     'Corporate Holdings',
+                                     'Insitutional Holdings',
+                                     'Insider Holdings']]
 
