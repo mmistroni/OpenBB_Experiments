@@ -30,8 +30,7 @@ class RoeData(Data):
     """
     industry_name: str = Field(description="Industry Name", alias='Industry Name')
     number_of_firms: int = Field(description="Number of Firms.", alias='Number of firms')
-    roe_unadjusted: str = Field(description="ROE unadjusted", alias='ROE (adjusted for R&D)')
-    roe_adjusted_rd : str  = Field(description="ROE adjusted for r & d.", alias="Industry")
+    roe: float = Field(description="ROE unadjusted", alias='ROE')
     
 
 
@@ -67,7 +66,8 @@ class RoeFetcher(
         Here we make the actual request to the data provider and receive the raw data.
         If you said your Provider class needs credentials you can get them here.
         """
-        return get_roe()
+        roe_df =  get_roe()
+        return roe_df.to_dict('records')
 
     @staticmethod
     def transform_data(
