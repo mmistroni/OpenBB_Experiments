@@ -1,10 +1,10 @@
 [tool.poetry]
 name = "openbb-pyth2"
-version = "1.0.2"
-description = "Pyth Extension to fetch MarketCap"
+version = "1.0.0"
+description = "Pyth Provider Extension for the OpenBB Platform"
 authors = ["OpenBB <hello@openbb.co>"]
 readme = "README.md"
-packages = [{ include = "openbb_pyth2" }]
+packages = [{ include = "openbb_pyth" }]
 
 [tool.poetry.dependencies]
 python = "^3.8"
@@ -15,4 +15,4 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.plugins."openbb_provider_extension"]
-pyth2 = "openbb_pyth2:pyth2_provider"
+pyth2 = "openbb_pyth2:pyth_provider"

@@ -9,3 +9,6 @@
    exit()
 
 8. from openbb import obb
+   obb.account.login(email='mmistroni@gmail.com', password='****')
+   obb.user.preferences.output_type = "dataframe"
+   obb.equity.price.historical(symbol = 'XOM', provider='fmp')
