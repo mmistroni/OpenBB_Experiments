@@ -13,3 +13,6 @@ Extensions in this repo contains
 
 # Some notes on writing unit tests
 https://docs.openbb.co/platform/developer_guide/tests 
+
+# To install
+from main directory, pip install-e .
