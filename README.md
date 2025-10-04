@@ -10,5 +10,5 @@
 openbb-mcp
 
 https://pypi.org/project/openbb-mcp-server/
-
+https://gofastmcp.com/getting-started/quickstart
  
