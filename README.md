@@ -7,4 +7,8 @@
  openbb-api
 
 
+openbb-mcp
+
+https://pypi.org/project/openbb-mcp-server/
+
  
