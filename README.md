@@ -15,3 +15,4 @@ https://gofastmcp.com/getting-started/quickstart
 
 https://modelcontextprotocol.info/docs/quickstart/user/
  
+https://www.marktechpost.com/2025/04/29/how-to-create-a-custom-model-context-protocol-mcp-client-using-gemini/
