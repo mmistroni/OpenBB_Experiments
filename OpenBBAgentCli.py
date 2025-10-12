@@ -1,108 +1,89 @@
-import socket
-import threading
+import requests
 import json
-import sys
 import time
 
 # --- Configuration ---
-HOST = '127.0.0.1'
-PORT = 6900
+# The URL of the Model Communication Protocol (MCP) endpoint.
+# We use HTTP protocol and the port specified by the user.
+MCP_URL = "http://localhost:8001/mcp"
 
 
-def receive_messages(client_socket):
-    """Continuously receives and displays structured responses from the server."""
-    while True:
+# --- Configuration ---
+
+
+def get_available_tools(url: str):
+    """
+    Connects to the specified MCP server endpoint, retrieves the tool list,
+    and prints the response.
+
+    This function assumes the server responds with a JSON object.
+    For simplicity, it uses a GET request, as this is standard for discovery
+    or fetching a manifest/resource list.
+    """
+    print(f"Attempting to connect to MCP server at: {url}")
+    print("-" * 40)
+
+    # Define headers required by the server for acceptable response type.
+    # The server error indicated that the client must accept 'text/event-stream'.
+    headers = {
+        'Accept': 'text/event-stream'
+    }
+
+    # Simple retry logic for transient connection errors
+    MAX_RETRIES = 3
+    for attempt in range(MAX_RETRIES):
         try:
-            data = client_socket.recv(4096)
-            if data:
-                # Clear the current input line
-                sys.stdout.write('\r' + ' ' * 80 + '\r')
+            # 1. Make the GET request to the discovery endpoint with required headers
+            response = requests.get(url, headers=headers, timeout=5)
 
-                # Process incoming JSON response
-                response_json = data.decode('utf-8').strip()
-                try:
-                    response = json.loads(response_json)
+            # 2. Check for successful HTTP status code (200 OK)
+            response.raise_for_status()
 
-                    if response.get("type") == "tool_result":
-                        print("-" * 50)
-                        print(f"TOOL RESULT: {response['tool_name'].upper()}")
-                        print(f"STATUS: {response['status'].upper()}")
-                        print(f"OUTPUT: {response['output']}")
-                        print("-" * 50)
-                    else:
-                        print(f"[SERVER RAW MESSAGE]: {response_json}")
+            # 3. Server responded successfully, attempt to parse JSON
+            response_data = response.json()
 
-                except json.JSONDecodeError:
-                    print(f"[ERROR PARSING SERVER RESPONSE]: {response_json}")
+            print("✅ Successfully received response from MCP Server!")
+            print(f"Status Code: {response.status_code}")
+            print("\n--- Available Tools Manifest ---")
 
-                # Re-display the prompt
-                sys.stdout.write('AGENT> ')
-                sys.stdout.flush()
-            else:
-                print("\n[Server disconnected. Press Enter to exit.]")
-                client_socket.close()
-                break
-        except OSError:
-            # Socket closed
-            break
-        except Exception as e:
-            print(f"\n[An error occurred in receiver: {e}. Disconnecting.]")
-            client_socket.close()
-            break
+            # Use json.dumps for pretty printing the entire JSON response
+            # This allows the user to see the exact structure (e.g., if tools
+            # are under a key like 'tools', 'manifest', or 'data').
+            print(json.dumps(response_data, indent=4))
 
+            print("--------------------------------")
+            # If the server has a specific key for tools, you could refine this:
+            # if 'tools' in response_data:
+            #     print(f"Found {len(response_data['tools'])} tools.")
+            # else:
+            #     print("The response did not contain a 'tools' key.")
 
-def start_client():
-    """Handles user input, translates it to MCP JSON, and sends it."""
-    client_socket = None
-    try:
-        client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        print(f"AGENT: Attempting to connect to MCP Server at {HOST}:{PORT}...")
-        client_socket.connect((HOST, PORT))
-        print("AGENT: Connected! Use the 'CALL' command to invoke a tool.")
-        print("Example: CALL add 10 20 5")
-        print("Type 'quit' or 'exit' to disconnect.")
+            return response_data
 
-        # Start listening thread
-        receive_thread = threading.Thread(target=receive_messages, args=(client_socket,))
-        receive_thread.daemon = True
-        receive_thread.start()
+        except requests.exceptions.ConnectionError:
+            print(f"Attempt {attempt + 1}/{MAX_RETRIES}: Connection failed. Is the server running at {url}?")
+            if attempt < MAX_RETRIES - 1:
+                time.sleep(2)  # Wait 2 seconds before retrying
+        except requests.exceptions.Timeout:
+            print(f"Attempt {attempt + 1}/{MAX_RETRIES}: Request timed out.")
+        except requests.exceptions.HTTPError as e:
+            # Handle 4xx or 5xx client/server errors
+            print(f"HTTP Error: {e}")
+            print(f"Server response content: {response.text[:200]}...")
+            return
+        except requests.exceptions.JSONDecodeError:
+            print("Error: Could not decode JSON response.")
+            # If the server responds with text/event-stream but the content
+            # isn't valid JSON, this error will catch it.
+            print(f"Raw response received: {response.text[:200]}...")
+            return
+        except requests.exceptions.RequestException as e:
+            print(f"An unexpected error occurred: {e}")
+            return
 
-        # Input loop
-        while True:
-            user_input = input('AGENT> ').strip()
-
-            if user_input.lower() in ('quit', 'exit'):
-                break
-
-            # Process command: expecting "CALL [tool_name] [arg1] [arg2]..."
-            parts = user_input.split()
-            if not parts or parts[0].upper() != 'CALL':
-                print("Invalid command. Use format: CALL <tool_name> <arg1> <arg2>...")
-                continue
-
-            tool_name = parts[1].lower()
-            arguments = parts[2:]
-
-            # Construct the MCP Tool Call JSON
-            mcp_request = {
-                "type": "tool_call",
-                "tool_name": tool_name,
-                "arguments": arguments
-            }
-
-            # Send the JSON request
-            request_json = json.dumps(mcp_request)
-            client_socket.sendall(request_json.encode('utf-8'))
-
-    except ConnectionRefusedError:
-        print(f"\nAGENT: Error: Connection refused. Is the server running on {HOST}:{PORT}?")
-    except Exception as e:
-        print(f"\nAGENT: Client error: {e}")
-    finally:
-        if client_socket:
-            print("AGENT: Disconnecting...")
-            client_socket.close()
+    print(f"\n❌ Failed to connect to the MCP server after {MAX_RETRIES} attempts.")
+    print("Please ensure your server is running and accessible at the specified address.")
 
 
-if __name__ == '__main__':
-    start_client()
+if __name__ == "__main__":
+    get_available_tools(MCP_URL)
