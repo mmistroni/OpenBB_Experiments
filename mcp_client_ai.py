@@ -1,24 +1,24 @@
 import asyncio
 import json
 import sys
-from mcp.client.http import http_client_streamable
-from mcp import ClientSession
+
+from fastmcp import Client
 
 # --- Configuration ---
-SERVER_URL = "http://localhost:7001"
+SERVER_URL = "http://127.0.0.1:8001/mcp"
 # ---------------------
 
 # A global list to store the tools after discovery
 AVAILABLE_TOOLS = {}
 
 
-async def inspect_server(session: ClientSession):
+async def inspect_server(session: Client):
     """Connects to the server, initializes the session, and lists all available tools."""
     print(f"🔗 Connecting to MCP server at: {SERVER_URL}...")
 
     # 1. Initialize the session to establish the connection and exchange basic info
     try:
-        await session.initialize()
+        await session.ping()
         print("✅ Session initialized successfully.")
     except Exception as e:
         print(f"❌ Failed to initialize session: {e}")
@@ -33,9 +33,9 @@ async def inspect_server(session: ClientSession):
         global AVAILABLE_TOOLS
         AVAILABLE_TOOLS = {}
         for tool in tools:
-            name = tool.get('name')
-            description = tool.get('description', 'No description provided.')
-            input_schema = tool.get('input_schema', {})
+            name = tool.name
+            description = tool.description,
+            input_schema = tool.inputSchema
 
             AVAILABLE_TOOLS[name] = {
                 "description": description,
@@ -65,13 +65,13 @@ async def inspect_server(session: ClientSession):
         return False
 
 
-async def interactive_loop(session: ClientSession):
+async def interactive_loop(session: Client):
     """Runs the main interactive loop to accept tool calls from the user."""
     while True:
         try:
             # Use raw input for interactive terminal use
             user_input = await asyncio.to_thread(input,
-                                                 "\n\033[92mEnter tool call (e.g., tool_name '{\"arg1\": 123}'):\033[0m ").strip()
+                                                 "\n\033[92mEnter tool call (e.g., tool_name '{\"arg1\": 123}'):\033[0m ")
 
             if not user_input:
                 continue
@@ -124,14 +124,14 @@ async def main():
     # Use http_client_streamable to connect to the remote server URL
     # This function returns the read/write callables needed for ClientSession
     try:
-        read, write = http_client_streamable(SERVER_URL)
+        client = Client("http://127.0.0.1:8001/mcp")
     except Exception as e:
         print(f"❌ Could not create HTTP client for {SERVER_URL}. Is your server running and accessible?")
         print(f"Error: {e}")
         sys.exit(1)
 
     # Use AsyncExitStack for robust session management (cleanup)
-    async with ClientSession(read, write) as session:
+    async with client as session:
         if await inspect_server(session):
             await interactive_loop(session)
 
