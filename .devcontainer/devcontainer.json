@@ -1,8 +1,12 @@
 {
-    "name": "Magentic Algo Trading Environment",
+    "name": "OpenBB Experiments ",
     "build": {
+        // Build context is '.' (the directory containing this file).
+        // If this file is in the root: context is root.
+        // If this file is in .devcontainer/: context is .devcontainer/
+        // Since Dockerfile is adjacent, the path is simply "Dockerfile".
         "dockerfile": "Dockerfile",
-        "context": ".."
+        "context": "."
     },
     "customizations": {
         "vscode": {
@@ -10,29 +14,25 @@
                 "ms-python.python",
                 "ms-vscode.go",
                 "eamodio.gitlens",
-                "ms-toolsai.jupyter" // Add the Jupyter extension here
+                "ms-toolsai.jupyter"
             ],
             "settings": {
-                // Point VS Code to your virtual environment's Python interpreter
+                // Tells the Python extension which interpreter to use
                 "python.defaultInterpreterPath": "./.venv/bin/python",
-                // This setting tells the Python extension to activate the environment
-                // when a new terminal is opened.
-                "python.terminal.activateEnvInCurrentTerminal": true,
-                // Ensure bash is the default shell for terminals if it's not already
+                
+                // Configure terminal to use Bash
                 "terminal.integrated.defaultProfile.linux": "bash",
                 "terminal.integrated.profiles.linux": {
                     "bash": {
-                        "path": "/bin/bash"
+                        "path": "/bin/bash",
+                        // 🔑 The fix to auto-activate the venv: source the script, then launch an interactive shell
+                        "args": ["-c", "source ./.venv/bin/activate && exec bash"]
                     }
                 }
             }
         }
     },
-    // Modified postCreateCommand to include ipykernel installation
-    "postCreateCommand": "bash -c \"python3 -m venv .venv && source ./.venv/bin/activate && pip install --no-cache-dir -r requirements.txt && python3 -m ipykernel install --user --name=magentic_algo_venv --display-name \"OPENBB Exp\"\"",
+    // Creates the venv, installs dependencies, and registers the Jupyter kernel
+    "postCreateCommand": "bash -c \"python3 -m venv .venv && source ./.venv/bin/activate && pip install --no-cache-dir -r requirements.txt && python3 -m ipykernel install --user --name=magentic_algo_venv --display-name 'OpenBB Exp'\"",
     "remoteUser": "vscode"
-    // Optional: If you want to run `gcloud init` or `gcloud auth login` interactively later.
-    // "containerEnv": {
-    //     "CLOUDSDK_CORE_DISABLE_PROMPTS": "1" // Set this if you want to suppress interactive prompts during builds
-    // }
 }
