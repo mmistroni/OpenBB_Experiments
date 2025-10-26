@@ -1,1 +1,4 @@
 openbb
+langchain-google-genai 
+langgraph langchain
+pydantic
