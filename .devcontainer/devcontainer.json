@@ -1,0 +1,30 @@
+{
+    "name": "OpenBB Python Environment",
+    // Use a pre-built dev container image for Python
+    "image": "mcr.microsoft.com/devcontainers/python:3.11", 
+    
+    "features": {
+        // Optional: Add Git and GitHub CLI for common dev operations
+        "ghcr.io/devcontainers/features/github-cli:1": {}
+    },
+
+    "postCreateCommand": "pip install --user -r .devcontainer/requirements.txt",
+    
+    // Configure VS Code to use the system-installed Python interpreter
+    "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "python.linting.enabled": true,
+        "python.testing.pytestEnabled": true
+    },
+    
+    // Add extensions that are useful for Python development
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-python.vscode-pylance",
+                "ms-toolsai.jupyter"
+            ]
+        }
+    }
+}
