@@ -24,6 +24,7 @@ RUN apt-get update \
         openssh-client \
         curl \
         gnupg \
+        nodejs \
         apt-transport-https \
         ca-certificates \
         lsb-release \

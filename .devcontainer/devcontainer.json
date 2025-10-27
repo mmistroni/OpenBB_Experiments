@@ -36,7 +36,7 @@
     "onCreateCommand": "chmod +x .devcontainer/setup.sh",
 
     // 2. **Execute the dedicated shell script**. This replaces the long command string.
-    "postCreateCommand": ".devcontainer/setup.sh"
+    "postCreateCommand": "sudo -u vscode ${containerWorkspaceFolder}/.devcontainer/setup.sh"
     
     // "remoteUser": "vscode"
 }
