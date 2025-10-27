@@ -2,9 +2,6 @@
     "name": "OpenBB Experiments ",
     "build": {
         // Build context is '.' (the directory containing this file).
-        // If this file is in the root: context is root.
-        // If this file is in .devcontainer/: context is .devcontainer/
-        // Since Dockerfile is adjacent, the path is simply "Dockerfile".
         "dockerfile": "Dockerfile",
         "context": "."
     },
@@ -25,14 +22,21 @@
                 "terminal.integrated.profiles.linux": {
                     "bash": {
                         "path": "/bin/bash",
-                        // 🔑 The fix to auto-activate the venv: source the script, then launch an interactive shell
+                        // The fix to auto-activate the venv: source the script, then launch an interactive shell
                         "args": ["-c", "source ./.venv/bin/activate && exec bash"]
                     }
                 }
             }
         }
     },
-    // Creates the venv, installs dependencies, and registers the Jupyter kernel
-    "postCreateCommand": "bash -c \"python3 -m venv .venv && ./.venv/bin/pip install --no-cache-dir -r requirements.txt && ./.venv/bin/python -m ipykernel install --name=magentic_algo_venv --display-name 'OpenBB Exp'\""
-    //"remoteUser": "vscode"
+    
+    // --- New Modifications Start Here ---
+    
+    // 1. **Grant execution permission** to the setup script immediately after the container is created.
+    "onCreateCommand": "chmod +x .devcontainer/setup.sh",
+
+    // 2. **Execute the dedicated shell script**. This replaces the long command string.
+    "postCreateCommand": ".devcontainer/setup.sh"
+    
+    // "remoteUser": "vscode"
 }
