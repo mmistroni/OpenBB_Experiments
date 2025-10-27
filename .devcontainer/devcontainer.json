@@ -33,6 +33,6 @@
         }
     },
     // Creates the venv, installs dependencies, and registers the Jupyter kernel
-    "postCreateCommand": "bash -c \"python3 -m venv .venv && source ./.venv/bin/activate && pip install --no-cache-dir -r requirements.txt && python3 -m ipykernel install --user --name=magentic_algo_venv --display-name 'OpenBB Exp'\"",
+    "postCreateCommand": "bash -c \"python3 -m venv .venv && ./.venv/bin/pip install --no-cache-dir -r requirements.txt && ./.venv/bin/python -m ipykernel install --user --name=magentic_algo_venv --display-name 'OpenBB Exp'\"",
     "remoteUser": "vscode"
 }
