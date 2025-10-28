@@ -25,7 +25,7 @@ RUN apt-get update \
         curl \
         gnupg \
         nodejs \
-        npm \ <-- Add the Node Package Manager package here!
+        npm \
         apt-transport-https \
         ca-certificates \
         lsb-release \
