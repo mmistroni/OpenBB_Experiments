@@ -2,4 +2,4 @@
 * text=auto
 *.pyc
 *__pycache__/
-**venv/** 
+**/.venv/** 

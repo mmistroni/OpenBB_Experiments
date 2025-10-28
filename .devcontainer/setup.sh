@@ -11,7 +11,7 @@ python3 -m venv .venv
 # 2. Activate and Install Dependencies
 # Use the full path to the executable to ensure the correct venv is used.
 echo "Installing dependencies from requirements.txt..."
-./.venv/bin/pip install --no-cache-dir -r requirements.txt
+./.venv/bin/pip install --no-cache-dir -r ${containerWorkspaceFolder}/requirements.txt
 
 # 3. Register the Virtual Environment as a Jupyter Kernel
 echo "Registering .venv as a Jupyter Kernel ('OpenBB Exp')..."
