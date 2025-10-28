@@ -51,6 +51,14 @@ RUN curl -fsSL https://packages.cloud.google.com/apt/doc/apt-key.gpg | gpg --dea
 # 3. Install Poetry
 RUN curl -sSL https://install.python-poetry.org | python -
 
+# --- NEW SECTION: Install Global npm packages (Claude Code) ---
+# Running as root (before USER $USERNAME) is safe for global installs
+# The --unsafe-perm is sometimes needed in Docker environments
+# to prevent permission issues during global installation.
+RUN npm install -g @anthropic-ai/claude-code --unsafe-perm
+
+
+
 # 4. Install uvx (The Corrected Multi-Stage Copy)
 # The binaries are located directly in the root of the uv_installer image.
 COPY --from=uv_installer /uv /usr/local/bin/uv
