@@ -17,15 +17,12 @@
                 // Tells the Python extension which interpreter to use
                 "python.defaultInterpreterPath": "./.venv/bin/python",
                 
-                // Configure terminal to use Bash
-                "terminal.integrated.defaultProfile.linux": "bash",
-                "terminal.integrated.profiles.linux": {
-                    "bash": {
-                        "path": "/bin/bash",
-                        // The fix to auto-activate the venv: source the script, then launch an interactive shell
-                        "args": ["-c", "source ./.venv/bin/activate && exec bash"]
-                    }
-                }
+                // Explicitly tell the extension to activate the environment
+                "python.terminal.activateEnvironment": true
+                
+                // Remove the terminal.integrated profiles for now
+                // "terminal.integrated.defaultProfile.linux": "bash", 
+                // "terminal.integrated.profiles.linux": { ... }
             }
         }
     },
@@ -36,7 +33,6 @@
     "onCreateCommand": "chmod +x .devcontainer/setup.sh",
 
     // 2. **Execute the dedicated shell script**. This replaces the long command string.
-    "postCreateCommand": "sudo -u vscode ${containerWorkspaceFolder}/.devcontainer/setup.sh"
-    
-    // "remoteUser": "vscode"
+    "postCreateCommand": "/bin/bash ${containerWorkspaceFolder}/.devcontainer/setup.sh",
+    "remoteUser": "vscode"
 }
