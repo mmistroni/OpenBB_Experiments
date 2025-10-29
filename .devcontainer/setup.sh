@@ -22,7 +22,7 @@ echo "Registering .venv as a Jupyter Kernel ('OpenBB Exp')..."
 echo "Installing Anthropic Claude Code CLI via npm..."
 # The -g flag installs the package globally so 'claude' command is available in the shell.
 # NOTE: Ensure your Dockerfile has Node.js/npm installed.
-npm install -g @anthropic-ai/claude-code
+sudo npm install -g @anthropic-ai/claude-code
 # --- END NEW STEP ---
 
 echo "--- Setup complete! ---"
