@@ -33,7 +33,13 @@
                 // Explicitly tell the extension to activate the environment
                 "python.terminal.activateEnvironment": true
             }
+        },
+        "codespaces": {
+            // Re-define postCreateCommand here to run as root only for the setup script
+            "postCreateCommand": "bash ./.devcontainer/setup.sh",
+            "postCreateUser": "root" // <--- Run the script as root
         }
+
     },
     
     // --- New Modifications Start Here ---
@@ -43,5 +49,6 @@
 
     // 2. **Execute the dedicated shell script**. This replaces the long command string.
     "postCreateCommand": "/bin/bash ${containerWorkspaceFolder}/.devcontainer/setup.sh",
-    "remoteUser": "vscode"
+    "remoteUser": "vscode",
+    "containerUser": "root"
 }
