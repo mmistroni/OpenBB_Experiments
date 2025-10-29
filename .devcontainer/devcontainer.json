@@ -5,6 +5,19 @@
         "dockerfile": "Dockerfile",
         "context": "."
     },
+    
+    // START: Claude on Vertex AI Environment Variables
+    // Use 'containerEnv' to set environment variables inside the container.
+    // **IMPORTANT**: Replace the placeholder values with your actual project ID and region.
+    "containerEnv": {
+        "GOOGLE_CLOUD_PROJECT": "${localEnv:GOOGLE_CLOUD_PROJECT}", 
+        "GOOGLE_CLOUD_LOCATION": "${localEnv:GOOGLE_CLOUD_LOCATION}", 
+        "ANTHROPIC_VERTEX_PROJECT_ID": "${localEnv:ANTHROPIC_VERTEX_PROJECT_ID}",
+        "CLAUDE_CODE_USE_VERTEX": "${localEnv:CLAUDE_CODE_USE_VERTEX}"
+
+    },
+    // END: Claude on Vertex AI Environment Variables
+
     "customizations": {
         "vscode": {
             "extensions": [
@@ -19,10 +32,6 @@
                 
                 // Explicitly tell the extension to activate the environment
                 "python.terminal.activateEnvironment": true
-                
-                // Remove the terminal.integrated profiles for now
-                // "terminal.integrated.defaultProfile.linux": "bash", 
-                // "terminal.integrated.profiles.linux": { ... }
             }
         }
     },

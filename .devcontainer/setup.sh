@@ -17,4 +17,12 @@ echo "Installing dependencies from requirements.txt..."
 echo "Registering .venv as a Jupyter Kernel ('OpenBB Exp')..."
 ./.venv/bin/python -m ipykernel install --name=magentic_algo_venv --display-name 'OpenBB Exp'
 
+# --- NEW STEP: Claude Code Installation ---
+# 4. Install Claude Code CLI
+echo "Installing Anthropic Claude Code CLI via npm..."
+# The -g flag installs the package globally so 'claude' command is available in the shell.
+# NOTE: Ensure your Dockerfile has Node.js/npm installed.
+npm install -g @anthropic-ai/claude-code
+# --- END NEW STEP ---
+
 echo "--- Setup complete! ---"
