@@ -1,5 +1,6 @@
 openbb
 openbb-mcp-server
+openbb-cftc
 langchain-google-genai 
 langgraph 
 langchain
