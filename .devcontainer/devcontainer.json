@@ -1,30 +1,26 @@
 {
     "name": "OpenBB Experiments ",
-    "build": {  
-        // Build context is '.' (the directory containing this file).
+    "build": {
         "dockerfile": "Dockerfile",
         "context": "."
     },
 
-    // --- ADD THIS BLOCK HERE ---
     "features": {
         "ghcr.io/devcontainers/features/gcp-cli:1": {
             "version": "latest"
+        },
+        // 1. Added Node.js feature (required for Gemini CLI)
+        "ghcr.io/devcontainers/features/node:1": {
+            "version": "lts"
         }
     },
-
     
-    // START: Claude on Vertex AI Environment Variables
-    // Use 'containerEnv' to set environment variables inside the container.
-    // **IMPORTANT**: Replace the placeholder values with your actual project ID and region.
     "containerEnv": {
         "GOOGLE_CLOUD_PROJECT": "${localEnv:GOOGLE_CLOUD_PROJECT}", 
         "GOOGLE_CLOUD_LOCATION": "${localEnv:GOOGLE_CLOUD_LOCATION}", 
         "ANTHROPIC_VERTEX_PROJECT_ID": "${localEnv:ANTHROPIC_VERTEX_PROJECT_ID}",
         "CLAUDE_CODE_USE_VERTEX": "${localEnv:CLAUDE_CODE_USE_VERTEX}"
-
     },
-    // END: Claude on Vertex AI Environment Variables
 
     "customizations": {
         "vscode": {
@@ -35,28 +31,21 @@
                 "ms-toolsai.jupyter"
             ],
             "settings": {
-                // Tells the Python extension which interpreter to use
                 "python.defaultInterpreterPath": "./.venv/bin/python",
-                
-                // Explicitly tell the extension to activate the environment
                 "python.terminal.activateEnvironment": true
             }
         },
         "codespaces": {
-            // Re-define postCreateCommand here to run as root only for the setup script
-            "postCreateCommand": "bash ./.devcontainer/setup.sh",
-            "postCreateUser": "root" // <--- Run the script as root
+            "postCreateUser": "root"
         }
-
     },
     
-    // --- New Modifications Start Here ---
-    
-    // 1. **Grant execution permission** to the setup script immediately after the container is created.
     "onCreateCommand": "chmod +x .devcontainer/setup.sh",
 
-    // 2. **Execute the dedicated shell script**. This replaces the long command string.
-    "postCreateCommand": "/bin/bash ${containerWorkspaceFolder}/.devcontainer/setup.sh",
+    // 2. Updated postCreateCommand to install the Gemini CLI globally 
+    // before running your setup script.
+    "postCreateCommand": "npm install -g @google/gemini-cli && /bin/bash ${containerWorkspaceFolder}/.devcontainer/setup.sh",
+    
     "remoteUser": "vscode",
     "containerUser": "root"
 }
