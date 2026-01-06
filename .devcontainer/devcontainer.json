@@ -1,10 +1,18 @@
 {
     "name": "OpenBB Experiments ",
-    "build": {
+    "build": {  
         // Build context is '.' (the directory containing this file).
         "dockerfile": "Dockerfile",
         "context": "."
     },
+
+    // --- ADD THIS BLOCK HERE ---
+    "features": {
+        "ghcr.io/devcontainers/features/gcp-cli:1": {
+            "version": "latest"
+        }
+    },
+
     
     // START: Claude on Vertex AI Environment Variables
     // Use 'containerEnv' to set environment variables inside the container.
