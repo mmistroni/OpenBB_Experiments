@@ -1,20 +1,10 @@
 {
     "name": "OpenBB Experiments ",
-    "build": {
+    "build": {  
         "dockerfile": "Dockerfile",
         "context": "."
     },
 
-    "features": {
-        "ghcr.io/devcontainers/features/gcp-cli:1": {
-            "version": "latest"
-        },
-        // 1. Added Node.js feature (required for Gemini CLI)
-        "ghcr.io/devcontainers/features/node:1": {
-            "version": "lts"
-        }
-    },
-    
     "containerEnv": {
         "GOOGLE_CLOUD_PROJECT": "${localEnv:GOOGLE_CLOUD_PROJECT}", 
         "GOOGLE_CLOUD_LOCATION": "${localEnv:GOOGLE_CLOUD_LOCATION}", 
@@ -42,8 +32,7 @@
     
     "onCreateCommand": "chmod +x .devcontainer/setup.sh",
 
-    // 2. Updated postCreateCommand to install the Gemini CLI globally 
-    // before running your setup script.
+    // This command now runs safely because Node.js was installed in the Dockerfile
     "postCreateCommand": "npm install -g @google/gemini-cli && /bin/bash ${containerWorkspaceFolder}/.devcontainer/setup.sh",
     
     "remoteUser": "vscode",
